@@ -1,0 +1,28 @@
+# Environments and credentials
+.env
+credentials.json
+
+# Databases
+*.db
+menu_management.db
+
+# Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local session files
+sessions/
+session_*.json
+
+# Chrome user profiles
+**/portal_f/
+**/portal_f_user_test/
+
+# Output data/logs
+**/outlets/
+*.csv
+*.xlsx
+*.log

@@ -1,0 +1,187 @@
+{
+    "variant_categories": [
+        {
+            "id": "5257d3b9-399f-4987-b7ec-4686fb755085",
+            "master_variant_category_id": "e507c5c5-8609-4da9-887c-964d8c13f688",
+            "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+            "name": "Aneka Adonan",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_ONE",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 1
+                }
+            },
+            "variants": [
+                {
+                    "id": "fd9a4f47-c212-4954-9044-5927da6a2264",
+                    "variant_category_id": "5257d3b9-399f-4987-b7ec-4686fb755085",
+                    "master_variant_id": "7e896821-5631-4b03-9ffd-f7633d105a82",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Ori",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "af59aca6-139e-4c4a-a8f3-75f9ee9c43cd",
+                    "variant_category_id": "5257d3b9-399f-4987-b7ec-4686fb755085",
+                    "master_variant_id": "38d8ca55-cc1f-491a-b066-db0f292cd1df",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Red Velvet",
+                    "active": true,
+                    "price": 6000,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "09a86266-7268-4541-a99c-8d9358fe0597",
+                    "variant_category_id": "5257d3b9-399f-4987-b7ec-4686fb755085",
+                    "master_variant_id": "afe98158-a530-4920-b137-06c83ee2d5bf",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Black Forest",
+                    "active": true,
+                    "price": 6000,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "6a1d802b-7638-4969-a018-9aeebc5578e8",
+                    "variant_category_id": "5257d3b9-399f-4987-b7ec-4686fb755085",
+                    "master_variant_id": "af301296-35ea-4d6a-907c-49d00cecd6a3",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Pandan",
+                    "active": true,
+                    "price": 6000,
+                    "weight": 4,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "5a33713b-9184-4064-97c9-612a410684fa",
+            "master_variant_category_id": "02ccb8c6-73f8-4f89-9753-3b6ac252a8fc",
+            "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+            "name": "Jenis Adonan",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_ONE",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 1
+                }
+            },
+            "variants": [
+                {
+                    "id": "975e92c2-9b6c-4a02-8425-680fd8602649",
+                    "variant_category_id": "5a33713b-9184-4064-97c9-612a410684fa",
+                    "master_variant_id": "8be9b0a4-b056-4486-8e16-7b555e885c18",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Ori",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "653f6cd9-e50d-4f4c-b317-7dcf3dc1750d",
+                    "variant_category_id": "5a33713b-9184-4064-97c9-612a410684fa",
+                    "master_variant_id": "23b2ea16-2b61-4b54-8cf0-b2b53f2c6892",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Red Velvet",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "dc912b4f-78a6-465c-a361-8fbc9cc3ce24",
+                    "variant_category_id": "5a33713b-9184-4064-97c9-612a410684fa",
+                    "master_variant_id": "e07f8fab-7dcf-417d-a42a-d378f85fdb3e",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Black Forest",
+                    "active": true,
+                    "price": 0,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "7af9bb57-82a1-4513-b201-ffcd6c104446",
+                    "variant_category_id": "5a33713b-9184-4064-97c9-612a410684fa",
+                    "master_variant_id": "4538f2ab-3ac9-4264-868d-1aa4cc7f9d4d",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Pandan",
+                    "active": true,
+                    "price": 0,
+                    "weight": 4,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "bbcb7535-cc24-45b2-936b-ea11ba322b5e",
+            "master_variant_category_id": "ed044988-851b-4d6d-8d13-ca6b5bf93385",
+            "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+            "name": "Pilih Adonan",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_ONE",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 1
+                }
+            },
+            "variants": [
+                {
+                    "id": "a3b279ff-7e6b-46c7-b8a4-414e60d592d8",
+                    "variant_category_id": "bbcb7535-cc24-45b2-936b-ea11ba322b5e",
+                    "master_variant_id": "7c3ddb7a-7721-4dcf-aa61-232bba52d1dc",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Ori",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "d1ef8e4c-d8c4-4b79-9c0b-ba4fc9355dac",
+                    "variant_category_id": "bbcb7535-cc24-45b2-936b-ea11ba322b5e",
+                    "master_variant_id": "a44ce2b2-4a13-4418-8fed-dd72d71c37cd",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Red Velvet",
+                    "active": true,
+                    "price": 4000,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "29c25c50-1db8-4f73-be8c-be2de34d85ce",
+                    "variant_category_id": "bbcb7535-cc24-45b2-936b-ea11ba322b5e",
+                    "master_variant_id": "121a5c10-b1dd-4e8d-b132-2a483aa92e1e",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Black Forest",
+                    "active": true,
+                    "price": 4000,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "82186e3f-39d0-46bd-a8ab-9552a543b90c",
+                    "variant_category_id": "bbcb7535-cc24-45b2-936b-ea11ba322b5e",
+                    "master_variant_id": "6f5200f6-e694-4757-965a-d309104335e4",
+                    "restaurant_id": "e68998a4-139f-466c-bdf0-e9282be34dae",
+                    "name": "Pandan",
+                    "active": true,
+                    "price": 4000,
+                    "weight": 4,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

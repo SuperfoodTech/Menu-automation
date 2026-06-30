@@ -1,0 +1,76 @@
+{
+    "variant_categories": [
+        {
+            "id": "7569ed46-99b1-49b9-ba84-07220254181e",
+            "master_variant_category_id": "d7d8f2e1-b42b-4b52-8a1a-85c5ecadb835",
+            "restaurant_id": "d50024cd-1c34-4479-b4a5-873f343a1306",
+            "name": "SELAI",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "f8e66b3c-b71a-498b-9da6-2938bfd8decb",
+                    "variant_category_id": "7569ed46-99b1-49b9-ba84-07220254181e",
+                    "master_variant_id": "a3b409f8-f1d5-49b7-a760-98fdaedea822",
+                    "restaurant_id": "d50024cd-1c34-4479-b4a5-873f343a1306",
+                    "name": "BLUEBERRY",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "9d7f6515-2f96-487d-9b92-5a52e0e08124",
+                    "variant_category_id": "7569ed46-99b1-49b9-ba84-07220254181e",
+                    "master_variant_id": "f799285e-f4da-4a62-ad48-e11e3614fb87",
+                    "restaurant_id": "d50024cd-1c34-4479-b4a5-873f343a1306",
+                    "name": "MELON",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "8d3cfb8f-d8ae-46dc-9403-e83dfd9828ff",
+                    "variant_category_id": "7569ed46-99b1-49b9-ba84-07220254181e",
+                    "master_variant_id": "5d188d15-5177-429d-9fb3-efcfefa3b8f5",
+                    "restaurant_id": "d50024cd-1c34-4479-b4a5-873f343a1306",
+                    "name": "MANGGA",
+                    "active": true,
+                    "price": 0,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "47688d50-2461-46e0-9727-28f1c4bb0ef5",
+                    "variant_category_id": "7569ed46-99b1-49b9-ba84-07220254181e",
+                    "master_variant_id": "cce414d3-29de-4d73-9e9f-6e5aa86fc269",
+                    "restaurant_id": "d50024cd-1c34-4479-b4a5-873f343a1306",
+                    "name": "NANAS",
+                    "active": true,
+                    "price": 0,
+                    "weight": 4,
+                    "in_stock": true
+                },
+                {
+                    "id": "264834b2-11d0-4b80-8bcb-6d8651051b92",
+                    "variant_category_id": "7569ed46-99b1-49b9-ba84-07220254181e",
+                    "master_variant_id": "9502d458-efc0-43e5-8616-13ee3f9d32cb",
+                    "restaurant_id": "d50024cd-1c34-4479-b4a5-873f343a1306",
+                    "name": "STRAWBEERY",
+                    "active": true,
+                    "price": 0,
+                    "weight": 5,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

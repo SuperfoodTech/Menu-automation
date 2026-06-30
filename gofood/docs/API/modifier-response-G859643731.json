@@ -1,0 +1,65 @@
+{
+    "variant_categories": [
+        {
+            "id": "a5bf353d-915f-4401-9edb-d9a2b1bc3d8b",
+            "master_variant_category_id": "536b5125-36a6-4fe7-9b72-6e0c2ac030c6",
+            "restaurant_id": "f5146c5a-a08d-4c01-8ff6-270ff95d3d85",
+            "name": "Pilihan topping",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "dc15288d-7663-4151-a07e-7d21a5e0ca92",
+                    "variant_category_id": "a5bf353d-915f-4401-9edb-d9a2b1bc3d8b",
+                    "master_variant_id": "0ef4b3d8-824c-41b9-a75f-c2151f8812c5",
+                    "restaurant_id": "f5146c5a-a08d-4c01-8ff6-270ff95d3d85",
+                    "name": "Telur Rempah",
+                    "active": true,
+                    "price": 3500,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "c2da1fc3-2f8e-40a6-a402-eb8551dd9212",
+                    "variant_category_id": "a5bf353d-915f-4401-9edb-d9a2b1bc3d8b",
+                    "master_variant_id": "744cebe3-55d8-4bcf-a3cd-64554b897549",
+                    "restaurant_id": "f5146c5a-a08d-4c01-8ff6-270ff95d3d85",
+                    "name": "Double Telur ",
+                    "active": true,
+                    "price": 7000,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "139a83e3-adc0-4ed1-bb25-1d6b544bc765",
+                    "variant_category_id": "a5bf353d-915f-4401-9edb-d9a2b1bc3d8b",
+                    "master_variant_id": "a03ecdac-df78-45db-b011-a176dadf1c6e",
+                    "restaurant_id": "f5146c5a-a08d-4c01-8ff6-270ff95d3d85",
+                    "name": "Keju Mozarella",
+                    "active": true,
+                    "price": 8000,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "24d002fc-e4d3-41c8-bcbd-de296a07c05b",
+                    "variant_category_id": "a5bf353d-915f-4401-9edb-d9a2b1bc3d8b",
+                    "master_variant_id": "e127ef43-7cf2-457c-b23b-b0ba7ef7c4e3",
+                    "restaurant_id": "f5146c5a-a08d-4c01-8ff6-270ff95d3d85",
+                    "name": "Keju Parut",
+                    "active": true,
+                    "price": 3500,
+                    "weight": 4,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

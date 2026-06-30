@@ -1,0 +1,823 @@
+{
+    "menus": [
+        {
+            "id": "c48d9e3d-3c37-4409-b559-4906ab03b1ae",
+            "common_id": "65d4a137-180f-43c3-a8e2-8cc485c4a682",
+            "name": "Pempek Mini Favorit",
+            "sku": "PEMPEK_MINI_FAVORIT",
+            "active": true,
+            "weight": 1,
+            "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+            "master_menu_category_id": "",
+            "menu_items_count": 6,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Pempek Kulit Yang Crispy, Lezat Dan Sangat Di Gemari, Terbuat Dari Daging Ikan Tenggiri Dan Daging Kulit Ikan Tenggiri. Toping, Timun, Hebi, Jeruk Kunci, Sambel Rawit Hijau Dan Cuka Pedas Manis Asem.",
+                    "id": "1c584102-768b-46d9-9a7f-8b4d469217a5",
+                    "image_id": "e67da04c-c941-479b-91e3-49f76711cb80",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b6dce526-59be-4340-98a5-21849590a670_Go-Biz_20241216_134943.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b6dce526-59be-4340-98a5-21849590a670_Go-Biz_20241216_134943.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "c48d9e3d-3c37-4409-b559-4906ab03b1ae",
+                    "name": "Pempek Kulit Krispi",
+                    "price": "9400.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 116472180,
+                    "signature": true,
+                    "weight": 1,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "8e5ccdce-eaac-48f8-9de3-cb97b85b55bc"
+                },
+                {
+                    "active": true,
+                    "description": "Terbuat Dari Ikan Tenggiri Asli, Fresh Dan Lembut, Cocok Sebagai Menu Sarapan, Bisa Di Goreng Atau Di Rebus..bisa Di Buat Menjadi Lenggang. Toping  timun, hebi, jeruk kunci, sambel rawit hijau dan cuko premium.",
+                    "id": "99ebf362-ad8a-4bf7-8dfe-266ab6cab2bd",
+                    "image_id": "7b808050-660d-475b-9ea7-28f245135f15",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d973813d-e9ca-498b-a39a-781be4fc38ce_Go-Biz_20241216_135109.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d973813d-e9ca-498b-a39a-781be4fc38ce_Go-Biz_20241216_135109.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "c48d9e3d-3c37-4409-b559-4906ab03b1ae",
+                    "name": "Pempek Lenjer Kecil",
+                    "price": "9400.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 116472456,
+                    "signature": false,
+                    "weight": 2,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "45031efe-5478-48bf-9460-a10df4847ab0"
+                },
+                {
+                    "active": true,
+                    "description": "Terbuat Dari Daging Ikan Tenggiri, Dengan Irisan Bawang Merah Dan Santan Kelapa, Rasa Yang Lezat, Lembut Dan Harum. Toping  timun, hebi, jeruk kunci, sambel rawit hijau dan cuko premium.",
+                    "id": "e5827fab-5117-47ff-b63d-885e29d622a4",
+                    "image_id": "13d2e10e-0e56-475a-8526-6cc2c7969221",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/dc50296b-0060-47e0-9fe9-5e83f5ffb7b1_Go-Biz_20241216_135653.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/dc50296b-0060-47e0-9fe9-5e83f5ffb7b1_Go-Biz_20241216_135653.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "c48d9e3d-3c37-4409-b559-4906ab03b1ae",
+                    "name": "Pempek Adaan",
+                    "price": "9400.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 116472944,
+                    "signature": true,
+                    "weight": 4,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "50ffca2d-94cc-4941-95dc-d311c6b209e1"
+                },
+                {
+                    "active": true,
+                    "description": "Terbuat Dari Daging Ikan Tenggiri Dengan Isian Telor Omega  Yang Lezat Dan Bergizi. Toping  timun, hebi, jeruk kunci, sambel rawit hijau dan cuko premium.",
+                    "id": "2c1309d0-093d-4d26-97c0-fc87adc80b2f",
+                    "image_id": "e3dc37d7-ec59-4427-8120-f382f468ee7d",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/cc2db28d-9cf9-4d50-8cb0-7568a97a6581_Go-Biz_20241216_135841.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/cc2db28d-9cf9-4d50-8cb0-7568a97a6581_Go-Biz_20241216_135841.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "c48d9e3d-3c37-4409-b559-4906ab03b1ae",
+                    "name": "Pempek Telur Kecil",
+                    "price": "9400.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 116473057,
+                    "signature": true,
+                    "weight": 5,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "8633555e-2863-4cf0-b53a-3cfcf5dc9a81"
+                },
+                {
+                    "active": false,
+                    "description": "Pempek+ Cuko+timun+hebi+jeruk",
+                    "id": "2995aaeb-7169-4fd1-b6fc-14191cac99b0",
+                    "image_id": "77c4c569-0f3a-49cd-a9cc-ce538a8ec64c",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1155429c-f741-4adb-b7ee-715caad9db23_Go-Food-Merchant_20260419_054502.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1155429c-f741-4adb-b7ee-715caad9db23_Go-Food-Merchant_20260419_054502.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "c48d9e3d-3c37-4409-b559-4906ab03b1ae",
+                    "name": "Pempek Keriting",
+                    "price": "8800.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 140490659,
+                    "signature": false,
+                    "weight": 22,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "f89438ae-c1bd-4e05-bffa-b20e58cc8851"
+                },
+                {
+                    "active": false,
+                    "description": "Pempek Yang Isian Pepaya Muda Yang Lezat",
+                    "id": "958899f5-864f-4c21-b43c-3cf3b52c662a",
+                    "image_id": "e4995463-c7d2-4c01-b48b-5978bc70558a",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d6ea138d-0198-4718-bc2c-87247afc2b68_Go-Food-Merchant_20260419_055010.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d6ea138d-0198-4718-bc2c-87247afc2b68_Go-Food-Merchant_20260419_055010.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "c48d9e3d-3c37-4409-b559-4906ab03b1ae",
+                    "name": "Pempek Pistel",
+                    "price": "8800.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 140490674,
+                    "signature": false,
+                    "weight": 23,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "df289f12-7bc7-411d-8bd0-90f6f0f03a04"
+                }
+            ]
+        },
+        {
+            "id": "84b6d8eb-ba70-4585-86c7-fbf9863b4d56",
+            "common_id": "fc1fd641-813b-486c-8411-581735205a8f",
+            "name": "Pempek Jumbo Mantap",
+            "sku": "PEMPEK_JUMBO_MANTAP",
+            "active": true,
+            "weight": 2,
+            "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+            "master_menu_category_id": "",
+            "menu_items_count": 2,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "BONUS 1 KULIT KRISPI. Terbuat Dari Daging Ikan Tenggiri Yang Super Fresh Dengan Isian Telor Omega, Sangat Nikmat Dan Sangat Disukai. Toping  timun, hebi, jeruk kunci, sambel rawit hijau dan cuko premium.",
+                    "id": "dc1a72fd-88dd-4004-8c19-0fc2633e6766",
+                    "image_id": "dcc5110f-7211-4a60-984e-e7021e158f6c",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/95ae170d-e23b-47a1-9a7b-8d3fbee96016_Go-Biz_20241216_135340.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/95ae170d-e23b-47a1-9a7b-8d3fbee96016_Go-Biz_20241216_135340.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "84b6d8eb-ba70-4585-86c7-fbf9863b4d56",
+                    "name": "Pempek Kapal Selam Jumbo Gratis Kulit Krispi",
+                    "price": "34000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 116472715,
+                    "signature": true,
+                    "weight": 3,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "e3c8d0c4-1bee-4197-96cf-53daf35ffd05"
+                },
+                {
+                    "active": true,
+                    "description": "BONUS 1 PEMPEK KULIT KRISPI, Toping  timun, hebi, jeruk kunci, sambel rawit hijau dan cuko premium.",
+                    "id": "def6311f-18d5-4050-bb3b-f44833e986ce",
+                    "image_id": "e215e2ab-21a0-4795-b533-4ce04bf26703",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2476e31c-6f76-458a-bac2-b34716c91172_Go-Biz_20250220_173119.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2476e31c-6f76-458a-bac2-b34716c91172_Go-Biz_20250220_173119.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "84b6d8eb-ba70-4585-86c7-fbf9863b4d56",
+                    "name": "Pempek Lenjer Jumbo Bonus Kulit Krispi",
+                    "price": "34000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 119673673,
+                    "signature": false,
+                    "weight": 8,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "6cbc1e28-99a0-48a3-8957-88ae37593983"
+                }
+            ]
+        },
+        {
+            "id": "8dfb745d-efe9-4e7b-9b86-519905bf1284",
+            "common_id": "e55a7d72-61ac-42a9-883d-60555c92ca73",
+            "name": "Aneka Pempek",
+            "sku": "ANEKA_PEMPEK",
+            "active": false,
+            "weight": 2,
+            "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+            "master_menu_category_id": "",
+            "menu_items_count": 1,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Pempek Kulit Cryspi Yg Lezat, Terbuat Dari Ikan Tenggiri Dan Daging Kulit Tenggiri, Sangat Favorite Di Toko Ini..",
+                    "id": "79d69cd0-7cc6-4ba8-b847-6cd0b7f98b65",
+                    "image_id": "b3cdde87-6112-48d0-b79f-5c6538c0a0e9",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3d3c934b-63ed-45f3-8b96-39bea379c00e_Go-Biz_20241216_134714.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3d3c934b-63ed-45f3-8b96-39bea379c00e_Go-Biz_20241216_134714.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "8dfb745d-efe9-4e7b-9b86-519905bf1284",
+                    "name": "Pempek Kulit",
+                    "price": "6000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 116471948,
+                    "signature": false,
+                    "weight": 1,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "621116b7-0a91-4e02-baf8-968b51037c84"
+                }
+            ]
+        },
+        {
+            "id": "6cee2e57-a5f6-43ad-ab76-f0d7e787d998",
+            "common_id": "a326459b-7e24-42b9-a0b7-5c0678e37a24",
+            "name": "Paket Hemat Dan Kenyang",
+            "sku": "PAKET_HEMAT_DAN_KENYANG",
+            "active": true,
+            "weight": 3,
+            "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+            "master_menu_category_id": "",
+            "menu_items_count": 7,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Pempek Lenjer + Cuka+ Sambel+ Hebi+ Timun+ Jeruk Song Kit",
+                    "id": "405c7c34-cf60-4e64-8e97-f8fc50aadff4",
+                    "image_id": "d4777172-4814-4037-9cb4-75b3d2732f76",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a140b1fe-9ec2-4885-9e0b-0dd31e9586bd_Go-Food-Merchant_20260329_053621.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a140b1fe-9ec2-4885-9e0b-0dd31e9586bd_Go-Food-Merchant_20260329_053621.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "6cee2e57-a5f6-43ad-ab76-f0d7e787d998",
+                    "name": "Pempek Lenjer Kecil Isi 10 Pcs",
+                    "price": "92000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 139145831,
+                    "signature": false,
+                    "weight": 1,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "27db9054-0643-4ef3-abc6-fe7f76d5d4f9"
+                    ],
+                    "common_id": "fbe02ec4-2504-4aa1-a33b-1da43a23c0bd"
+                },
+                {
+                    "active": true,
+                    "description": "Berisi 10 pempek adaan yg sangat lezat, dengan irisan bawang dan santan. Tersedia frozen untuk di bawa ke luar kota.",
+                    "id": "b0c6133e-b0c6-42ee-a0e2-c7bef3e8faba",
+                    "image_id": "669789ef-23ed-4707-8811-33674e1bbb97",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8110a6b1-17da-450c-a296-e6ae82a44bd2_Go-Food-Merchant_20260329_053230.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8110a6b1-17da-450c-a296-e6ae82a44bd2_Go-Food-Merchant_20260329_053230.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "6cee2e57-a5f6-43ad-ab76-f0d7e787d998",
+                    "name": "Pempek Adaan Isi 10 Pcs",
+                    "price": "92000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 139145825,
+                    "signature": false,
+                    "weight": 2,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "27db9054-0643-4ef3-abc6-fe7f76d5d4f9"
+                    ],
+                    "common_id": "727a9473-ceb8-47ec-80cb-2d9abdef294d"
+                },
+                {
+                    "active": true,
+                    "description": "Pempek+ cuko+ sambel+ hebi+ timun+ jeruk song kit",
+                    "id": "469951b3-4e00-44df-868b-763502c1f853",
+                    "image_id": "666cef24-d8e7-488d-a45a-99fe7ab478d7",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/fa130f1c-39d9-40cd-a3a5-9032741fb51f_Go-Food-Merchant_20260329_053826.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/fa130f1c-39d9-40cd-a3a5-9032741fb51f_Go-Food-Merchant_20260329_053826.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "6cee2e57-a5f6-43ad-ab76-f0d7e787d998",
+                    "name": "Pempek Selam Kecil Isi 10 Pcs",
+                    "price": "92000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 139145836,
+                    "signature": false,
+                    "weight": 3,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "27db9054-0643-4ef3-abc6-fe7f76d5d4f9"
+                    ],
+                    "common_id": "b4dccc5f-19e8-4ed5-9e98-acc438481aaf"
+                },
+                {
+                    "active": true,
+                    "description": "Pempek kulit + cuko+ hebi+sambel rawit + timun + jeruk song kit",
+                    "id": "eebc7e3f-7681-4bf3-92cb-52335be89339",
+                    "image_id": "14c38441-b48d-412a-9bd2-e9d30d3d19bc",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e7aeb66c-d056-428c-9daa-325eb83d4735_Go-Food-Merchant_20260513_154949.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e7aeb66c-d056-428c-9daa-325eb83d4735_Go-Food-Merchant_20260513_154949.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "6cee2e57-a5f6-43ad-ab76-f0d7e787d998",
+                    "name": "Pempek Kulit Krispi Isi 10 Pcs",
+                    "price": "92000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 141971041,
+                    "signature": false,
+                    "weight": 4,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "27db9054-0643-4ef3-abc6-fe7f76d5d4f9"
+                    ],
+                    "common_id": "24aece06-aa11-469c-ac61-505625a51d5f"
+                },
+                {
+                    "active": true,
+                    "description": "Berisi 3 Pempek Telor Kecil, 3 Adaan, 3 Lenjer,  1 Kulit Krispi,   BONUS 1 KULIT KRISPI. Toping  timun, hebi, jeruk kunci, sambel rawit hijau dan cuko premium.",
+                    "id": "1f96cf03-6990-4387-8079-6a1b504ba3c7",
+                    "image_id": "c3097be3-dec4-446d-a404-519126cbeef8",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/14c4bf65-1980-4043-939f-fa530449e232_Go-Food-Merchant_20250513_061440.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/14c4bf65-1980-4043-939f-fa530449e232_Go-Food-Merchant_20250513_061440.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "6cee2e57-a5f6-43ad-ab76-f0d7e787d998",
+                    "name": "Paket Hemat A Gratis 1 Pcs",
+                    "price": "96000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 123502790,
+                    "signature": true,
+                    "weight": 5,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "21ece934-0258-49bb-824b-eb585c67e752"
+                },
+                {
+                    "active": true,
+                    "description": "Berisi 1 Kapal Selam, 1 Lenjer Besar, 3 Telor Kecil, 3 Lenjer Lecil, 3 Adaan, 1 Kulit Krispi  + BONUS 2 KULIT KRISPI. Toping  timun, hebi, jeruk kunci, sambel rawit hijau dan cuko premium.",
+                    "id": "1e313bf8-79fc-427d-a52a-a4d11a648135",
+                    "image_id": "300557cc-7f1e-43e2-a2c8-06f7bc35abcb",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3ed3b3c8-0faa-48fe-b533-81eda28e5ab2_Go-Food-Merchant_20250513_062305.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3ed3b3c8-0faa-48fe-b533-81eda28e5ab2_Go-Food-Merchant_20250513_062305.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "6cee2e57-a5f6-43ad-ab76-f0d7e787d998",
+                    "name": "Pempek Hemat B Gratis 2 Pcs",
+                    "price": "164000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 123502847,
+                    "signature": true,
+                    "weight": 6,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "424f94a2-f5dd-4194-acc6-a166f2a1f6a6"
+                },
+                {
+                    "active": true,
+                    "description": "Berisi 2 Kapal Selam, 2 Lenjer Besar, 5 Telor Kecil, 5 Lenjer Kecil, 5 Adaan,  2 Kulit + BONUS 3 KULIT KRISPI( Pesanan Dapat Di Sesuaikan Dengan Permintaan Pelanggan/ Misal Kapal Selam Di Ganti Lenjer, Dll ) Bonus Tidak Dapat Di Ganti.",
+                    "id": "ff10f4fa-abda-4d04-a0f1-deb983f13861",
+                    "image_id": "39616e2b-5789-4042-986b-bede904f77dd",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8e263d28-c075-4bfb-8ee3-9fde49003c9c_Go-Food-Merchant_20250513_062438.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8e263d28-c075-4bfb-8ee3-9fde49003c9c_Go-Food-Merchant_20250513_062438.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "6cee2e57-a5f6-43ad-ab76-f0d7e787d998",
+                    "name": "Paket Hemat C Bonus 3 Pcs",
+                    "price": "299000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 123502860,
+                    "signature": true,
+                    "weight": 7,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "b6cf56e9-981f-4efa-a0ab-dbb66b4c55b5"
+                }
+            ]
+        },
+        {
+            "id": "a255f350-a63e-41e9-82b8-c3216c2e97a8",
+            "common_id": "ed6e390c-259d-4762-aba9-456f1fa046bb",
+            "name": "Paket Pempek Frozen",
+            "sku": "PAKET_PEMPEK_FROZEN",
+            "active": true,
+            "weight": 4,
+            "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+            "master_menu_category_id": "",
+            "menu_items_count": 4,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Pempek telur kecil isi 10 pcs kemasan frozen , tahan di suhu ruangan hingga  12 jam  dan 3 bulan di dalam  frezer. Sangat cocok untuk stok di rumah, oleh-oleh dan di bawa ke luar kota atau luar negeri.",
+                    "id": "4ea183f5-8ea1-46ae-972e-58813cbdb9e0",
+                    "image_id": "5b61a538-7c6e-43d9-9c7d-3c5b6d7660a1",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7e423f86-5bd1-4bd1-95e8-4691c0aa15ae_Go-Food-Merchant_20260526_063151.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7e423f86-5bd1-4bd1-95e8-4691c0aa15ae_Go-Food-Merchant_20260526_063151.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "a255f350-a63e-41e9-82b8-c3216c2e97a8",
+                    "name": "Pempek Telur Kecil Isi 10 Pcs (Frozen)",
+                    "price": "96000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 142594728,
+                    "signature": false,
+                    "weight": 1,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "6c5a998a-6b8d-42e1-a508-8547e248ce8a"
+                },
+                {
+                    "active": true,
+                    "description": "Pempek adaan isi 10 pcs kemasan frozen , tahan di suhu ruangan hingga  12 jam  dan 3 bulan di dalam  frezer. Sangat cocok untuk stok di rumah, oleh-oleh dan di bawa ke luar kota atau luar negeri.",
+                    "id": "7155dc59-c325-4d76-aba4-b740e7090fb3",
+                    "image_id": "ee06f692-8a36-4c28-8968-28565ccafdb3",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b6b0aae8-5876-4356-8510-bb3d31bf9fd7_Go-Food-Merchant_20260526_063746.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b6b0aae8-5876-4356-8510-bb3d31bf9fd7_Go-Food-Merchant_20260526_063746.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "a255f350-a63e-41e9-82b8-c3216c2e97a8",
+                    "name": "Pempek Adaan Isi 10 Pcs (Frozen)",
+                    "price": "96000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 142594737,
+                    "signature": false,
+                    "weight": 2,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "b0b18d51-88fe-4b87-936b-266a729d948f"
+                },
+                {
+                    "active": true,
+                    "description": "Pempek lenjer kecil  isi 10 pcs kemasan frozen , tahan di suhu ruangan hingga  12 jam  dan 3 bulan di dalam  frezer. Sangat cocok untuk stok di rumah, oleh-oleh dan di bawa ke luar kota atau luar negeri.",
+                    "id": "371dc3d6-cfb8-4200-8346-3af3602df0b9",
+                    "image_id": "ddbdc28c-8b9b-4bfe-93fd-b3e91566ae95",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a7d1682c-762b-4eec-b62a-fe01df0b8477_Go-Food-Merchant_20260526_063903.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a7d1682c-762b-4eec-b62a-fe01df0b8477_Go-Food-Merchant_20260526_063903.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "a255f350-a63e-41e9-82b8-c3216c2e97a8",
+                    "name": "Pempek Lenjer Kecil Isi 10 Pcs (Frozen)",
+                    "price": "96000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 142594741,
+                    "signature": false,
+                    "weight": 3,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "d9d61653-5b7f-4b2f-a25e-bd82f24e30c5"
+                },
+                {
+                    "active": true,
+                    "description": "Pempek campur berisi 3 telor kecil, 3 lenjer kecil, 2 adaan dan 2 kulit. Kemasan frozen , tahan di suhu ruangan hingga  12 jam  dan 3 bulan di dalam  frezer. Sangat cocok untuk stok di rumah, oleh-oleh dan di bawa ke luar kota atau luar negeri.",
+                    "id": "8bd5cda5-c5df-45fb-bf74-1f0205f2143f",
+                    "image_id": "6f08d38c-86a2-44db-a245-22ba7d94051f",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/cfa5a2b8-dc1a-40ed-878a-8fdef1fcb2a0_Go-Food-Merchant_20260526_080315.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/cfa5a2b8-dc1a-40ed-878a-8fdef1fcb2a0_Go-Food-Merchant_20260526_080315.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "a255f350-a63e-41e9-82b8-c3216c2e97a8",
+                    "name": "Pempek Campur Isi 10 Pcs (Frozen)",
+                    "price": "96000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 142595357,
+                    "signature": false,
+                    "weight": 4,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "685caf14-cbdd-405e-b07b-92734955e201"
+                }
+            ]
+        },
+        {
+            "id": "71e2ce03-2e1d-4de8-9172-74f973d2277d",
+            "common_id": "bd11a484-b07b-45b8-bbd7-bedc80523266",
+            "name": "Hampers Dan Mix Special",
+            "sku": "HAMPERS_DAN_MIX_SPECIAL",
+            "active": true,
+            "weight": 5,
+            "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+            "master_menu_category_id": "",
+            "menu_items_count": 4,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Berisi 3 Selam Kecil, 3 Lenjer Kecil, 2 Adaan Dan 2 Kulit",
+                    "id": "68ba0866-584d-47aa-8246-71194eededc2",
+                    "image_id": "9537ff39-630e-470d-a7b0-5f6b80edc8db",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3ce2d104-51a2-405d-9e45-b391f6e88d1c_Go-Food-Merchant_20260513_154816.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3ce2d104-51a2-405d-9e45-b391f6e88d1c_Go-Food-Merchant_20260513_154816.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "71e2ce03-2e1d-4de8-9172-74f973d2277d",
+                    "name": "Pempek Isi 10 Mix",
+                    "price": "96000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 141970623,
+                    "signature": false,
+                    "weight": 1,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "27db9054-0643-4ef3-abc6-fe7f76d5d4f9"
+                    ],
+                    "common_id": "a43e7296-c29b-4ddb-bbe3-cec468ab0140"
+                },
+                {
+                    "active": true,
+                    "description": "2 lenjer besar, 10 adaan, 10 lenjer kecil, 5 Selam Kecil, 5 Kulit Krispi + BONUS 2 KULIT KRISPI. ( Bisa Custom Pempek Kecil Sesuai Permintaan Kecuali Kulit Krispi ) Toping  timun, hebi, jeruk kunci, sambel rawit hijau dan cuko premium.",
+                    "id": "21147091-8e8d-4ddf-832e-e2bd60f74eb2",
+                    "image_id": "3ce195c8-de81-420e-9103-b0bcf00a9275",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/96a827d6-9e36-46a8-82c8-28fab7a27651_Go-Food-Merchant_20250513_093650.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/96a827d6-9e36-46a8-82c8-28fab7a27651_Go-Food-Merchant_20250513_093650.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "71e2ce03-2e1d-4de8-9172-74f973d2277d",
+                    "name": "Hampers  A",
+                    "price": "366000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 123506423,
+                    "signature": true,
+                    "weight": 2,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "cab83979-083a-4e08-a902-8c9eadac1ff4"
+                },
+                {
+                    "active": true,
+                    "description": "2 kapal selam, 10 adaan, 10 lenjer kecil, 5 selam mini, 5 kulit krispi dan bonus 2 kulit krispii. bisa custom pempek kecil sesuai permintaan kecuali kulit krispi.",
+                    "id": "99516c5d-b141-4f98-a7a7-5a9a908784c7",
+                    "image_id": "4208f04c-d944-43ac-a694-852471341732",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e75a9bee-c249-46ff-a1ae-370b8d878fa2_Go-Food-Merchant_20250513_094014.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e75a9bee-c249-46ff-a1ae-370b8d878fa2_Go-Food-Merchant_20250513_094014.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "71e2ce03-2e1d-4de8-9172-74f973d2277d",
+                    "name": "Hampers B",
+                    "price": "366000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 123506463,
+                    "signature": true,
+                    "weight": 3,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "332eb35e-3648-4eb6-a46f-4bb7776548a2"
+                },
+                {
+                    "active": true,
+                    "description": "3 kapal selam, 3 lenjer besar, 10 adaan, 10 telur kecil, 10 lenjer kecil, 5 kulit krispi + bonus 5 kulit krispi (free kotak keranjang, pita, custom ucapan ultah, natal, tahun baru, idul fitri, imlek, dll). Toping  timun, hebi, jeruk  sambal, cuko",
+                    "id": "55317304-dc28-4692-8db5-2153f600f1a5",
+                    "image_id": "d92369be-9c44-4821-902f-d10b06062def",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7d04d022-d3ba-4839-bc20-02543ec3a921_Go-Food-Merchant_20250523_155358.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7d04d022-d3ba-4839-bc20-02543ec3a921_Go-Food-Merchant_20250523_155358.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "71e2ce03-2e1d-4de8-9172-74f973d2277d",
+                    "name": "Hampers Premium",
+                    "price": "572000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 124035423,
+                    "signature": true,
+                    "weight": 4,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "72df7be6-ce36-48be-a77e-bf0df6c52c5e"
+                    ],
+                    "common_id": "047702cf-ad4c-4e3c-97af-9b7c9c34a12c"
+                }
+            ]
+        },
+        {
+            "id": "06aed53d-3527-4b37-bd50-d8af62e6d362",
+            "common_id": "9cf51d72-f55d-45aa-9527-dc11881f7a27",
+            "name": "Segarnya Rujak Aceh",
+            "sku": "SEGARNYA_RUJAK_ACEH",
+            "active": true,
+            "weight": 6,
+            "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+            "master_menu_category_id": "",
+            "menu_items_count": 1,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Rujak Aceh Yang Sangat Lezat Isi 400 Ml  Per Cup..berisi saus mangga kweni yg lezat, kolang kaling, nanas, bengkuang, timun,  pepaya, Salak Dan Mangga..disajikan Dingin Menambah Kelezaran Rujak Acej Ny LIM legemdaris.",
+                    "id": "a848b22d-b8e5-41f8-9017-0fd4ca289c16",
+                    "image_id": "ac3dd789-20f1-4941-a803-f2ec03b03e49",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d4f550e5-62f0-4b57-9993-990ac61df34a_Go-Food-Merchant_20250723_130321.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d4f550e5-62f0-4b57-9993-990ac61df34a_Go-Food-Merchant_20250723_130321.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": 10,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "06aed53d-3527-4b37-bd50-d8af62e6d362",
+                    "name": "Rujak Aceh Special 400 Ml",
+                    "price": "49000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 127190712,
+                    "signature": false,
+                    "weight": 1,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "6ddaab58-f42a-48d5-ab0a-29553b10c1d6"
+                }
+            ]
+        },
+        {
+            "id": "607f8386-66e0-4a55-b9a2-086c61708881",
+            "common_id": "474f186e-d85f-46d3-a411-306c7ff84792",
+            "name": "Cuko Khas Palembang",
+            "sku": "CUKO_KHAS_PALEMBANG",
+            "active": true,
+            "weight": 7,
+            "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+            "master_menu_category_id": "",
+            "menu_items_count": 2,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Cuka Yg Lezat, Terbuat Dr Gula Aren Premium.",
+                    "id": "287698fb-94c8-4eb0-8b79-05509e026d13",
+                    "image_id": "bce479af-eb9f-4584-a3d7-83a99cc8875d",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/62ccc502-1e71-4413-8985-c66aad6ccdd8_Go-Food-Merchant_20251224_122829.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/62ccc502-1e71-4413-8985-c66aad6ccdd8_Go-Food-Merchant_20251224_122829.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "607f8386-66e0-4a55-b9a2-086c61708881",
+                    "name": "Cuka Premium Kental Pedas Manis 150 ML",
+                    "price": "14000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 134910356,
+                    "signature": false,
+                    "weight": 1,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "97ed818d-01cd-46d5-93c1-e903bc2838ff"
+                },
+                {
+                    "active": true,
+                    "description": "Cuko premium ny lim, 250 ml, terbuat dari gula merah premium pilihan, rasa yang enak dan  lezat. Cuko",
+                    "id": "3acff044-f943-455f-8449-b5f9a1a36e63",
+                    "image_id": "4575bc71-dce9-415c-99bd-cdbfea303a0c",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1ef1ee8b-765d-4d6d-95e6-0ab05a665e59_Go-Biz_20251212_042102.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1ef1ee8b-765d-4d6d-95e6-0ab05a665e59_Go-Biz_20251212_042102.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "607f8386-66e0-4a55-b9a2-086c61708881",
+                    "name": "Cuko Premium Kental Pedas Manis 250 Ml",
+                    "price": "23000.00",
+                    "promotion": null,
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "shopping_item_id": 133917585,
+                    "signature": false,
+                    "weight": 2,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "3517a39d-2d1e-4cda-a3d4-94e2e93f30ee"
+                }
+            ]
+        }
+    ]
+}

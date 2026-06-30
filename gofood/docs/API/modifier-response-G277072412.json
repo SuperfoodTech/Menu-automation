@@ -1,0 +1,216 @@
+{
+    "variant_categories": [
+        {
+            "id": "c6b69f6c-d3a1-41eb-82f0-9cb2bbab94f5",
+            "master_variant_category_id": "cea1deab-de4f-4ecb-a02c-bbd571131c83",
+            "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+            "name": "Box Aluminium Foil ( for Gift/brithday/event )",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "57c60360-1867-4d39-b586-02626b85a860",
+                    "variant_category_id": "c6b69f6c-d3a1-41eb-82f0-9cb2bbab94f5",
+                    "master_variant_id": "17b39d85-fd2c-42a7-9235-cc48de8f6fa3",
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "name": "Box Aluminum Foil",
+                    "active": true,
+                    "price": 12000,
+                    "weight": 1,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "fc230881-e437-4666-9c49-31ff5eb472a4",
+            "master_variant_category_id": "6ba63841-2ea2-4ad1-aeec-1c794437a3ae",
+            "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+            "name": "Box Aluminium Foil 1KG ( for Gift/brithday/event )",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "b427553c-ac1e-4406-9139-c43f936be803",
+                    "variant_category_id": "fc230881-e437-4666-9c49-31ff5eb472a4",
+                    "master_variant_id": "42b909b0-6208-4548-a66f-489ef5377ecc",
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "name": "Box Aluminium Foil",
+                    "active": true,
+                    "price": 24000,
+                    "weight": 1,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "607ba53b-7411-4f36-b873-7d85d45de79a",
+            "master_variant_category_id": "e3fcc3cd-aeb3-4a1d-882d-cbc1152c0fcd",
+            "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+            "name": "Extra Topping",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "3f3b0f56-5e00-442d-b204-dc0da14dafb0",
+                    "variant_category_id": "607ba53b-7411-4f36-b873-7d85d45de79a",
+                    "master_variant_id": "19597ba4-7ca1-40d8-9ab2-2b313dc72516",
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "name": "Telur",
+                    "active": true,
+                    "price": 8000,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "9aa6f789-7c44-45a6-8aa9-4a931066a9b8",
+                    "variant_category_id": "607ba53b-7411-4f36-b873-7d85d45de79a",
+                    "master_variant_id": "b82a7aef-2c55-4cf5-8e6e-4f86a5ead87d",
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "name": "Bacon",
+                    "active": true,
+                    "price": 10000,
+                    "weight": 2,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "efbfe5ec-a13f-4e0d-b261-3e4bb38cd248",
+            "master_variant_category_id": "729ddbb8-2633-47a9-96eb-0645625d96a9",
+            "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+            "name": "Pilih Potongan",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_ONE",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 1
+                }
+            },
+            "variants": [
+                {
+                    "id": "6a56fbb4-2c05-4cd5-b5c8-1a06024e7827",
+                    "variant_category_id": "efbfe5ec-a13f-4e0d-b261-3e4bb38cd248",
+                    "master_variant_id": "560060d5-7167-43d1-bdd4-9b336e3ca25b",
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "name": "Dada",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "b854fba7-6c36-4b2f-8a58-8a49e0e6414b",
+                    "variant_category_id": "efbfe5ec-a13f-4e0d-b261-3e4bb38cd248",
+                    "master_variant_id": "218b3ccc-7fa8-4e06-b764-ef296a16534f",
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "name": "Paha",
+                    "active": true,
+                    "price": 0,
+                    "weight": 3,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "c0baa00e-d233-4122-b260-d9e09849a9b4",
+            "master_variant_category_id": "81069808-2723-4ed0-b25a-9e5df5c37789",
+            "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+            "name": "Request",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "fffaea70-856f-4671-98b9-045c6153afaf",
+                    "variant_category_id": "c0baa00e-d233-4122-b260-d9e09849a9b4",
+                    "master_variant_id": "40c97fc8-7539-4b08-9063-9ef1881fb6e0",
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "name": "Sambal Dipisah",
+                    "active": true,
+                    "price": 1000,
+                    "weight": 1,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "9937b151-22ed-4de3-b6eb-32315e46d0ae",
+            "master_variant_category_id": "e3f21087-f9ab-421f-8e38-3f0a5dddec4c",
+            "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+            "name": "Sambal",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_ONE",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 1
+                }
+            },
+            "variants": [
+                {
+                    "id": "7c5e1b4b-87d0-4b67-8c9e-25625f6b7365",
+                    "variant_category_id": "9937b151-22ed-4de3-b6eb-32315e46d0ae",
+                    "master_variant_id": "73b014e2-749c-4e44-b823-5bb1b56e1ec7",
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "name": "Sambal Matah",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "5f335c67-484b-4f4d-9802-a59b4681e71f",
+                    "variant_category_id": "9937b151-22ed-4de3-b6eb-32315e46d0ae",
+                    "master_variant_id": "77e54085-f85a-4f3a-ba3e-f4f9c14691d2",
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "name": "Sambal Bawang",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "a28f0be2-f20f-446f-96ce-3a11ebc9f8a7",
+                    "variant_category_id": "9937b151-22ed-4de3-b6eb-32315e46d0ae",
+                    "master_variant_id": "701e659f-df87-405f-a006-cd2c751b3109",
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "name": "Sambal Ijo",
+                    "active": true,
+                    "price": 0,
+                    "weight": 3,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

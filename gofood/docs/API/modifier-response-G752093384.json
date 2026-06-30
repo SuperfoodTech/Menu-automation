@@ -1,0 +1,165 @@
+{
+    "variant_categories": [
+        {
+            "id": "ea78594a-b23f-4184-bb64-9057ac5b063e",
+            "master_variant_category_id": "5e05e00e-f630-4f91-aa72-61466199d92e",
+            "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+            "name": "Pilihan Bumbu",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_ONE",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 1
+                }
+            },
+            "variants": [
+                {
+                    "id": "37134905-7d40-4ccc-8a7b-cf768062e90a",
+                    "variant_category_id": "ea78594a-b23f-4184-bb64-9057ac5b063e",
+                    "master_variant_id": "f878ee91-7c5b-4e3a-934a-d991aab47457",
+                    "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+                    "name": "Bumbu Kacang DIPISAH",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "4fcdb24f-1a38-45d4-8f48-a9e4865efd3c",
+                    "variant_category_id": "ea78594a-b23f-4184-bb64-9057ac5b063e",
+                    "master_variant_id": "0417196d-568b-4d50-86d7-642f8c9e63e0",
+                    "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+                    "name": "Bumbu Kacang DICAMPUR",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "5c1df2c7-de34-418d-8cd5-d21cb38aba63",
+                    "variant_category_id": "ea78594a-b23f-4184-bb64-9057ac5b063e",
+                    "master_variant_id": "99107d38-4b69-4d42-92f2-b41924f38767",
+                    "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+                    "name": "Bumbu KECAP SAJA tanpa Kacang, DIPISAH",
+                    "active": true,
+                    "price": 0,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "9ec656a7-5696-4c6a-a827-169a827d5346",
+                    "variant_category_id": "ea78594a-b23f-4184-bb64-9057ac5b063e",
+                    "master_variant_id": "f5c18142-11ac-4a38-800b-856d11cdcbc1",
+                    "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+                    "name": "Bumbu KECAP SAJA tanpa Kacang, DICAMPUR",
+                    "active": true,
+                    "price": 0,
+                    "weight": 4,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "a673b447-5058-4351-9387-e31043def914",
+            "master_variant_category_id": "da397747-0b56-4161-ae3d-d67394f1e9d0",
+            "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+            "name": "Tambah Sambal?",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_ONE",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 1
+                }
+            },
+            "variants": [
+                {
+                    "id": "eb8d6291-d6ea-47c9-b17c-fc1861afc85e",
+                    "variant_category_id": "a673b447-5058-4351-9387-e31043def914",
+                    "master_variant_id": "15e9a905-f519-4446-973c-37439b0b0a91",
+                    "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+                    "name": "Tidak",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "61f803ba-6672-439e-aaca-594908df8d07",
+                    "variant_category_id": "a673b447-5058-4351-9387-e31043def914",
+                    "master_variant_id": "5f447478-5144-49b3-95d5-c5cbf31fc94c",
+                    "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+                    "name": "Tambah Sambal",
+                    "active": true,
+                    "price": 6399,
+                    "weight": 2,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "106f79dd-3e59-496f-8caf-876a4c7cd9a7",
+            "master_variant_category_id": "c509a0bc-0da9-43dc-b2a6-90625384829a",
+            "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+            "name": "Tambahan Tingkatan Pedas",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_ONE",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 1
+                }
+            },
+            "variants": [
+                {
+                    "id": "7bf96784-257c-46b0-a8e5-e67cba2d22e3",
+                    "variant_category_id": "106f79dd-3e59-496f-8caf-876a4c7cd9a7",
+                    "master_variant_id": "42879a0c-a5d4-44d2-af2c-64849877f298",
+                    "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+                    "name": "Tidak Tambah",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "1f5ef7e8-9429-4ce9-a6a4-ef26fb686c77",
+                    "variant_category_id": "106f79dd-3e59-496f-8caf-876a4c7cd9a7",
+                    "master_variant_id": "2cb6c7c8-7d5b-4a21-ba94-bccc9b0cb259",
+                    "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+                    "name": "1 Tingkat : Tambah 1sdt Sambal Geprek",
+                    "active": true,
+                    "price": 3000,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "a8c1a86c-d7ed-4997-ac20-894ebd25636a",
+                    "variant_category_id": "106f79dd-3e59-496f-8caf-876a4c7cd9a7",
+                    "master_variant_id": "44b460f7-efce-4e37-861c-c278411a8dc0",
+                    "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+                    "name": "2 Tingkat : Tambah 2sdt Sambal Geprek",
+                    "active": true,
+                    "price": 5500,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "c07f3934-56a4-453e-9e41-1661045a23c0",
+                    "variant_category_id": "106f79dd-3e59-496f-8caf-876a4c7cd9a7",
+                    "master_variant_id": "a7d65df2-ec2f-4a9c-86b5-af76ff595e19",
+                    "restaurant_id": "0630db1c-209d-465c-99c6-24b02fb95984",
+                    "name": "3 Tingkat : Tambah 3sdt Sambal Geprek",
+                    "active": true,
+                    "price": 8500,
+                    "weight": 4,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

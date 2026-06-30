@@ -1,0 +1,248 @@
+{
+    "variant_categories": [
+        {
+            "id": "cd0c8bf5-05b2-45e9-913b-c3a8a166a2d4",
+            "master_variant_category_id": "9c3291c9-a352-420b-aa45-c067823804ed",
+            "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+            "name": "Pilihan Sambal",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_ONE",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 1
+                }
+            },
+            "variants": [
+                {
+                    "id": "c21f8cbf-465e-4ad0-8fd0-d0e219c81282",
+                    "variant_category_id": "cd0c8bf5-05b2-45e9-913b-c3a8a166a2d4",
+                    "master_variant_id": "d27ada1b-fd13-4293-ae27-6111a82cf430",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Sambel Bawang",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "9b7eac92-8b06-42eb-a7c3-ec6f9648c499",
+                    "variant_category_id": "cd0c8bf5-05b2-45e9-913b-c3a8a166a2d4",
+                    "master_variant_id": "85a6fe10-1d9e-4802-a53d-39e79b02b42b",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Sambal Matah",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "801b7908-8e07-4a79-b7c4-d9705aa5db95",
+                    "variant_category_id": "cd0c8bf5-05b2-45e9-913b-c3a8a166a2d4",
+                    "master_variant_id": "fda16261-1088-4417-a6f5-719cb618a2dc",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Sambal Bajak",
+                    "active": true,
+                    "price": 0,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "7f9ba42d-2ad1-4ce2-8239-9a87b21fe004",
+                    "variant_category_id": "cd0c8bf5-05b2-45e9-913b-c3a8a166a2d4",
+                    "master_variant_id": "ea7ab84a-36f8-4547-8d61-4fb96db43c79",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Sambal Tomat",
+                    "active": true,
+                    "price": 0,
+                    "weight": 4,
+                    "in_stock": true
+                },
+                {
+                    "id": "a6b51075-3a81-47cc-9582-a4ba82c0d4af",
+                    "variant_category_id": "cd0c8bf5-05b2-45e9-913b-c3a8a166a2d4",
+                    "master_variant_id": "76b1c1ba-8580-4393-be74-c18095ef0708",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Sambal Terasi",
+                    "active": true,
+                    "price": 0,
+                    "weight": 5,
+                    "in_stock": true
+                },
+                {
+                    "id": "3e92dc5e-9845-4be2-8c53-70b8c012c264",
+                    "variant_category_id": "cd0c8bf5-05b2-45e9-913b-c3a8a166a2d4",
+                    "master_variant_id": "3564ba01-cf7d-4148-a83e-b8ce9cc37f25",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Sambal Korek",
+                    "active": true,
+                    "price": 0,
+                    "weight": 6,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "017aeee5-ec6b-4009-9d3b-4f4e9df8ddcf",
+            "master_variant_category_id": "2b8450a2-8e25-4385-b78a-2314fd0de08a",
+            "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+            "name": "Pilihan Saus",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_ONE",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 1
+                }
+            },
+            "variants": [
+                {
+                    "id": "71d31af1-985f-475b-8470-e7fbe533239a",
+                    "variant_category_id": "017aeee5-ec6b-4009-9d3b-4f4e9df8ddcf",
+                    "master_variant_id": "6c662c8c-bd8c-43d7-9213-b553f2f3eb32",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Saus Asam Masnis",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "cd3bca3e-fa39-4c4f-ac43-2f78a35410e3",
+                    "variant_category_id": "017aeee5-ec6b-4009-9d3b-4f4e9df8ddcf",
+                    "master_variant_id": "9fd2e62d-867f-4aeb-a232-ba944cac7c97",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Lada Hitam",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "b9029fd6-72f1-4be8-b4fd-b4de4a391bef",
+                    "variant_category_id": "017aeee5-ec6b-4009-9d3b-4f4e9df8ddcf",
+                    "master_variant_id": "32a04ca1-744b-4de2-a4c0-d26881696db5",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Saus Padang",
+                    "active": true,
+                    "price": 0,
+                    "weight": 3,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "ce7029eb-179a-4c9b-86ca-5c2118d8780f",
+            "master_variant_category_id": "d269a633-c908-435b-9578-4e41edcdd607",
+            "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+            "name": "Tambahan",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "91f275b7-fed0-43ae-ac23-43010c3e42ec",
+                    "variant_category_id": "ce7029eb-179a-4c9b-86ca-5c2118d8780f",
+                    "master_variant_id": "4b5c01e4-a836-4420-a0ec-600f415346c6",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Telur Ceplok",
+                    "active": true,
+                    "price": 6000,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "bac076af-bf4e-4f5e-9859-5f5e6d95d91d",
+                    "variant_category_id": "ce7029eb-179a-4c9b-86ca-5c2118d8780f",
+                    "master_variant_id": "fa7da1c0-8ed2-4b8a-8bcb-3c5ee649073a",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Exta Pedas",
+                    "active": true,
+                    "price": 5000,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "0bbca410-313a-4bec-94c2-21432cb1f143",
+                    "variant_category_id": "ce7029eb-179a-4c9b-86ca-5c2118d8780f",
+                    "master_variant_id": "9e497713-fb5a-4b2d-95f6-6425a7e8773a",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Extra Nasi",
+                    "active": true,
+                    "price": 5000,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "8fe0ab6f-e0fe-43c5-949b-629cf4d4d3ae",
+                    "variant_category_id": "ce7029eb-179a-4c9b-86ca-5c2118d8780f",
+                    "master_variant_id": "d192dc2d-98bc-47ae-b60d-69d1fc672a93",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "3T(Telur,Tahu,Tempe)",
+                    "active": true,
+                    "price": 12000,
+                    "weight": 4,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "49c97416-0d83-46e5-83cf-4c2452f42f05",
+            "master_variant_category_id": "cadc0ace-67e9-437f-8bde-05aab5e3d6b8",
+            "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+            "name": "Tingkat Kepedasan",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_ONE",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 1
+                }
+            },
+            "variants": [
+                {
+                    "id": "a138f698-6ae8-4420-9f2a-8a66586228ac",
+                    "variant_category_id": "49c97416-0d83-46e5-83cf-4c2452f42f05",
+                    "master_variant_id": "e8d8e305-12c5-4056-853f-19270fa14914",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Gak Pedas",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "23ebb383-5226-403d-bdd7-f389af54b432",
+                    "variant_category_id": "49c97416-0d83-46e5-83cf-4c2452f42f05",
+                    "master_variant_id": "a618d433-6bfe-46b6-bb31-0dc04b771562",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Pedas Sedang",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "a66e9e8e-1769-4470-9f1a-6e914ba20750",
+                    "variant_category_id": "49c97416-0d83-46e5-83cf-4c2452f42f05",
+                    "master_variant_id": "866c625f-a76d-4d73-b8b7-80678724743e",
+                    "restaurant_id": "126c05ea-4497-4cc8-a3ad-290b1f3083fe",
+                    "name": "Pedas",
+                    "active": true,
+                    "price": 1000,
+                    "weight": 3,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

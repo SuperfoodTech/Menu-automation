@@ -1,0 +1,871 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "catalogs": [
+            {
+                "id": "3142001330862080",
+                "name": "Category A",
+                "rank": 1,
+                "sync_item_group_id": "",
+                "dishes": [
+                    {
+                        "id": "3142008334708224",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001330862080",
+                        "name": "TEST EDIT Ayam Pedas 15",
+                        "price": "1200000000",
+                        "list_price": "1200000000",
+                        "picture": "id-11134505-822wj-mps237q13le7ac",
+                        "description": "Ayam bakar madu dengan sambal pedas manis yang lezat.",
+                        "available": false,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 0,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 1,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 0,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3142008640007680",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001330862080",
+                        "name": "Item B",
+                        "price": "2000000000",
+                        "list_price": "2000000000",
+                        "picture": "id-11134505-822wn-mps23ms3bcox8a",
+                        "description": "Desc B",
+                        "available": true,
+                        "option_group_count": 1,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 2,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3142832575067136",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001330862080",
+                        "name": "test-menu",
+                        "price": "1000000000",
+                        "list_price": "1000000000",
+                        "picture": "id-11134505-822wh-mpsvp2zsyjnmea",
+                        "description": "",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 3,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3143029405545472",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001330862080",
+                        "name": "[TEST] Menu Coba",
+                        "price": "100000000",
+                        "list_price": "100000000",
+                        "picture": "",
+                        "description": "Menu test dari automation script",
+                        "available": false,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 0,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 4,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 0,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3143122661929984",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001330862080",
+                        "name": "Item A",
+                        "price": "1000000000",
+                        "list_price": "1000000000",
+                        "picture": "id-11134505-822wu-mpt6jswyymf645",
+                        "description": "Desc A",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 5,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3143123048118272",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001330862080",
+                        "name": "Item B",
+                        "price": "2000000000",
+                        "list_price": "2000000000",
+                        "picture": "id-11134505-822ws-mpt6kavfjs3v24",
+                        "description": "Desc B",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 6,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    }
+                ]
+            },
+            {
+                "id": "3142001407128576",
+                "name": "Category B",
+                "rank": 2,
+                "sync_item_group_id": "",
+                "dishes": [
+                    {
+                        "id": "3142008973046784",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "Item C",
+                        "price": "3000000000",
+                        "list_price": "3000000000",
+                        "picture": "id-11134505-822wi-mps242v5yz9o7a",
+                        "description": "Desc C",
+                        "available": true,
+                        "option_group_count": 1,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 1,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3142009299513856",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "Item D",
+                        "price": "4000000000",
+                        "list_price": "4000000000",
+                        "picture": "id-11134505-822wk-mps24hgy1vkc57",
+                        "description": "Desc D",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 2,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3142009655932928",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "Item E",
+                        "price": "5000000000",
+                        "list_price": "5000000000",
+                        "picture": "id-11134505-822wg-mps24vdbywhs49",
+                        "description": "Desc E",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 3,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3142961942558720",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "test menu",
+                        "price": "1000000000",
+                        "list_price": "1000000000",
+                        "picture": "",
+                        "description": "Ini test dari bot",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 4,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 0,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3142965396649984",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "test menu",
+                        "price": "1000000000",
+                        "list_price": "1000000000",
+                        "picture": "",
+                        "description": "Ini test dari bot",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 5,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 0,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3142966874829312",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "test menu",
+                        "price": "1000000000",
+                        "list_price": "1000000000",
+                        "picture": "",
+                        "description": "Ini test dari bot",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 6,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 0,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3142968330448384",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "test menu",
+                        "price": "1000000000",
+                        "list_price": "1000000000",
+                        "picture": "",
+                        "description": "Ini test dari bot",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 7,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 0,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3143003151726592",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "test menu",
+                        "price": "1000000000",
+                        "list_price": "1000000000",
+                        "picture": "",
+                        "description": "Ini test dari bot",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 8,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 0,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3143008777286656",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "test menu",
+                        "price": "1000000000",
+                        "list_price": "1000000000",
+                        "picture": "",
+                        "description": "Ini test dari bot",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 9,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 0,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3143017386177024",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "ROTI'O LEMPUYANGAN",
+                        "price": "270000000",
+                        "list_price": "270000000",
+                        "picture": "id-11134505-822wk-mpt2q8n2tjwt34",
+                        "description": "Ini test dari AKBAR-001",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 10,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3143031561006592",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "ROTI'O LEMPUYANGAN",
+                        "price": "270000000",
+                        "list_price": "270000000",
+                        "picture": "id-11134505-822wg-mpt38s65mvwrc6",
+                        "description": "Ini test dari AKBAR-001",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 11,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3143097750106624",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "test akbar",
+                        "price": "2700000000",
+                        "list_price": "2700000000",
+                        "picture": "id-11134505-822wo-mpt5nkypn66je0",
+                        "description": "Ini test dari AKBAR-002",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 12,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3143123425752064",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "Item C",
+                        "price": "3000000000",
+                        "list_price": "3000000000",
+                        "picture": "id-11134505-822wr-mpt6ktdc0ft8be",
+                        "description": "Desc C",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 13,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3143123817264128",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "Item D",
+                        "price": "4000000000",
+                        "list_price": "4000000000",
+                        "picture": "id-11134505-822wj-mpt6lbep7jlsce",
+                        "description": "Desc D",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 14,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    },
+                    {
+                        "id": "3143124206008320",
+                        "store_id": "21941677",
+                        "catalog_id": "3142001407128576",
+                        "name": "Item E",
+                        "price": "5000000000",
+                        "list_price": "5000000000",
+                        "picture": "id-11134505-822wu-mpt6lth7gef50c",
+                        "description": "Desc E",
+                        "available": true,
+                        "option_group_count": 0,
+                        "sales_volume": 0,
+                        "sale_start_time": 0,
+                        "sale_end_time": 86399,
+                        "sale_week_bit": 127,
+                        "in_sale_time": true,
+                        "listing_status": 1,
+                        "sale_status": 1,
+                        "time_for_sales": [
+                            {
+                                "sale_start_time": 0,
+                                "sale_end_time": 86399
+                            }
+                        ],
+                        "rank": 15,
+                        "create_source": null,
+                        "discount_type": null,
+                        "discount_amount": "0",
+                        "sync_item_group_id": "",
+                        "blocked": false,
+                        "item_discount": null,
+                        "flash_sale_dish_discount": null,
+                        "flag": {
+                            "alcoholic": false,
+                            "qc_frozen": false
+                        },
+                        "picture_type": 5,
+                        "is_prepaid_sku": false,
+                        "stock_type": 0
+                    }
+                ]
+            },
+            {
+                "id": "3143033467629056",
+                "name": "category c",
+                "rank": 3,
+                "sync_item_group_id": "",
+                "dishes": []
+            }
+        ]
+    }
+}

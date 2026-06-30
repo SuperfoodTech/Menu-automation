@@ -1,0 +1,200 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "option_groups": [
+            {
+                "option_group": {
+                    "id": "3052490210783744",
+                    "store_id": "1344375",
+                    "name": "Pilihan Lauk",
+                    "remark": "",
+                    "shelve_state": 1,
+                    "select_mode": 1,
+                    "select_min": 1,
+                    "select_max": 1,
+                    "create_time": 1776674017082,
+                    "update_time": 1780893629470,
+                    "flag": {
+                        "qc_frozen": false
+                    },
+                    "sync_item_group_id": 0,
+                    "out_biz_id": ""
+                },
+                "options": [
+                    {
+                        "id": "3052490210799104",
+                        "store_id": "1344375",
+                        "name": "Ayam Bakar",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629487,
+                        "group_id": "3052490210783744",
+                        "rank": 1,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799105",
+                        "store_id": "1344375",
+                        "name": "Ayam Goreng",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629497,
+                        "group_id": "3052490210783744",
+                        "rank": 2,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799106",
+                        "store_id": "1344375",
+                        "name": "Ayam Gulai",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629508,
+                        "group_id": "3052490210783744",
+                        "rank": 3,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799107",
+                        "store_id": "1344375",
+                        "name": "Daging Rendang",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629521,
+                        "group_id": "3052490210783744",
+                        "rank": 4,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799108",
+                        "store_id": "1344375",
+                        "name": "Ikan Goreng",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629530,
+                        "group_id": "3052490210783744",
+                        "rank": 5,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799109",
+                        "store_id": "1344375",
+                        "name": "Ikan Gulai Bumbu Kuning ",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629539,
+                        "group_id": "3052490210783744",
+                        "rank": 6,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799110",
+                        "store_id": "1344375",
+                        "name": "Ikan Peyek",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629548,
+                        "group_id": "3052490210783744",
+                        "rank": 7,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799111",
+                        "store_id": "1344375",
+                        "name": "Limpa",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629559,
+                        "group_id": "3052490210783744",
+                        "rank": 8,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799112",
+                        "store_id": "1344375",
+                        "name": "Paru Goreng",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629569,
+                        "group_id": "3052490210783744",
+                        "rank": 9,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799113",
+                        "store_id": "1344375",
+                        "name": "Udang Tusuk Balado",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629578,
+                        "group_id": "3052490210783744",
+                        "rank": 10,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799114",
+                        "store_id": "1344375",
+                        "name": "Usus Sapi Gulai",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629587,
+                        "group_id": "3052490210783744",
+                        "rank": 11,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799115",
+                        "store_id": "1344375",
+                        "name": "Cumi Gulai",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629597,
+                        "group_id": "3052490210783744",
+                        "rank": 12,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    },
+                    {
+                        "id": "3052490210799116",
+                        "store_id": "1344375",
+                        "name": "Otak Sapi",
+                        "price": "550000000",
+                        "available": 1,
+                        "create_time": 1776674017085,
+                        "update_time": 1780893629610,
+                        "group_id": "3052490210783744",
+                        "rank": 13,
+                        "out_of_stock_time": {},
+                        "out_biz_id": ""
+                    }
+                ],
+                "binding_count": 1
+            }
+        ],
+        "total_count": 1
+    }
+}

@@ -1,0 +1,2036 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Management Dashboard</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #f8fafc;
+            --bg-surface: #ffffff;
+            --bg-surface-hover: #f1f5f9;
+            --brand-primary: #BE1D2D;
+            --brand-primary-hover: #a11825;
+            --border-color: #e2e8f0;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --status-success: #059669;
+            --status-success-bg: rgba(5, 150, 105, 0.1);
+            --status-pending: #d97706;
+            --status-pending-bg: rgba(217, 119, 6, 0.1);
+            --status-syncing: #2563eb;
+            --status-syncing-bg: rgba(37, 99, 235, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 260px;
+            background-color: #f1f5f9;
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+        }
+
+        .logo-container {
+            margin-bottom: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-img {
+            max-width: 100%;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        .nav-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 16px;
+            border-radius: 6px;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .nav-item:hover {
+            color: var(--text-main);
+            background-color: rgba(0, 0, 0, 0.03);
+        }
+
+        .nav-item.active {
+            color: #ffffff;
+            background-color: var(--brand-primary);
+        }
+
+        /* Main Workspace Container */
+        .workspace {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 32px;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .tab-content {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .header-title h1 {
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+
+        .outlet-selector select {
+            background-color: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-family: inherit;
+            outline: none;
+            max-width: 320px;
+        }
+
+        /* Toolbar Styling */
+        .toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            padding: 12px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            gap: 12px;
+        }
+
+        .tool-actions-left {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .btn {
+            background-color: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            outline: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn:hover {
+            background-color: var(--bg-surface-hover);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-primary {
+            background-color: var(--brand-primary);
+            border-color: var(--brand-primary);
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            background-color: var(--brand-primary-hover);
+            border-color: var(--brand-primary-hover);
+        }
+
+        .search-box {
+            position: relative;
+        }
+
+        .search-box input {
+            background-color: var(--bg-base);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            outline: none;
+            width: 220px;
+            transition: width 0.2s ease;
+        }
+
+        .search-box input:focus {
+            width: 280px;
+            border-color: var(--brand-primary);
+        }
+
+        /* Table Styling */
+        .table-container {
+            background-color: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        th {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background-color: var(--bg-surface);
+            border-bottom: 1px solid var(--border-color);
+            padding: 16px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-size: 11px;
+            letter-spacing: 0.5px;
+            box-shadow: inset 0 -1px 0 var(--border-color);
+        }
+
+        td {
+            border-bottom: 1px solid var(--border-color);
+            padding: 16px;
+            vertical-align: middle;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr.modified td {
+            background-color: rgba(245, 158, 11, 0.02);
+        }
+
+        /* Checkbox styling */
+        .checkbox-cell {
+            width: 50px;
+            text-align: center;
+        }
+
+        input[type="checkbox"] {
+            accent-color: var(--brand-primary);
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
+        }
+
+        /* Image Cell */
+        .img-cell {
+            width: 80px;
+        }
+
+        .dish-thumb {
+            width: 48px;
+            height: 48px;
+            border-radius: 6px;
+            object-fit: cover;
+            border: 1px solid var(--border-color);
+        }
+
+        /* Input overrides for cell inline editing */
+        .price-input {
+            background-color: transparent;
+            border: 1px solid transparent;
+            color: var(--text-main);
+            padding: 4px 8px;
+            border-radius: 4px;
+            width: 100px;
+            font-family: inherit;
+            font-size: 14px;
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        .price-input:focus {
+            background-color: var(--bg-base);
+            border-color: var(--border-color);
+        }
+
+        /* Toggle Switch Styling */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 44px;
+            height: 24px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #cbd5e1;
+            transition: .3s;
+            border-radius: 24px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .3s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: var(--brand-primary);
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(20px);
+        }
+
+        /* Badge Styling */
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: -0.2px;
+        }
+
+        .status-active {
+            color: var(--status-success);
+            background-color: var(--status-success-bg);
+        }
+
+        .status-pending {
+            color: var(--status-pending);
+            background-color: var(--status-pending-bg);
+        }
+
+        .status-failed {
+            color: #ef4444;
+            background-color: rgba(239, 68, 68, 0.1);
+        }
+
+        /* Modal / Overlay Simulation */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(15, 23, 42, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modal {
+            background-color: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 32px;
+            width: 460px;
+            max-width: 90%;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .modal-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .modal-body {
+            margin-bottom: 24px;
+            font-size: 14px;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .form-group input {
+            width: 100%;
+            background-color: var(--bg-base);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .form-group input:focus {
+            border-color: var(--brand-primary);
+        }
+
+        .modal-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+        }
+
+        /* Progress Steps inside Modal */
+        .progress-steps {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .step-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .step-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid var(--border-color);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        .step-item.completed .step-icon {
+            border-color: var(--status-success);
+            background-color: var(--status-success);
+            color: white;
+        }
+
+        .step-item.completed .step-text {
+            color: var(--text-main);
+        }
+
+        .step-item.active .step-icon {
+            border-color: var(--status-syncing);
+            animation: pulse-border 1.5s infinite;
+        }
+
+        .step-item.active .step-text {
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        @keyframes pulse-border {
+            0% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4); }
+            70% { box-shadow: 0 0 0 6px rgba(37, 99, 235, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0); }
+        }
+        @keyframes pulse-green {
+            0% { box-shadow: 0 0 0 0 rgba(5, 150, 105, 0.4); }
+            70% { box-shadow: 0 0 0 6px rgba(5, 150, 105, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(5, 150, 105, 0); }
+        }
+        @keyframes pulse-red {
+            0% { box-shadow: 0 0 0 0 rgba(190, 29, 45, 0.4); }
+            70% { box-shadow: 0 0 0 6px rgba(190, 29, 45, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(190, 29, 45, 0); }
+        }
+        .status-dot.active {
+            background-color: var(--status-success) !important;
+            animation: pulse-green 2s infinite;
+        }
+        .status-dot.inactive {
+            background-color: var(--brand-primary) !important;
+            animation: pulse-red 2s infinite;
+        }
+
+        /* Toast Container */
+        .toast-container {
+            position: fixed;
+            top: 24px;
+            right: 24px;
+            z-index: 10000;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            pointer-events: none;
+        }
+
+        /* Toast Message styling */
+        .toast {
+            pointer-events: auto;
+            width: 380px;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+            padding: 14px 16px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            transform: translateX(120%);
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+            opacity: 0;
+        }
+
+        .toast.show {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+        .toast-icon {
+            flex-shrink: 0;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .toast-success {
+            border-left: 4px solid var(--status-success);
+        }
+
+        .toast-success .toast-icon {
+            background-color: var(--status-success-bg);
+            color: var(--status-success);
+        }
+
+        .toast-error {
+            border-left: 4px solid var(--brand-primary);
+        }
+
+        .toast-error .toast-icon {
+            background-color: rgba(190, 29, 45, 0.1);
+            color: var(--brand-primary);
+        }
+
+        .toast-info {
+            border-left: 4px solid var(--status-syncing);
+        }
+
+        .toast-info .toast-icon {
+            background-color: var(--status-syncing-bg);
+            color: var(--status-syncing);
+        }
+
+        .toast-content {
+            flex-grow: 1;
+        }
+
+        .toast-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 2px;
+        }
+
+        .toast-desc {
+            font-size: 12px;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .toast-close {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--text-muted);
+            padding: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+
+        .toast-close:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+            color: var(--text-main);
+        }
+
+        /* Platform Switcher (Compact Segmented Control) */
+        .platform-switcher-compact {
+            display: inline-flex;
+            background-color: #f1f5f9;
+            border-radius: 8px;
+            padding: 3px;
+            border: 1px solid var(--border-color);
+            align-items: center;
+        }
+        .platform-tab {
+            padding: 6px 12px;
+            border: none;
+            background: transparent;
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            color: #64748b;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.15s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .platform-tab:hover {
+            color: var(--text-main);
+        }
+        .platform-tab.active {
+            background-color: #ffffff;
+            color: var(--text-main);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+        }
+        .platform-tab .tab-icon {
+            width: 14px;
+            height: 14px;
+        }
+        .platform-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 3px 8px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .badge-readonly {
+            background: rgba(217, 119, 6, 0.12);
+            color: #d97706;
+        }
+        .badge-fullaccess {
+            background: rgba(5, 150, 105, 0.12);
+            color: #059669;
+        }
+    </style>
+</head>
+<body>
+    <!-- Toast Container -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Sidebar Section -->
+    <div class="sidebar">
+        <div class="logo-container">
+            <img src="/static/logo.svg" alt="Merchant Brand Logo" class="logo-img">
+        </div>
+        <ul class="nav-list">
+            <li><a href="#" class="nav-item" id="navOutlets" onclick="showTab('outlets')">Outlets</a></li>
+            <li><a href="#" class="nav-item active" id="navMenuGrid" onclick="showTab('menu-grid')">Menu Grid</a></li>
+            <li><a href="#" class="nav-item" id="navSyncQueue" onclick="showTab('sync-queue')">Sync Queue</a></li>
+            <li><a href="#" class="nav-item" id="navHistoryLog" onclick="showTab('history-log')">History Log</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Workspace Section -->
+    <div class="workspace">
+
+        <!-- ================= TAB: OUTLETS ================= -->
+        <div id="tabOutlets" class="tab-content" style="display: none;">
+            <div class="header-section">
+                <div class="header-title">
+                    <h1>Outlets Directory</h1>
+                </div>
+                <button class="btn btn-primary" onclick="pullAllOutletsFromMerchant()">
+                    Fetch All Outlets
+                </button>
+            </div>
+            
+            <div class="toolbar">
+                <div class="tool-actions-left" style="flex: 1;">
+                    <div class="search-box" style="width: 100%;">
+                        <input type="text" id="searchOutletInput" oninput="filterOutletsTable()" placeholder="Cari nama outlet atau store ID..." style="width: 100%; max-width: 400px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Store ID</th>
+                            <th>Merchant Name</th>
+                            <th>Status</th>
+                            <th style="text-align: right;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="outletsTableBody">
+                        <!-- Outlets list loaded dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- ================= TAB: MENU GRID ================= -->
+        <div id="tabMenuGrid" class="tab-content">
+
+            <div class="header-section">
+                <div class="header-title" style="display: flex; align-items: center; gap: 12px;">
+                    <h1 style="margin: 0;">Menu Grid</h1>
+                    <span class="platform-badge badge-fullaccess" id="platformBadge">Full Access</span>
+                </div>
+                <div class="outlet-selector" style="display: flex; gap: 16px; align-items: center;">
+                    <!-- Sleek Compact Platform Switcher -->
+                    <div class="platform-switcher-compact">
+                        <button class="platform-tab active" id="platformTabShopee" onclick="switchPlatform('shopee')">
+                            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                            ShopeeFood
+                        </button>
+                        <button class="platform-tab" id="platformTabGrab" onclick="switchPlatform('grab')">
+                            <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                            GrabFood
+                        </button>
+                    </div>
+
+                    <div class="session-indicator" id="sessionIndicator" style="display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 500;">
+                        <span class="status-dot" id="statusDot" style="width: 8px; height: 8px; border-radius: 50%; background-color: #cbd5e1; display: inline-block;"></span>
+                        <span id="statusText" style="color: var(--text-muted);">Session: Checking...</span>
+                    </div>
+                    <select id="outletSelect" onchange="onOutletChange()">
+                        <!-- Populated dynamically -->
+                    </select>
+                </div>
+            </div>
+
+            <!-- Toolbar Bar -->
+            <div class="toolbar">
+                <div class="tool-actions-left">
+                    <button class="btn" id="btnBulkPrice" disabled onclick="openBulkPriceModal()">
+                        Bulk Update Price
+                    </button>
+                    <button class="btn" id="btnPullPlatform" onclick="pullDataFromPlatform()">
+                        Sync from ShopeeFood
+                    </button>
+                    <button class="btn" onclick="exportDataCSV()">
+                        Export Excel
+                    </button>
+                    <button class="btn btn-primary" id="btnAddMenu" style="background-color: var(--brand-primary); color: #ffffff; font-weight: 500;" onclick="openAddMenuModal()">
+                        + Add Menu
+                    </button>
+                </div>
+                <div class="search-box">
+                    <button class="btn btn-primary" id="btnPublish" disabled onclick="publishSync()">
+                        Publish Changes
+                    </button>
+                </div>
+            </div>
+
+            <!-- Horizontal Category Navigation -->
+            <div class="category-horizontal-bar" style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px; background-color: var(--bg-surface); border: 1px solid var(--border-color); padding: 8px 16px; border-radius: 8px; overflow-x: auto; min-height: 52px; flex-shrink: 0;">
+                <div style="font-weight: 600; font-size: 11px; letter-spacing: 0.5px; color: var(--text-muted); text-transform: uppercase; white-space: nowrap;">Kategori:</div>
+                <div id="categoryListContainer" style="display: flex; gap: 8px; overflow-x: auto; flex: 1; scrollbar-width: none;">
+                    <!-- Categories loaded dynamically as pills -->
+                </div>
+                <button class="btn btn-primary" style="padding: 6px 12px; font-size: 12px; border-radius: 6px; white-space: nowrap;" onclick="openAddCategoryModal()">+ Add Category</button>
+            </div>
+
+            <!-- Spreadsheet Data Grid Table -->
+            <div class="table-container" style="flex: 1; min-width: 0;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="checkbox-cell"><input type="checkbox" id="checkAll" onchange="toggleSelectAll()"></th>
+                            <th class="img-cell">Photo</th>
+                            <th>Item Name</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>Availability</th>
+                            <th>Tampilan</th>
+                        </tr>
+                    </thead>
+                    <tbody id="menuTableBody">
+                        <!-- Loaded dynamically via script -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- ================= TAB: SYNC QUEUE ================= -->
+        <div id="tabSyncQueue" class="tab-content" style="display: none;">
+            <div class="header-section">
+                <div class="header-title">
+                    <h1>Sync Queue</h1>
+                </div>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Job ID</th>
+                            <th>Store ID</th>
+                            <th>Status</th>
+                            <th>Progress</th>
+                            <th>Error Message</th>
+                            <th>Created At</th>
+                        </tr>
+                    </thead>
+                    <tbody id="syncQueueTableBody">
+                        <!-- Populated dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- ================= TAB: HISTORY LOG ================= -->
+        <div id="tabHistoryLog" class="tab-content" style="display: none;">
+            <div class="header-section">
+                <div class="header-title">
+                    <h1>History Log</h1>
+                </div>
+            </div>
+            <div class="table-container" style="padding: 20px; font-family: monospace; font-size: 13px; color: var(--text-muted); background: #0f172a; border-color: #1e293b;">
+                <div style="margin-bottom: 8px; color: #38bdf8; font-weight: 600;">System Actions Audit Trail:</div>
+                <div id="auditLogContent" style="color: #cbd5e1; line-height: 1.6;">
+                    [2026-06-24 09:00:01] [SYSTEM] Dashboard initialized.<br>
+                    [2026-06-24 09:02:15] [SYSTEM] DB populated with outlets data from Shopee Food API.<br>
+                    [2026-06-24 10:00:00] [SYSTEM] Switched backend synchronization module to fast API engine.<br>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Modal: Bulk Price Update -->
+    <div class="overlay" id="bulkPriceOverlay">
+        <div class="modal">
+            <div class="modal-title">Bulk Update Price</div>
+            <div class="modal-body">
+                Update harga untuk semua menu yang dipilih sekaligus. Gunakan tanda tambah (+) untuk menaikkan harga atau minus (-) untuk mengurangi.
+            </div>
+            <div class="form-group">
+                <label for="bulkPriceValue">Nominal Perubahan (Rp)</label>
+                <input type="text" id="bulkPriceValue" placeholder="Contoh: +1000 atau -500">
+            </div>
+            <div class="modal-actions">
+                <button class="btn" onclick="closeBulkPriceModal()">Batal</button>
+                <button class="btn btn-primary" onclick="applyBulkPrice()">Terapkan</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Category Add/Edit -->
+    <div class="overlay" id="categoryOverlay">
+        <div class="modal">
+            <div class="modal-title" id="categoryModalTitle">Add New Category</div>
+            <div class="modal-body" id="categoryModalBody">
+                Buat kategori menu baru untuk outlet ini. Kategori baru akan disimpan sebagai draft lokal sebelum disinkronkan ke ShopeeFood.
+            </div>
+            <div class="form-group">
+                <label for="categoryNameValue">Nama Kategori</label>
+                <input type="text" id="categoryNameValue" placeholder="Masukkan Nama Kategori">
+            </div>
+            <input type="hidden" id="categoryTargetId" value="">
+            <div class="modal-actions">
+                <button class="btn" onclick="closeCategoryModal()">Batal</button>
+                <button class="btn btn-primary" onclick="submitCategoryForm()">Simpan</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Add Menu -->
+    <div class="overlay" id="addMenuOverlay">
+        <div class="modal" style="max-width: 500px;">
+            <div class="modal-title">Add New Menu</div>
+            <div class="modal-body">
+                Buat menu baru untuk outlet ini. Menu baru akan disimpan sebagai draft lokal sebelum disinkronkan ke ShopeeFood.
+            </div>
+            <div class="form-group" style="margin-top: 12px;">
+                <label for="addMenuCategory">Kategori</label>
+                <select id="addMenuCategory" style="width: 100%; padding: 8px; border: 1px solid var(--border-color); border-radius: 4px; background-color: var(--bg-base); color: var(--text-main);">
+                    <!-- Categories options populated dynamically -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="addMenuName">Nama Menu</label>
+                <input type="text" id="addMenuName" placeholder="Masukkan nama menu">
+            </div>
+            <div class="form-group">
+                <label for="addMenuPrice">Harga (Rp)</label>
+                <input type="number" id="addMenuPrice" placeholder="Masukkan harga menu">
+            </div>
+            <div class="form-group">
+                <label for="addMenuDescription">Deskripsi</label>
+                <input type="text" id="addMenuDescription" placeholder="Masukkan deskripsi (opsional)">
+            </div>
+            <div class="form-group">
+                <label for="addMenuStockType">Stok</label>
+                <div style="display: flex; gap: 8px; align-items: center;">
+                    <select id="addMenuStockType" style="flex: 1; padding: 8px; border: 1px solid var(--border-color); border-radius: 4px; background-color: var(--bg-base); color: var(--text-main);" onchange="toggleAddMenuStockLimitDisplay(this.value)">
+                        <option value="0">Tidak dibatasi</option>
+                        <option value="1">Terbatas</option>
+                    </select>
+                    <input type="number" id="addMenuStockLimit" placeholder="Jumlah stok" style="width: 120px; display: none;">
+                </div>
+            </div>
+            <div class="modal-actions" style="margin-top: 20px;">
+                <button class="btn" onclick="closeAddMenuModal()">Batal</button>
+                <button class="btn btn-primary" onclick="submitAddMenuForm()">Simpan</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Sync Queue Progress -->
+    <div class="overlay" id="syncOverlay">
+        <div class="modal">
+            <div class="modal-title" style="margin-bottom: 8px;">Publishing Changes</div>
+            <div class="modal-body" style="margin-bottom: 16px;">
+                Sinkronisasi data draft lokal ke portal ShopeeFood sedang berlangsung...
+            </div>
+            <div class="progress-steps">
+                <div class="step-item" id="step1">
+                    <span class="step-icon">1</span>
+                    <span class="step-text">Menghubungkan sesi client ShopeeFood...</span>
+                </div>
+                <div class="step-item" id="step2">
+                    <span class="step-icon">2</span>
+                    <span class="step-text">Mengirim perubahan data via API...</span>
+                </div>
+                <div class="step-item" id="step3">
+                    <span class="step-icon">3</span>
+                    <span class="step-text">Memproses status menu...</span>
+                </div>
+                <div class="step-item" id="step4">
+                    <span class="step-icon">4</span>
+                    <span class="step-text">Menyimpan perubahan akhir...</span>
+                </div>
+            </div>
+            <div class="modal-actions" style="margin-top: 24px;">
+                <button class="btn btn-primary" id="btnFinishSync" disabled onclick="closeSyncModal()">Selesai</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Pulling Progress Overlay -->
+    <div class="overlay" id="pullOverlay">
+        <div class="modal" style="text-align: center;">
+            <div class="modal-title" style="margin-bottom: 16px;">Pulling Catalog Data</div>
+            <div class="modal-body">
+                Sedang mengunduh catalog menu terbaru dari ShopeeFood Seller portal. Ini akan memakan waktu sekitar 10-15 detik...
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripting for Live Backend Sync -->
+    <script>
+        const tableBody = document.getElementById("menuTableBody");
+        const btnBulkPrice = document.getElementById("btnBulkPrice");
+        const btnPublish = document.getElementById("btnPublish");
+        const outletSelect = document.getElementById("outletSelect");
+
+        let allOutletsData = [];
+        let allCategoriesData = [];
+        let allDishesData = [];
+        let activeCategoryId = "all";
+        let activePlatform = "shopee";
+
+        // ── Platform Switching ──────────────────────
+        function switchPlatform(platform) {
+            activePlatform = platform;
+
+            // Update tab active states
+            document.getElementById("platformTabShopee").classList.toggle("active", platform === "shopee");
+            document.getElementById("platformTabGrab").classList.toggle("active", platform === "grab");
+
+            // Update badge
+            const badge = document.getElementById("platformBadge");
+            if (platform === "shopee" || platform === "grab") {
+                badge.textContent = "Full Access";
+                badge.className = "platform-badge badge-fullaccess";
+            } else {
+                badge.textContent = "Read Only";
+                badge.className = "platform-badge badge-readonly";
+            }
+
+            // Update toolbar button labels & states
+            const platformLabel = platform === "shopee" ? "ShopeeFood" : "GrabFood";
+            const btnPull = document.getElementById("btnPullPlatform");
+            btnPull.textContent = `Sync from ${platformLabel}`;
+
+            // Disable write-only buttons for read-only platforms
+            const isWritable = platform === "shopee" || platform === "grab";
+            const canCreate = platform === "shopee"; // Grab only supports editing existing items
+            
+            document.getElementById("btnAddMenu").style.display = canCreate ? "" : "none";
+            document.getElementById("btnPublish").style.display = isWritable ? "" : "none";
+            document.getElementById("btnBulkPrice").style.display = isWritable ? "" : "none";
+
+            // Also hide category add button
+            const addCatBtns = document.querySelectorAll('[onclick="openAddCategoryModal()"]');
+            addCatBtns.forEach(b => b.style.display = canCreate ? "" : "none");
+
+            // Re-filter outlet dropdown
+            const filtered = allOutletsData.filter(o => (o.platform || "shopee") === platform);
+            outletSelect.innerHTML = filtered.map(o => `
+                <option value="${o.store_id}">${o.merchant_name} (${o.store_id})</option>
+            `).join("");
+
+            if (filtered.length > 0) {
+                onOutletChange();
+            } else {
+                // Clear the grid
+                tableBody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 40px;">
+                    Tidak ada outlet ${platformLabel} yang terdaftar. Klik "Sync from ${platformLabel}" untuk menarik data.
+                </td></tr>`;
+                allCategoriesData = [];
+                allDishesData = [];
+                renderCategoryPills([]);
+            }
+        }
+
+        // Tab switching logic
+        function showTab(tabName) {
+            // Hide all tab contents
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(c => c.style.display = 'none');
+
+            // Convert tabName kebab-case/camelCase to HTML ID format
+            const formattedName = tabName.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join('');
+            const activeTab = document.getElementById(`tab${formattedName}`);
+            if (activeTab) {
+                activeTab.style.display = (tabName === 'menu-grid') ? 'flex' : 'flex';
+            }
+
+            // Update sidebar nav active link
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach(item => item.classList.remove('active'));
+
+            const targetNavId = `nav${formattedName}`;
+            const targetNav = document.getElementById(targetNavId);
+            if (targetNav) {
+                targetNav.classList.add('active');
+            }
+
+            // Trigger specific actions on tab click
+            if (tabName === 'outlets') {
+                loadOutletsList();
+            } else if (tabName === 'sync-queue') {
+                loadSyncJobs();
+            }
+        }
+
+        // Load outlets dropdown on init
+        async function loadOutlets() {
+            try {
+                const res = await fetch("/api/outlets");
+                const outlets = await res.json();
+                allOutletsData = outlets;
+                
+                // Filter by active platform
+                const filtered = outlets.filter(o => (o.platform || "shopee") === activePlatform);
+                outletSelect.innerHTML = filtered.map(o => `
+                    <option value="${o.store_id}">${o.merchant_name} (${o.store_id})</option>
+                `).join("");
+                
+                if (filtered.length > 0) {
+                    onOutletChange();
+                }
+            } catch (err) {
+                console.error("Gagal memuat daftar outlet:", err);
+            }
+        }
+
+        // Load outlets list for the outlets directory tab
+        async function loadOutletsList() {
+            const tableBody = document.getElementById("outletsTableBody");
+            tableBody.innerHTML = `<tr><td colspan="4" style="text-align: center; color: var(--text-muted); padding: 32px;">Loading outlets...</td></tr>`;
+
+            try {
+                const res = await fetch("/api/outlets");
+                allOutletsData = await res.json();
+                renderOutletsTable(allOutletsData);
+            } catch (err) {
+                console.error("Gagal memuat list outlets:", err);
+                tableBody.innerHTML = `<tr><td colspan="4" style="text-align: center; color: var(--brand-primary); padding: 32px;">Gagal memuat data outlets.</td></tr>`;
+            }
+        }
+
+        function renderOutletsTable(outlets) {
+            const tableBody = document.getElementById("outletsTableBody");
+            tableBody.innerHTML = "";
+
+            if (outlets.length === 0) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="4" style="text-align: center; color: var(--text-muted); padding: 32px;">
+                            Tidak ada outlet di database. Klik "Fetch All Outlets" untuk memuat daftar dari akun Anda.
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            outlets.forEach(o => {
+                const tr = document.createElement("tr");
+                tr.innerHTML = `
+                    <td style="font-weight: 600; color: var(--brand-primary);">${o.store_id}</td>
+                    <td style="font-weight: 500;">${o.merchant_name}</td>
+                    <td>
+                        <span class="status-badge status-active">Connected</span>
+                    </td>
+                    <td style="text-align: right;">
+                        <button class="btn btn-primary" style="padding: 6px 12px; font-size: 12px;" onclick="selectAndLoadOutlet('${o.store_id}')">
+                            Open Menu Grid
+                        </button>
+                    </td>
+                `;
+                tableBody.appendChild(tr);
+            });
+        }
+
+        function selectAndLoadOutlet(storeId) {
+            outletSelect.value = storeId;
+            onOutletChange();
+            showTab('menu-grid');
+        }
+
+        function filterOutletsTable() {
+            const query = document.getElementById("searchOutletInput").value.toLowerCase();
+            const filtered = allOutletsData.filter(o => 
+                o.store_id.toLowerCase().includes(query) || 
+                o.merchant_name.toLowerCase().includes(query)
+            );
+            renderOutletsTable(filtered);
+        }
+
+        // Load Categories from API
+        async function loadCategories() {
+            const storeId = outletSelect.value;
+            if (!storeId) return;
+
+            try {
+                const res = await fetch(`/api/outlets/${storeId}/categories`);
+                allCategoriesData = await res.json();
+                renderCategoryList(allCategoriesData);
+            } catch (err) {
+                console.error("Gagal memuat list kategori:", err);
+            }
+        }
+
+        function renderCategoryList(categories) {
+            const container = document.getElementById("categoryListContainer");
+            container.innerHTML = "";
+
+            // Add "Semua Menu" option
+            const allDiv = document.createElement("div");
+            allDiv.style.cssText = getCategoryItemStyle(activeCategoryId === "all");
+            allDiv.innerHTML = `<span>Semua Menu</span>`;
+            allDiv.onclick = () => {
+                activeCategoryId = "all";
+                loadCategories();
+                loadDishes();
+            };
+            container.appendChild(allDiv);
+
+            categories.forEach(cat => {
+                const isActive = activeCategoryId === cat.id;
+                const div = document.createElement("div");
+                div.style.cssText = getCategoryItemStyle(isActive);
+                
+                let label = cat.name;
+                if (cat.sync_status === "pending_create") {
+                    label += ` <span style="font-size: 9px; color: ${isActive ? "#fecdd3" : "var(--status-pending)"}; font-style: italic;">(draft)</span>`;
+                } else if (cat.sync_status === "pending_update") {
+                    label += ` <span style="font-size: 9px; color: ${isActive ? "#bfdbfe" : "var(--status-syncing)"}; font-style: italic;">(edited)</span>`;
+                }
+
+                div.innerHTML = `
+                    <span style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding-right: 4px;">${label}</span>
+                    <button style="background: ${isActive ? "rgba(255, 255, 255, 0.15)" : "rgba(15, 23, 42, 0.05)"}; border: none; cursor: pointer; width: 18px; height: 18px; border-radius: 50%; display: ${activePlatform === 'shopee' ? 'inline-flex' : 'none'}; align-items: center; justify-content: center; margin-left: 4px; color: ${isActive ? "#ffffff" : "var(--text-muted)"}; transition: all 0.2s; padding: 0;" 
+                            onclick="event.stopPropagation(); openEditCategoryModal('${cat.id}', '${cat.name.replace(/'/g, "\\'")}')"
+                            onmouseover="this.style.background='${isActive ? "rgba(255, 255, 255, 0.3)" : "rgba(15, 23, 42, 0.1)"}'"
+                            onmouseout="this.style.background='${isActive ? "rgba(255, 255, 255, 0.15)" : "rgba(15, 23, 42, 0.05)"}'">
+                        <svg style="width: 10px; height: 10px; fill: currentColor;" viewBox="0 0 24 24">
+                            <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/>
+                        </svg>
+                    </button>
+                `;
+                div.onclick = () => {
+                    activeCategoryId = cat.id;
+                    loadCategories();
+                    loadDishes();
+                };
+                container.appendChild(div);
+            });
+        }
+
+        function getCategoryItemStyle(isActive) {
+            return `
+                padding: 6px 14px;
+                border-radius: 20px;
+                cursor: pointer;
+                font-size: 12px;
+                font-weight: 500;
+                display: inline-flex;
+                align-items: center;
+                gap: 4px;
+                transition: all 0.2s ease;
+                background-color: ${isActive ? "var(--brand-primary)" : "var(--bg-base)"};
+                color: ${isActive ? "#ffffff" : "var(--text-muted)"};
+                border: 1px solid ${isActive ? "var(--brand-primary)" : "var(--border-color)"};
+                white-space: nowrap;
+            `;
+        }
+
+        // Category Modal Actions
+        function openAddCategoryModal() {
+            document.getElementById("categoryModalTitle").innerText = "Add New Category";
+            document.getElementById("categoryModalBody").innerText = "Buat kategori menu baru untuk outlet ini. Kategori baru akan disimpan sebagai draft lokal sebelum disinkronkan ke ShopeeFood.";
+            document.getElementById("categoryTargetId").value = "";
+            document.getElementById("categoryNameValue").value = "";
+            document.getElementById("categoryOverlay").classList.add("active");
+        }
+
+        function openEditCategoryModal(id, name) {
+            document.getElementById("categoryModalTitle").innerText = "Edit Category";
+            document.getElementById("categoryModalBody").innerText = "Ubah nama kategori menu ini. Perubahan akan disimpan sebagai draft lokal sebelum disinkronkan ke ShopeeFood.";
+            document.getElementById("categoryTargetId").value = id;
+            document.getElementById("categoryNameValue").value = name;
+            document.getElementById("categoryOverlay").classList.add("active");
+        }
+
+        function closeCategoryModal() {
+            document.getElementById("categoryOverlay").classList.remove("active");
+        }
+
+        async function submitCategoryForm() {
+            const storeId = outletSelect.value;
+            if (!storeId) return;
+
+            const name = document.getElementById("categoryNameValue").value.trim();
+            const id = document.getElementById("categoryTargetId").value;
+
+            if (!name) {
+                alert("Nama kategori tidak boleh kosong!");
+                return;
+            }
+
+            try {
+                if (id) {
+                    await fetch(`/api/categories/${id}/update`, {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ name })
+                    });
+                } else {
+                    await fetch(`/api/outlets/${storeId}/categories`, {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ name })
+                    });
+                }
+                closeCategoryModal();
+                await loadCategories();
+                await loadDishes();
+            } catch (err) {
+                console.error("Gagal menyimpan kategori:", err);
+            }
+        }
+
+        // Add Menu Modal Actions
+        function openAddMenuModal() {
+            const selectCat = document.getElementById("addMenuCategory");
+            selectCat.innerHTML = "";
+            
+            // Populate category select dropdown options
+            allCategoriesData.forEach(cat => {
+                const opt = document.createElement("option");
+                opt.value = cat.id;
+                opt.textContent = cat.name;
+                selectCat.appendChild(opt);
+            });
+
+            // If we are currently filtering by a specific category, pre-select it
+            if (activeCategoryId !== "all") {
+                selectCat.value = activeCategoryId;
+            }
+
+            // Reset inputs
+            document.getElementById("addMenuName").value = "";
+            document.getElementById("addMenuPrice").value = "";
+            document.getElementById("addMenuDescription").value = "";
+            document.getElementById("addMenuStockType").value = "0";
+            document.getElementById("addMenuStockLimit").value = "";
+            document.getElementById("addMenuStockLimit").style.display = "none";
+
+            document.getElementById("addMenuOverlay").classList.add("active");
+        }
+
+        function closeAddMenuModal() {
+            document.getElementById("addMenuOverlay").classList.remove("active");
+        }
+
+        function toggleAddMenuStockLimitDisplay(val) {
+            const input = document.getElementById("addMenuStockLimit");
+            if (val === "1") {
+                input.style.display = "block";
+                input.value = "10"; // Default limit
+            } else {
+                input.style.display = "none";
+                input.value = "";
+            }
+        }
+
+        async function submitAddMenuForm() {
+            const storeId = outletSelect.value;
+            if (!storeId) return;
+
+            const categoryId = document.getElementById("addMenuCategory").value;
+            const name = document.getElementById("addMenuName").value.trim();
+            const price = parseFloat(document.getElementById("addMenuPrice").value);
+            const description = document.getElementById("addMenuDescription").value.trim();
+            const stockType = parseInt(document.getElementById("addMenuStockType").value);
+            const stockLimit = parseInt(document.getElementById("addMenuStockLimit").value || 0);
+
+            if (!categoryId) {
+                alert("Pilih kategori terlebih dahulu!");
+                return;
+            }
+            if (!name) {
+                alert("Nama menu tidak boleh kosong!");
+                return;
+            }
+            if (isNaN(price) || price < 0) {
+                alert("Harga menu tidak valid!");
+                return;
+            }
+
+            try {
+                const payload = {
+                    category_id: categoryId,
+                    name,
+                    price_rp: price,
+                    description,
+                    stock_type: stockType,
+                    stock_limit_current: stockLimit
+                };
+
+                const resp = await fetch(`/api/outlets/${storeId}/dishes`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(payload)
+                });
+                
+                if (resp.ok) {
+                    closeAddMenuModal();
+                    await loadDishes();
+                } else {
+                    const err = await resp.json();
+                    alert("Gagal menambahkan menu: " + (err.detail || "Error"));
+                }
+            } catch (err) {
+                console.error("Gagal menambahkan menu:", err);
+            }
+        }
+
+        // Load Sync queue list
+        async function loadSyncJobs() {
+            const tableBody = document.getElementById("syncQueueTableBody");
+            tableBody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 32px;">Loading sync jobs...</td></tr>`;
+
+            try {
+                const res = await fetch("/api/sync-jobs");
+                const jobs = await res.json();
+                tableBody.innerHTML = "";
+
+                if (jobs.length === 0) {
+                    tableBody.innerHTML = `
+                        <tr>
+                            <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 32px;">
+                                Belum ada riwayat sync job.
+                            </td>
+                        </tr>
+                    `;
+                    return;
+                }
+
+                jobs.forEach(job => {
+                    const tr = document.createElement("tr");
+                    const date = new Date(job.created_at + "Z").toLocaleString("id-ID");
+                    
+                    let statusClass = "status-badge";
+                    if (job.status === "completed") statusClass += " status-active";
+                    else if (job.status === "failed") statusClass += " status-failed";
+                    else statusClass += " status-pending";
+
+                    tr.innerHTML = `
+                        <td style="font-family: monospace; font-size: 12px;">${job.id}</td>
+                        <td style="font-weight: 500;">${job.store_id}</td>
+                        <td><span class="${statusClass}">${job.status}</span></td>
+                        <td>Step ${job.progress_step}/4</td>
+                        <td style="color: var(--brand-primary); font-size: 12px; font-family: monospace; white-space: pre-wrap; max-width: 300px;">${job.error_message || "-"}</td>
+                        <td style="color: var(--text-muted); font-size: 12px;">${date}</td>
+                    `;
+                    tableBody.appendChild(tr);
+                });
+            } catch (err) {
+                console.error("Gagal memuat sync jobs:", err);
+                tableBody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: var(--brand-primary); padding: 32px;">Gagal memuat riwayat sinkronisasi.</td></tr>`;
+            }
+        }
+
+        let pingInterval = null;
+
+        async function checkSession() {
+            const storeId = outletSelect.value;
+            if (!storeId) return;
+
+            const dot = document.getElementById("statusDot");
+            const txt = document.getElementById("statusText");
+
+            try {
+                const res = await fetch(`/api/outlets/${storeId}/ping-session`);
+                const data = await res.json();
+
+                if (data.active) {
+                    dot.className = "status-dot active";
+                    txt.innerText = "Session Active";
+                    txt.style.color = "var(--status-success)";
+                } else {
+                    dot.className = "status-dot inactive";
+                    txt.innerText = "Session Expired";
+                    txt.style.color = "var(--brand-primary)";
+                }
+            } catch (err) {
+                console.error(err);
+                dot.className = "status-dot inactive";
+                txt.innerText = "Session Error";
+                txt.style.color = "var(--brand-primary)";
+            }
+        }
+
+        function onOutletChange() {
+            activeCategoryId = "all";
+            loadCategories().then(() => {
+                loadDishes();
+            });
+            checkSession();
+
+            if (pingInterval) clearInterval(pingInterval);
+            pingInterval = setInterval(checkSession, 20000);
+        }
+
+        // Load dishes from DB
+        async function loadDishes() {
+            const storeId = outletSelect.value;
+            if (!storeId) return;
+
+            try {
+                const res = await fetch(`/api/outlets/${storeId}/dishes`);
+                let dishes = await res.json();
+                allDishesData = dishes;
+
+                // Filter dishes locally by activeCategoryId
+                if (activeCategoryId !== "all") {
+                    dishes = dishes.filter(d => d.category_id === activeCategoryId);
+                }
+
+                renderTable(dishes);
+            } catch (err) {
+                console.error("Gagal memuat menu:", err);
+            }
+        }
+
+        // Render Table Rows
+        function renderTable(dishes) {
+            tableBody.innerHTML = "";
+            
+            if (dishes.length === 0) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="7" style="text-align: center; color: var(--text-muted); padding: 32px;">
+                            Belum ada data menu untuk kategori ini. Silakan klik "Sync dari ${activePlatform === 'shopee' ? 'ShopeeFood' : 'GrabFood'}" untuk menarik data.
+                        </td>
+                    </tr>
+                `;
+                btnPublish.disabled = true;
+                btnBulkPrice.disabled = true;
+                return;
+            }
+
+            dishes.forEach(item => {
+                const tr = document.createElement("tr");
+                if (item.sync_status === "pending_metadata" || item.sync_status === "pending_create") {
+                    tr.classList.add("modified");
+                }
+                
+                let thumb = item.image_url || "https://down-id.img.susercontent.com/file/id-11134505-822wt-mphi8jk9y8en6e";
+                if (thumb && !thumb.startsWith("http") && !thumb.startsWith("data:")) {
+                    thumb = "https://down-id.img.susercontent.com/file/" + thumb;
+                }
+
+                // Build category dropdown options
+                const categoryOptions = allCategoriesData.map(cat => {
+                    const isSel = (cat.id === item.category_id) ? "selected" : "";
+                    return `<option value="${cat.id}" ${isSel}>${cat.name}</option>`;
+                }).join("");
+
+                tr.innerHTML = `
+                    <td class="checkbox-cell">
+                        <input type="checkbox" class="row-checkbox" data-id="${item.id}" onchange="updateSelectedCount()">
+                    </td>
+                    <td class="img-cell">
+                        <img src="${thumb}" class="dish-thumb" style="width: 36px; height: 36px; border-radius: 4px;" alt="${item.name}">
+                    </td>
+                    <td>
+                        <input type="text" class="price-input" style="width: 100%; min-width: 140px; font-weight: 500; font-size: 13px; border: 1px solid var(--border-color); background-color: var(--bg-base); padding: 4px 8px; border-radius: 4px;" value="${item.name}" onchange="updateRowName('${item.id}', this.value)">
+                    </td>
+                    <td>
+                        <input type="text" class="price-input" style="width: 100%; min-width: 180px; font-size: 12px; border: 1px solid var(--border-color); background-color: var(--bg-base); padding: 4px 8px; border-radius: 4px;" value="${item.description || ""}" placeholder="Tambah deskripsi..." onchange="updateRowDescription('${item.id}', this.value)">
+                    </td>
+                    <td>
+                        <select class="price-input" style="width: auto; min-width: 120px; font-size: 12px; background-color: var(--bg-base); border: 1px solid var(--border-color); cursor: pointer; padding: 4px 8px; border-radius: 4px;" onchange="updateRowCategory('${item.id}', this.value)">
+                            ${categoryOptions}
+                        </select>
+                    </td>
+                    <td>
+                        <input type="number" class="price-input" style="width: 80px; font-size: 13px; border: 1px solid var(--border-color); background-color: var(--bg-base); padding: 4px 8px; border-radius: 4px;" value="${item.price_rp}" onchange="updateRowPrice('${item.id}', this.value)">
+                    </td>
+                    <td>
+                        <div style="display: flex; align-items: center; gap: 4px; white-space: nowrap;">
+                            <select class="price-input" style="width: auto; min-width: 90px; font-size: 12px; background-color: var(--bg-base); border: 1px solid var(--border-color); cursor: pointer; padding: 4px 6px; border-radius: 4px;" onchange="updateRowStockType('${item.id}', this.value, ${item.stock_limit_current})">
+                                <option value="0" ${item.stock_type === 0 ? "selected" : ""}>Tidak dibatasi</option>
+                                <option value="1" ${item.stock_type === 1 ? "selected" : ""}>Terbatas</option>
+                            </select>
+                            <input type="number" class="price-input" style="width: 55px; font-size: 12px; display: ${item.stock_type === 1 ? "block" : "none"}; border: 1px solid var(--border-color); background-color: var(--bg-base); padding: 4px 6px; border-radius: 4px;" value="${item.stock_limit_current || 0}" onchange="updateRowStockLimit('${item.id}', ${item.stock_type}, this.value)">
+                        </div>
+                    </td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" ${item.available ? "checked" : ""} onchange="updateRowAvailability('${item.id}', this.checked)">
+                            <span class="slider"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" ${item.show ? "checked" : ""} onchange="updateRowShowStatus('${item.id}', this.checked)">
+                            <span class="slider"></span>
+                        </label>
+                    </td>
+                `;
+                tableBody.appendChild(tr);
+            });
+            updateSelectedCount();
+            
+            // Check if there's any pending modification in dishes OR in categories
+            const hasPendingDishes = allDishesData.some(item => item.sync_status === "pending_metadata" || item.sync_status === "pending_create");
+            const hasPendingCats = allCategoriesData.some(cat => cat.sync_status === "pending_create" || cat.sync_status === "pending_update");
+            btnPublish.disabled = !(hasPendingDishes || hasPendingCats);
+        }
+
+        // Toggle select all checkboxes
+        function toggleSelectAll() {
+            const checkAll = document.getElementById("checkAll");
+            const checkboxes = document.querySelectorAll(".row-checkbox");
+            checkboxes.forEach(cb => {
+                cb.checked = checkAll.checked;
+            });
+            updateSelectedCount();
+        }
+
+        // Update selected row counters & toggle Bulk Update button
+        function updateSelectedCount() {
+            const checkedBoxes = document.querySelectorAll(".row-checkbox:checked");
+            btnBulkPrice.disabled = checkedBoxes.length === 0;
+            btnBulkPrice.innerText = checkedBoxes.length > 0 ? `Bulk Update Price (${checkedBoxes.length})` : 'Bulk Update Price';
+        }
+
+        // Save price modification to DB
+        async function updateRowPrice(id, newPrice) {
+            try {
+                await fetch("/api/dishes/bulk-price", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ dish_ids: [id], adjustment: newPrice })
+                });
+                loadDishes();
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        // Save name modification to DB
+        async function updateRowName(id, newName) {
+            try {
+                await fetch(`/api/dishes/${id}/update`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ name: newName })
+                });
+                loadDishes();
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        // Save availability modification to DB
+        async function updateRowAvailability(id, isAvailable) {
+            try {
+                await fetch("/api/dishes/toggle-availability", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ dish_id: id, available: isAvailable })
+                });
+                loadDishes();
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        // Save show status modification to DB
+        async function updateRowShowStatus(id, isShown) {
+            try {
+                await fetch("/api/dishes/toggle-show", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ dish_id: id, show: isShown })
+                });
+                loadDishes();
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        // Save category modification to DB
+        async function updateRowCategory(id, categoryId) {
+            try {
+                await fetch(`/api/dishes/${id}/update`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ category_id: categoryId })
+                });
+                loadDishes();
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        // Save description modification to DB
+        async function updateRowDescription(id, newDesc) {
+            try {
+                await fetch(`/api/dishes/${id}/update`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ description: newDesc })
+                });
+                loadDishes();
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        // Save stock type modification to DB
+        async function updateRowStockType(id, stockType, stockLimit) {
+            try {
+                await fetch(`/api/dishes/${id}/update`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ stock_type: parseInt(stockType), stock_limit_current: parseInt(stockLimit || 0) })
+                });
+                loadDishes();
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        // Save stock limit modification to DB
+        async function updateRowStockLimit(id, stockType, stockLimit) {
+            try {
+                await fetch(`/api/dishes/${id}/update`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ stock_type: parseInt(stockType), stock_limit_current: parseInt(stockLimit || 0) })
+                });
+                loadDishes();
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        // Bulk Price Modal Handling
+        function openBulkPriceModal() {
+            document.getElementById("bulkPriceOverlay").classList.add("active");
+        }
+
+        // Close bulk price modal
+        function closeBulkPriceModal() {
+            document.getElementById("bulkPriceOverlay").classList.remove("active");
+        }
+
+        // Toast Notification System
+        function showToast(type, title, message) {
+            const container = document.getElementById("toastContainer");
+            if (!container) return;
+
+            const toast = document.createElement("div");
+            toast.className = `toast toast-${type}`;
+
+            let iconSvg = "";
+            if (type === "success") {
+                iconSvg = `
+                    <svg style="width: 14px; height: 14px; fill: currentColor;" viewBox="0 0 24 24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                    </svg>
+                `;
+            } else if (type === "error") {
+                iconSvg = `
+                    <svg style="width: 14px; height: 14px; fill: currentColor;" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                    </svg>
+                `;
+            } else {
+                iconSvg = `
+                    <svg style="width: 14px; height: 14px; fill: currentColor;" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                    </svg>
+                `;
+            }
+
+            toast.innerHTML = `
+                <div class="toast-icon">${iconSvg}</div>
+                <div class="toast-content">
+                    <div class="toast-title">${title}</div>
+                    <div class="toast-desc">${message}</div>
+                </div>
+                <button class="toast-close" onclick="this.parentElement.remove()">
+                    <svg style="width: 12px; height: 12px; fill: currentColor;" viewBox="0 0 24 24">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/>
+                    </svg>
+                </button>
+            `;
+
+            container.appendChild(toast);
+            
+            // Trigger animation
+            toast.offsetHeight;
+            toast.classList.add("show");
+
+            // Auto-remove toast after 6 seconds
+            setTimeout(() => {
+                toast.classList.remove("show");
+                toast.addEventListener("transitionend", () => {
+                    toast.remove();
+                });
+            }, 6000);
+        }
+
+        // Map technical API error messages to a user-friendly format
+        function mapErrorMessage(errorMsg) {
+            if (!errorMsg) return "Terjadi kesalahan yang tidak diketahui saat memproses data.";
+            
+            const lowerMsg = errorMsg.toLowerCase();
+            
+            // Session / authentication issues
+            if (lowerMsg.includes("session expired") || lowerMsg.includes("expired") || lowerMsg.includes("login") || lowerMsg.includes("token")) {
+                return "Sesi login ShopeeFood Anda telah berakhir. Silakan hubungkan kembali/login ulang akun toko Anda.";
+            }
+            if (lowerMsg.includes("gagal login") || lowerMsg.includes("koneksi api")) {
+                return "Gagal masuk ke sistem Shopee. Pastikan Username dan Password toko Anda sudah benar, lalu coba lagi.";
+            }
+            
+            // Rate limits / server busy
+            if (lowerMsg.includes("frequent") || lowerMsg.includes("rate limit") || lowerMsg.includes("too many requests") || lowerMsg.includes("busy")) {
+                return "Terlalu banyak permintaan ke server Shopee. Mohon tunggu 1-2 menit sebelum mencoba sinkronisasi kembali.";
+            }
+            
+            // Connection/timeout issues
+            if (lowerMsg.includes("timeout") || lowerMsg.includes("connection") || lowerMsg.includes("network")) {
+                return "Koneksi ke portal Shopee terputus atau lambat. Silakan periksa jaringan internet Anda dan coba lagi.";
+            }
+            
+            // Duplicates
+            if (lowerMsg.includes("duplicate") || lowerMsg.includes("sudah ada") || lowerMsg.includes("exist")) {
+                if (lowerMsg.includes("category") || lowerMsg.includes("kategori")) {
+                    return "Nama kategori ini sudah terdaftar di ShopeeFood. Gunakan nama kategori lain.";
+                }
+                return "Nama menu ini sudah terdaftar di ShopeeFood. Gunakan nama menu lain agar tidak duplikat.";
+            }
+
+            // Price limit / range issues
+            if (lowerMsg.includes("price limit") || lowerMsg.includes("limit harga") || lowerMsg.includes("range") || lowerMsg.includes("price exceeds") || lowerMsg.includes("adjustment limit") || lowerMsg.includes("harga limit")) {
+                return "Gagal memperbarui harga: Perubahan harga melebihi batas (limit) kenaikan/penurunan harga yang ditentukan oleh ShopeeFood. Harap sesuaikan harga Anda.";
+            }
+            
+            // Clean up list of multiple errors if present
+            if (lowerMsg.includes(";")) {
+                const parts = errorMsg.split(";").map(part => part.trim());
+                if (parts.length > 0) {
+                    return "Beberapa item gagal disinkronisasi:\n- " + parts.map(p => mapErrorMessage(p)).join("\n- ");
+                }
+            }
+            
+            return `Gagal mempublikasikan perubahan. Detail: ${errorMsg}`;
+        }
+
+        async function applyBulkPrice() {
+            const valInput = document.getElementById("bulkPriceValue").value;
+            const checkedBoxes = document.querySelectorAll(".row-checkbox:checked");
+            const ids = Array.from(checkedBoxes).map(cb => cb.getAttribute("data-id"));
+
+            try {
+                const res = await fetch("/api/dishes/bulk-price", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ dish_ids: ids, adjustment: valInput })
+                });
+                
+                if (res.ok) {
+                    closeBulkPriceModal();
+                    document.getElementById("bulkPriceValue").value = "";
+                    loadDishes();
+                    showToast("success", "Harga Diperbarui", `Berhasil memperbarui harga untuk ${ids.length} menu secara massal.`);
+                } else {
+                    showToast("error", "Update Massal Gagal", "Terjadi kesalahan saat memperbarui harga secara massal.");
+                }
+            } catch (err) {
+                console.error(err);
+                showToast("error", "Update Massal Gagal", err.toString());
+            }
+        }
+
+        // Pull All Outlets from Shopee merchant account
+        async function pullAllOutletsFromMerchant() {
+            const platformLabel = activePlatform === "shopee" ? "ShopeeFood" : "GrabFood";
+            document.getElementById("pullOverlay").querySelector(".modal-title").innerText = "Fetching All Outlets";
+            document.getElementById("pullOverlay").querySelector(".modal-body").innerText = `Sedang menarik semua daftar outlet dari akun ${platformLabel} Anda...`;
+            document.getElementById("pullOverlay").classList.add("active");
+            
+            try {
+                await fetch(`/api/outlets/pull-all?platform=${activePlatform}`, { method: "POST" });
+                
+                // Poll outlets list until it grows
+                let attempts = 0;
+                const currentCount = allOutletsData.filter(o => (o.platform || "shopee") === activePlatform).length;
+                
+                const interval = setInterval(async () => {
+                    attempts++;
+                    const res = await fetch("/api/outlets");
+                    const outlets = await res.json();
+                    const platformOutlets = outlets.filter(o => (o.platform || "shopee") === activePlatform);
+                    
+                    if (platformOutlets.length > currentCount || attempts > 20) {
+                        clearInterval(interval);
+                        document.getElementById("pullOverlay").classList.remove("active");
+                        
+                        // Reset modal texts
+                        document.getElementById("pullOverlay").querySelector(".modal-title").innerText = "Pulling Catalog Data";
+                        document.getElementById("pullOverlay").querySelector(".modal-body").innerText = "Sedang mengunduh catalog menu terbaru...";
+                        
+                        allOutletsData = outlets;
+                        switchPlatform(activePlatform);
+                        if (document.getElementById("tabOutlets").style.display === "flex") {
+                            loadOutletsList();
+                        }
+                        
+                        if (platformOutlets.length > currentCount) {
+                            showToast("success", "Daftar Toko Diperbarui", `Berhasil menarik ${platformOutlets.length - currentCount} outlet baru dari akun ${platformLabel}.`);
+                        } else {
+                            showToast("info", "Daftar Toko Selesai", `Pengecekan daftar outlet ${platformLabel} selesai.`);
+                        }
+                    }
+                }, 1500);
+            } catch (err) {
+                console.error(err);
+                document.getElementById("pullOverlay").classList.remove("active");
+                showToast("error", "Tarik Daftar Toko Gagal", err.toString());
+            }
+        }
+
+        // Pull Data from ShopeeFood
+        async function pullDataFromPlatform() {
+            const storeId = outletSelect.value;
+            if (!storeId) return;
+
+            const platformLabel = activePlatform === "shopee" ? "ShopeeFood" : "GrabFood";
+            document.getElementById("pullOverlay").querySelector(".modal-body").innerText = 
+                `Sedang mengunduh catalog menu terbaru dari ${platformLabel}. Ini akan memakan waktu sekitar 10-30 detik...`;
+            document.getElementById("pullOverlay").classList.add("active");
+            
+            try {
+                await fetch(`/api/outlets/${storeId}/pull`, { method: "POST" });
+                
+                // Poll dishes until they load
+                let attempts = 0;
+                const interval = setInterval(async () => {
+                    attempts++;
+                    const res = await fetch(`/api/outlets/${storeId}/dishes`);
+                    const dishes = await res.json();
+                    
+                    if (dishes.length > 0 || attempts > 20) {
+                        clearInterval(interval);
+                        document.getElementById("pullOverlay").classList.remove("active");
+                        await loadCategories();
+                        await loadDishes();
+                        
+                        if (dishes.length > 0) {
+                            showToast("success", "Tarik Data Berhasil", `Katalog menu terbaru berhasil diunduh dari ${platformLabel}.`);
+                        } else {
+                            showToast("error", "Tarik Data Gagal", `Gagal mengunduh menu dari ${platformLabel} atau tidak ada menu aktif.`);
+                        }
+                    }
+                }, 2000);
+            } catch (err) {
+                console.error(err);
+                document.getElementById("pullOverlay").classList.remove("active");
+                showToast("error", "Tarik Data Gagal", err.toString());
+            }
+        }
+
+        // Publish Local Draft Changes
+        async function publishSync() {
+            const storeId = outletSelect.value;
+            if (!storeId) return;
+
+            document.getElementById("syncOverlay").classList.add("active");
+            document.getElementById("btnFinishSync").disabled = true;
+
+            const platformLabel = activePlatform === "shopee" ? "ShopeeFood" : "GrabFood";
+            document.getElementById("step1").querySelector(".step-text").textContent = `Menghubungkan sesi client ${platformLabel}...`;
+
+            try {
+                const res = await fetch(`/api/outlets/${storeId}/sync`, { method: "POST" });
+                if (!res.ok) {
+                    throw new Error("Gagal memulai sinkronisasi. Silakan periksa koneksi.");
+                }
+                const { job_id } = await res.json();
+                
+                // Poll sync job status
+                const interval = setInterval(async () => {
+                    const jobRes = await fetch(`/api/sync-jobs/${job_id}`);
+                    const job = await jobRes.json();
+                    
+                    // Update UI steps
+                    if (job.progress_step >= 1) document.getElementById("step1").className = "step-item completed";
+                    if (job.progress_step === 1) document.getElementById("step1").className = "step-item active";
+                    
+                    if (job.progress_step >= 2) document.getElementById("step2").className = "step-item completed";
+                    if (job.progress_step === 2) document.getElementById("step2").className = "step-item active";
+                    
+                    if (job.progress_step >= 3) document.getElementById("step3").className = "step-item completed";
+                    if (job.progress_step === 3) document.getElementById("step3").className = "step-item active";
+                    
+                    if (job.progress_step >= 4) document.getElementById("step4").className = "step-item completed";
+                    if (job.progress_step === 4) document.getElementById("step4").className = "step-item active";
+
+                    if (job.status === "completed" || job.status === "failed") {
+                        clearInterval(interval);
+                        document.getElementById("btnFinishSync").disabled = false;
+                        await loadCategories();
+                        await loadDishes();
+                        
+                        if (job.status === "completed") {
+                            showToast("success", "Publish Berhasil", `Semua perubahan menu telah sukses diperbarui ke ${platformLabel}.`);
+                        } else {
+                            const friendlyMsg = mapErrorMessage(job.error_message);
+                            showToast("error", "Publish Gagal", friendlyMsg);
+                        }
+                    }
+                }, 1500);
+            } catch (err) {
+                console.error(err);
+                document.getElementById("btnFinishSync").disabled = false;
+                showToast("error", "Publish Gagal", mapErrorMessage(err.message || err.toString()));
+            }
+        }
+
+        function closeSyncModal() {
+            document.getElementById("syncOverlay").classList.remove("active");
+        }
+
+        function exportDataCSV() {
+            const storeId = outletSelect.value;
+            if (!storeId) return;
+            window.open(`/api/outlets/${storeId}/export`);
+        }
+
+        // Init
+        loadOutlets();
+    </script>
+</body>
+</html>

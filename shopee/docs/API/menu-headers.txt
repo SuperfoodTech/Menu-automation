@@ -1,0 +1,67 @@
+Request URL
+https://foody.shopee.co.id/api/seller/store/dishes
+Request Method
+GET
+Status Code
+200 OK
+Remote Address
+202.181.90.172:443
+Referrer Policy
+strict-origin-when-cross-origin
+access-control-allow-credentials
+true
+access-control-allow-origin
+https://partner.shopee.co.id
+access-control-expose-headers
+Content-Length,Authorization,Content-Type
+alt-svc
+content-encoding
+gzip
+content-type
+application/json; charset=utf-8
+date
+Wed, 17 Jun 2026 02:58:58 GMT
+server
+SGW
+vary
+Accept-Encoding
+vary
+Origin
+x-request-id
+037db1f4546a3db3dca2a4f6ea338100:010000dec1de60ae:000000d19a28ba9c
+:authority
+foody.shopee.co.id
+:method
+GET
+:path
+/api/seller/store/dishes
+:scheme
+https
+accept
+application/json, text/plain, */*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+en-US,en;q=0.9
+cookie
+__shopee_partner_website_x_token_live=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI3MTE3NjYwMjE2IiwicmVnaW9uIjoiSUQiLCJidXNpbmVzc0lkIjoxLCJ0b2tlbiI6IkI6RVlDcGJ3VGpWYlJGNzZndVBMSDFaVHhKNkJxVHpPbWY1YzhaN2lRcHpBU25QRjhnWUlIQlpBSmhka0t5UkwvZjJFS3NKei9naU5XT1A4Vjg2cFVvSWlueVlNakVkUGt5VHVWNVdFTDBXalhtNjhPcG9UNEVXR1RITTEwclZjZDdNRVh3bi9MeVVUVlQyWWplcXVRa0ZrMFFHR3B6cmkrSEVwZVE5eDNLcHNGS0xTRmZMNW52UDZSNVNmT2N2MytvZnF6UHF4S0xPUThaR2xucDdYMVdOaGw0eGpqbllpcGJIemYraGE4PSIsImVycm9yTXNnIjoiIiwiZXJyb3JDb2RlIjowLCJpYXQiOjE3ODE2NjUwNzQsImV4cCI6MTg2ODA2NTA3NH0.os1m0bMPWBltJ4F2qdk2xGMVSzQlAxr_hzohhomyUS7y-t-Y2AiJE_IZ3OSd5owh_Hlfwh4hfp17bpzPevZrFu8-b2VkXykbV3P5YvkzmodyVF3r9RAO4dUSzTB7FG82_EUAifXSXbt0y5cjSQVC81-Wf_4uNFB0GZb44x4hbxc; shopee_tob_token=B:EYCpbwTjVbRF76guPLH1ZTxJ6BqTzOmf5c8Z7iQpzASnPF8gYIHBZAJhdkKyRL/f2EKsJz/giNWOP8V86pUoIinyYMjEdPkyTuV5WEL0WjXm68OpoT4EWGTHM10rVcd7MEXwn/LyUTVT2YjequQkFk0QGGpzri+HEpeQ9x3KpsFKLSFfL5nvP6R5SfOcv3+ofqzPqxKLOQ8ZGlnp7X1WNhl4xjjnYipbHzf+ha8=; shopee_request_from=partner_web; shopee_user_language=id; shopee_user_name=allvbadmin; shopee_foody_mid=1339931; shopee_tob_entity_id=1344375
+origin
+https://partner.shopee.co.id
+priority
+u=1, i
+referer
+https://partner.shopee.co.id/
+sec-ch-ua
+"Google Chrome";v="147", "Not.A/Brand";v="8", "Chromium";v="147"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Linux"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-site
+user-agent
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36

@@ -1,0 +1,76 @@
+Request URL
+https://api.gojekapi.com/gofood/merchant/v2/menu_groups/85e9cb0d-0b58-4008-8c5f-939d5ecae64e/variant_categories
+Request Method
+GET
+Status Code
+200 OK
+Remote Address
+43.152.108.21:443
+Referrer Policy
+strict-origin-when-cross-origin
+access-control-allow-credentials
+true
+access-control-allow-origin
+https://portal.gofoodmerchant.co.id
+connection
+keep-alive
+content-encoding
+gzip
+content-type
+application/json
+date
+Wed, 17 Jun 2026 07:49:56 GMT
+request-id
+e1a1ac12-4598-40f8-9d17-f6c68e107039
+server
+envoy
+transfer-encoding
+chunked
+vary
+Accept-Encoding
+vary
+Origin
+x-envoy-upstream-service-time
+25
+x-kong-proxy-latency
+1
+x-kong-upstream-latency
+40
+x-tencent
+true
+accept
+application/json, text/plain, */*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+id
+authentication-type
+go-id
+authorization
+Bearer eyJhbGciOiJkaXIiLCJjdHkiOiJKV1QiLCJlbmMiOiJBMTI4R0NNIiwidHlwIjoiSldUIiwiemlwIjoiREVGIn0..kNbwV7IF_NKrwwwS.4HBy1xBdX-Ib5nPTlIO6_Q906yH8xgpUY-59cqQuj3N5h4HYyrF2SwXHEt28KMgYcqn6a1QFtjBdWfkRBFOZpYiIg4vjkcuBZtnC7nAgn_p-nhBvv7oU1N2Swzfkhpweimtyeb6VkEhlgqSuC6aSSi29rXAIgK8GqxvgfmJP2GE-SpnoB-e-ndrE44CDYOYf9VzOJM1aZeReBuRZPf9Yz0ymbJMd7_ZW_no3ZKNCbbNtKL9Vp2zokeFJnRhESq0nji8EPYqwi0TcvBEdeJWHKeEhZG4x6mN-OoMwr2UG8QgM5FW-UyXFtHKgoHeg06M-QMJN-AU9MbI2p4ld9T0b_gvxQKdMQr7L1pyFtfvx8-fnjh9RBXLmlm4eN1N1x6z8tJ3MYbGEatY9vx2SiNnsw55zb_-v42c-TwAJ597wZHfoVHijYGDUyvzUuODsRDp_zRb49Bg_btsYecEgzbH__LpcAU6FDbSGt72PSGZecGO1ZDohH_SQMDG9aIbI96VLGtuo8q6pxL3LoeEFiNExE2sCqASAknBSJEn3pcQRco_UeH_1CO2j5_V23MdXdYCxKd6ZUGHuM_kaZl-C3bKotkrRg-mMRCoYGM6ObvLL1R48rFA4h6cJ7RnXREDT7tTYz1pJj0TaH3kHnE83S1A_KBlXAzuEp6irfmqUwQPpwZaSa_RIJ6PBEVYY8TDcAG5D-UY_0Fr7p88yOHoUwRjNGhh1oiqLU6Xs5-BbfEk_vg4WxQL-s3K_tEfNcYFynFyZSv-EodU_W9q6UIjDJU1Ame6MUuOixydnfdRQK44hUV6IAxm--TtwO-ugqdl6-9IXvxNeID633-tXZsTxwhyl8X5JPV7J_w0SUlEPIw0-VXXXUt0-rCmc9hC9O91YI7mqYHhw9xpn8JdYRvxtzfYoZthR7He-OGAzP0B8n2ADGJd5TTtebgsnGsnc4UiLhI9N8hgAYJX7EoaIShszBljJeuMkpA4feXLweyEsQJ2G4Ta5I7vSkizprzAX-H4BfJ0vdSPSmW_0FGANqjm-bw8GLYIOy2Z_wiBi2vfbwMEghYkztkwNNCA3Y-uTEq00PgAPmmHgPZBrRFquOm1OZHNuvCAUxqdEP_WqaN0mxDZPF4ot5vQnygcLTGPyFrB686zZb7DHG6Q06l2wBErn9FCE09unz-iFpLQA6HhET3SRxXuX01yI7kezEUhadKGx9n9U7k7FyncVNQxRJ4u9_yic30dlw5k7qAodp777b-b5NaNwhJiUJ5zV96G641JZ1q-8Va5K4YyZo0Plg0CzlpuZr2rSdNBQUKLVwhQ0yFNbECbNSaAW8djr-5n4ETmZvIVsN2DmrvO5vw.GKHN-JCqID9ibaKYTDP6pw
+connection
+keep-alive
+content-type
+application/json
+gojek-country-code
+ID
+host
+api.gojekapi.com
+origin
+https://portal.gofoodmerchant.co.id
+referer
+https://portal.gofoodmerchant.co.id/
+sec-ch-ua
+"Google Chrome";v="147", "Not.A/Brand";v="8", "Chromium";v="147"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Linux"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+cross-site
+user-agent
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36

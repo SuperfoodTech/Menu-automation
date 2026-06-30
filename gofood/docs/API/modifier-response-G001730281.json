@@ -1,0 +1,65 @@
+{
+    "variant_categories": [
+        {
+            "id": "a0c08b75-35a1-49ce-8b0f-5fb67c4410ed",
+            "master_variant_category_id": "670564eb-203e-421b-be5f-944f7b6cb00f",
+            "restaurant_id": "bf073396-8a91-4c62-ab30-1d7454e148a5",
+            "name": "Topping Tambahan",
+            "internal_name": "1 Klik Satu Menu",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "84cd950a-90e4-4269-9a90-71f52476f133",
+                    "variant_category_id": "a0c08b75-35a1-49ce-8b0f-5fb67c4410ed",
+                    "master_variant_id": "0870d04c-eab3-403a-a835-d976a398daad",
+                    "restaurant_id": "bf073396-8a91-4c62-ab30-1d7454e148a5",
+                    "name": "Telur Premium Dadar ",
+                    "active": true,
+                    "price": 4000,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "e058cfaf-fb3b-40d4-8a5e-5e0088bea06d",
+                    "variant_category_id": "a0c08b75-35a1-49ce-8b0f-5fb67c4410ed",
+                    "master_variant_id": "dd0f255c-2718-46e0-9f8f-bf1d981166d8",
+                    "restaurant_id": "bf073396-8a91-4c62-ab30-1d7454e148a5",
+                    "name": "Keju Parut Ala Kebab Baba Amir ",
+                    "active": true,
+                    "price": 4000,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "4f7295ff-684e-4f90-9ca0-fca4b9094055",
+                    "variant_category_id": "a0c08b75-35a1-49ce-8b0f-5fb67c4410ed",
+                    "master_variant_id": "18d33cff-5bce-4ac6-a789-e77109a9da9c",
+                    "restaurant_id": "bf073396-8a91-4c62-ab30-1d7454e148a5",
+                    "name": "Double Telur Rempah ",
+                    "active": true,
+                    "price": 8000,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "b46af625-98b0-4083-b789-96ca06e48850",
+                    "variant_category_id": "a0c08b75-35a1-49ce-8b0f-5fb67c4410ed",
+                    "master_variant_id": "1f6331db-a98b-4ac5-b640-9e4b51eecf61",
+                    "restaurant_id": "bf073396-8a91-4c62-ab30-1d7454e148a5",
+                    "name": "Keju Mozarella ",
+                    "active": true,
+                    "price": 8000,
+                    "weight": 4,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

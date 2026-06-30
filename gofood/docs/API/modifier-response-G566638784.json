@@ -1,0 +1,149 @@
+{
+    "variant_categories": [
+        {
+            "id": "ed0f5b5b-cceb-450a-bb49-5053480208e5",
+            "master_variant_category_id": "83f3fac9-ebba-4350-a9df-602475cbc48a",
+            "restaurant_id": "a181a6d3-8b30-4f3f-917e-2f1270a164a7",
+            "name": "Box Aluminium Foil ( for Gift/brithday/event )",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "efbbade7-a413-4ee3-bd3f-c7bdee2b1d45",
+                    "variant_category_id": "ed0f5b5b-cceb-450a-bb49-5053480208e5",
+                    "master_variant_id": "ee3b7bcb-c8ca-4a39-a13d-52769a98c8d0",
+                    "restaurant_id": "a181a6d3-8b30-4f3f-917e-2f1270a164a7",
+                    "name": "Box Aluminum Foil",
+                    "active": true,
+                    "price": 10000,
+                    "weight": 1,
+                    "in_stock": false
+                }
+            ]
+        },
+        {
+            "id": "da70de59-c156-44e7-b73e-cf0cc8d957ea",
+            "master_variant_category_id": "bb58570d-9e46-4d6b-a192-5febb4e8cddf",
+            "restaurant_id": "a181a6d3-8b30-4f3f-917e-2f1270a164a7",
+            "name": "Box Aluminium Foil 1KG ( for Gift/brithday/event )",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "c913b851-47f5-40cc-bcc2-9ff87feeb559",
+                    "variant_category_id": "da70de59-c156-44e7-b73e-cf0cc8d957ea",
+                    "master_variant_id": "43f21ca9-1d36-4509-82e5-da1833302f0e",
+                    "restaurant_id": "a181a6d3-8b30-4f3f-917e-2f1270a164a7",
+                    "name": "Box Aluminium Foil",
+                    "active": true,
+                    "price": 24000,
+                    "weight": 1,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "d2cd4425-f904-441c-9ec3-c4f8f072a95b",
+            "master_variant_category_id": "b1d926ee-5ee5-41fd-8e50-efddfcc851ac",
+            "restaurant_id": "a181a6d3-8b30-4f3f-917e-2f1270a164a7",
+            "name": "Extra Topping",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "1207fad1-8041-41f3-aaad-a481a9a34b7d",
+                    "variant_category_id": "d2cd4425-f904-441c-9ec3-c4f8f072a95b",
+                    "master_variant_id": "1500185c-ddcb-41ca-bbc8-67056554fe9b",
+                    "restaurant_id": "a181a6d3-8b30-4f3f-917e-2f1270a164a7",
+                    "name": "Telur",
+                    "active": true,
+                    "price": 8000,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "1b42e323-6874-4917-86de-c4f056621f2a",
+                    "variant_category_id": "d2cd4425-f904-441c-9ec3-c4f8f072a95b",
+                    "master_variant_id": "26ac2751-0c2c-491f-966b-4a5bf7618585",
+                    "restaurant_id": "a181a6d3-8b30-4f3f-917e-2f1270a164a7",
+                    "name": "Bacon",
+                    "active": true,
+                    "price": 10000,
+                    "weight": 2,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "4eea8e0b-dbc6-451f-a8fb-3bfd3bd2ff02",
+            "master_variant_category_id": "89e61795-3daa-45c0-9432-50273497a827",
+            "restaurant_id": "a181a6d3-8b30-4f3f-917e-2f1270a164a7",
+            "name": "Sambal",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": 3
+                }
+            },
+            "variants": [
+                {
+                    "id": "887366df-33f0-48e7-9c24-5f66cf0f762d",
+                    "variant_category_id": "4eea8e0b-dbc6-451f-a8fb-3bfd3bd2ff02",
+                    "master_variant_id": "f6b63b34-82a0-4ed3-ab0c-964c7565b20a",
+                    "restaurant_id": "a181a6d3-8b30-4f3f-917e-2f1270a164a7",
+                    "name": "Sambal Matah",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "46fa88a8-e7ae-43a0-bdae-51335a4b922d",
+                    "variant_category_id": "4eea8e0b-dbc6-451f-a8fb-3bfd3bd2ff02",
+                    "master_variant_id": "1dde7ffe-7397-474e-9cd7-97c849a72a03",
+                    "restaurant_id": "a181a6d3-8b30-4f3f-917e-2f1270a164a7",
+                    "name": "Sambal Bawang",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "ea341e72-3d16-4cf5-b2fa-173d0d63a2d0",
+                    "variant_category_id": "4eea8e0b-dbc6-451f-a8fb-3bfd3bd2ff02",
+                    "master_variant_id": "ec82273e-9b99-43c3-8a17-19795376e64b",
+                    "restaurant_id": "a181a6d3-8b30-4f3f-917e-2f1270a164a7",
+                    "name": "Hoisin",
+                    "active": true,
+                    "price": 0,
+                    "weight": 3,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

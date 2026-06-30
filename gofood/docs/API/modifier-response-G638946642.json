@@ -1,0 +1,352 @@
+{
+    "variant_categories": [
+        {
+            "id": "c0136987-0bca-4e6e-875c-d75347726d51",
+            "master_variant_category_id": "4aca35a4-3806-475c-bdcf-1c8647100645",
+            "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+            "name": "Kuah Pisah",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "8a10ec02-7ec4-4c2a-b1c5-a4d2085a8fba",
+                    "variant_category_id": "c0136987-0bca-4e6e-875c-d75347726d51",
+                    "master_variant_id": "6202bb2d-34e9-46ae-a6fe-102666584d43",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "Kuah Dan Lauk Pisah",
+                    "active": true,
+                    "price": 2000,
+                    "weight": 1,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+            "master_variant_category_id": "0cc29d4a-6d31-4f65-b725-b695ae44dd99",
+            "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+            "name": "TOMPING",
+            "internal_name": "LAUK TAMBAHAN",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "b0ccba42-340c-409e-8587-6b6126ad56be",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "b2881f92-f8db-46e6-bbb5-f86c10f9a1c1",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "KULIT AYAM GORENG CRISPY",
+                    "active": true,
+                    "price": 12000,
+                    "weight": 1,
+                    "in_stock": false
+                },
+                {
+                    "id": "b99d6a83-22f8-447a-8772-766a1cd80a73",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "b1fb6673-e7bf-498e-b137-507522034b7b",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "TELOR DADAR",
+                    "active": true,
+                    "price": 13000,
+                    "weight": 2,
+                    "in_stock": false
+                },
+                {
+                    "id": "e0e9732d-ff61-4c72-a396-30ce49d01d3e",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "f3309a74-10fc-4aad-a18b-8b7045ea6e2b",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "TELOR BALADO",
+                    "active": true,
+                    "price": 9000,
+                    "weight": 3,
+                    "in_stock": false
+                },
+                {
+                    "id": "816c39b9-d14f-4278-bc69-54146bc6ecb7",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "37233c44-cae3-4f57-8e26-bfe1a32e45ed",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "PERGEDEL KENTANG",
+                    "active": true,
+                    "price": 10000,
+                    "weight": 4,
+                    "in_stock": true
+                },
+                {
+                    "id": "ab09abfc-564e-4661-b8e5-62a87c74dbb0",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "392e7c6a-9535-4534-a0d1-03bc5b0fe36c",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "AYAM GORENG PAHA",
+                    "active": true,
+                    "price": 22000,
+                    "weight": 7,
+                    "in_stock": true
+                },
+                {
+                    "id": "5a09e830-222b-472a-bcc5-33db02133c2e",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "916aa2a8-2f04-449f-a442-379f179b968b",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "AYAM SAYAP/DADA",
+                    "active": true,
+                    "price": 22000,
+                    "weight": 8,
+                    "in_stock": true
+                },
+                {
+                    "id": "b7b758e3-88cf-4106-a473-3c9ca6e3189d",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "5c4a2d3f-e4e6-4f13-aca1-28324fcc3db9",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "AYAM BALADO",
+                    "active": true,
+                    "price": 22000,
+                    "weight": 9,
+                    "in_stock": true
+                },
+                {
+                    "id": "00f26167-412e-4955-8e7b-7f316742a6e8",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "bb2101c1-118e-4b69-a065-dea6a9eb3b4f",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "AYAM BAKAR",
+                    "active": true,
+                    "price": 23000,
+                    "weight": 10,
+                    "in_stock": false
+                },
+                {
+                    "id": "5111c1de-9710-474b-9a9d-e27c2fc364f1",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "88443c5e-e1ea-4cd4-8043-6b330108b14f",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "AYAM GULAI",
+                    "active": true,
+                    "price": 22000,
+                    "weight": 11,
+                    "in_stock": true
+                },
+                {
+                    "id": "bebdc259-5223-4850-b541-dd275759c270",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "93e1f529-4340-46ac-b056-9a03fa1de9b7",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "RENDANG DAGING",
+                    "active": true,
+                    "price": 25000,
+                    "weight": 12,
+                    "in_stock": true
+                },
+                {
+                    "id": "99ac2d94-8e08-46aa-bc3c-84e6b7786126",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "5f938369-e62d-471e-8eeb-00ce73553160",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "RENDANG LIMPO",
+                    "active": true,
+                    "price": 25000,
+                    "weight": 13,
+                    "in_stock": true
+                },
+                {
+                    "id": "657be184-a862-4303-825b-63898b1e5f0d",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "b23c8877-38ba-44c6-9e13-ee3ad9c0cbc6",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "GULAI USUS SAPI",
+                    "active": true,
+                    "price": 22000,
+                    "weight": 14,
+                    "in_stock": true
+                },
+                {
+                    "id": "5d405fdc-51ce-41f8-8973-f78bf5c76f87",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "a98e6f49-4be1-491b-b1b2-b2756eedb58b",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "PARU GORENG",
+                    "active": true,
+                    "price": 25000,
+                    "weight": 15,
+                    "in_stock": false
+                },
+                {
+                    "id": "c0641f99-47c4-4c32-b68d-690bf00d0609",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "637b99f9-4d8d-4267-8a60-16d83959c815",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "IKAN TUNA GORENG",
+                    "active": true,
+                    "price": 21000,
+                    "weight": 16,
+                    "in_stock": true
+                },
+                {
+                    "id": "9556b21e-4b5b-474c-8c88-75a872d550bb",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "839974b0-65e0-4cab-b838-2b22d6376c3c",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "IKAN TUNA GULAI",
+                    "active": true,
+                    "price": 21000,
+                    "weight": 17,
+                    "in_stock": true
+                },
+                {
+                    "id": "f35dead6-29cd-4d81-96b9-2a9cf6afb057",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "e8feecfc-b5c0-4500-96b5-85d208bd77e8",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "PEYEK UDANG",
+                    "active": true,
+                    "price": 23000,
+                    "weight": 18,
+                    "in_stock": true
+                },
+                {
+                    "id": "4997423c-c529-492f-abd9-7937e1c16a98",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "59ad924f-a3cd-4703-ad83-d50ec0e582c3",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "IKAN KEMBUNG GORENG",
+                    "active": true,
+                    "price": 22000,
+                    "weight": 19,
+                    "in_stock": true
+                },
+                {
+                    "id": "6d30a13c-5689-41a4-8f7d-fb9e87820bf4",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "babce638-96cc-4939-82d0-0bccb3417d23",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "KRUPUK BLEK PUTIH",
+                    "active": true,
+                    "price": 2000,
+                    "weight": 20,
+                    "in_stock": true
+                },
+                {
+                    "id": "d249335a-af67-4102-9e0a-7d4cede1dcdc",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "c9767ce0-e59e-4aed-aceb-c5a0c807b5c4",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "KRUPUK PALEMBANG",
+                    "active": true,
+                    "price": 5000,
+                    "weight": 21,
+                    "in_stock": true
+                },
+                {
+                    "id": "29d721c0-105d-467e-8770-d46826324e9d",
+                    "variant_category_id": "74ccb8de-2cf2-49bd-88bc-0b97c6ae44f1",
+                    "master_variant_id": "a1fdd013-cd5a-4f56-9335-c0f2f8de5d62",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "KRUPUK KULIT/RAMBAK",
+                    "active": true,
+                    "price": 7000,
+                    "weight": 22,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "12fa29f1-4268-4670-a452-c007c6205814",
+            "master_variant_category_id": "eeaddab1-1afd-4559-a6d0-3f8b8740bd0b",
+            "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+            "name": "Tomping",
+            "internal_name": "Makan Minum",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "92d0d4d9-6f1e-4dc6-905f-215b9a0f6dcc",
+                    "variant_category_id": "12fa29f1-4268-4670-a452-c007c6205814",
+                    "master_variant_id": "c432c21f-68b5-4be3-a7da-9d7369bdf149",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "Esteh",
+                    "active": true,
+                    "price": 8500,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "c6c6712b-0951-4f3d-9d67-9c67ca33a2ee",
+                    "variant_category_id": "12fa29f1-4268-4670-a452-c007c6205814",
+                    "master_variant_id": "890b812c-427f-4595-8fdb-86088342fcc4",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "Es Jeruk",
+                    "active": true,
+                    "price": 8500,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "f4672455-6f2e-40ff-8013-d2c6f5089382",
+                    "variant_category_id": "12fa29f1-4268-4670-a452-c007c6205814",
+                    "master_variant_id": "c6e6022e-5aef-4c37-947c-e7827a5ab9ef",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "Teh Hangat",
+                    "active": true,
+                    "price": 7500,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "cf3296fd-4dd3-44f6-8815-71d41d637c33",
+                    "variant_category_id": "12fa29f1-4268-4670-a452-c007c6205814",
+                    "master_variant_id": "3f5a2f32-251f-4bec-9b57-7b85017600e4",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "Jeruk Hangat",
+                    "active": true,
+                    "price": 7500,
+                    "weight": 4,
+                    "in_stock": true
+                },
+                {
+                    "id": "41af7dc8-3e61-43b3-827e-f418f827bd5e",
+                    "variant_category_id": "12fa29f1-4268-4670-a452-c007c6205814",
+                    "master_variant_id": "95266e2a-aba1-40b7-8a92-5c54d3f779a6",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "Teh Panas",
+                    "active": true,
+                    "price": 7500,
+                    "weight": 5,
+                    "in_stock": true
+                },
+                {
+                    "id": "f692a23a-93e0-4fdc-ac92-8d2fc3ed9e6e",
+                    "variant_category_id": "12fa29f1-4268-4670-a452-c007c6205814",
+                    "master_variant_id": "053601ec-716e-4c54-94b4-c1c936c9b884",
+                    "restaurant_id": "28057588-1974-434c-8670-d63abb202fb5",
+                    "name": "Jeruk Panas",
+                    "active": true,
+                    "price": 7000,
+                    "weight": 6,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

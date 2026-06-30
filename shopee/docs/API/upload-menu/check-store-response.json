@@ -1,0 +1,10 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "is_display": false,
+        "is_head_store": false,
+        "head_store_id": "0",
+        "head_store_name": null
+    }
+}

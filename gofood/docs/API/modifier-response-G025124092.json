@@ -1,0 +1,159 @@
+{
+    "variant_categories": [
+        {
+            "id": "43553e52-ee23-4c33-8771-313cd7fa2dca",
+            "master_variant_category_id": "2cb42490-c0e9-4108-8c9b-77111b340b9f",
+            "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+            "name": "Extra Topping",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "f136dcf6-217e-4753-aaa1-48e663944412",
+                    "variant_category_id": "43553e52-ee23-4c33-8771-313cd7fa2dca",
+                    "master_variant_id": "06cc4abd-da2b-4aea-9e58-3bbacd38d5a6",
+                    "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+                    "name": "Sayur",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "6ece0579-b38e-486a-9a21-72272f099588",
+                    "variant_category_id": "43553e52-ee23-4c33-8771-313cd7fa2dca",
+                    "master_variant_id": "8154570a-90b1-47b1-b7b1-ca1754212eeb",
+                    "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+                    "name": "Cabe 1-5",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "e89b4af0-1d00-4af6-af90-04572edb9d4d",
+                    "variant_category_id": "43553e52-ee23-4c33-8771-313cd7fa2dca",
+                    "master_variant_id": "da389f6c-2255-4f9d-9866-2c489eecd910",
+                    "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+                    "name": "Cabe 6-10",
+                    "active": true,
+                    "price": 1000,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "4ebffbd3-8261-4375-bcb7-151be406a11b",
+                    "variant_category_id": "43553e52-ee23-4c33-8771-313cd7fa2dca",
+                    "master_variant_id": "47c46505-5e61-4ce3-a55b-ceeea4547dff",
+                    "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+                    "name": "Cabe 11-20",
+                    "active": true,
+                    "price": 2000,
+                    "weight": 4,
+                    "in_stock": true
+                },
+                {
+                    "id": "12fc90c2-ec6b-4be6-b018-18f20867e0c5",
+                    "variant_category_id": "43553e52-ee23-4c33-8771-313cd7fa2dca",
+                    "master_variant_id": "c3eab995-1e9e-4764-bcac-a923864ffc84",
+                    "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+                    "name": "Telor Ceplok/Dadar",
+                    "active": true,
+                    "price": 6000,
+                    "weight": 5,
+                    "in_stock": true
+                },
+                {
+                    "id": "26dbe717-0682-4705-9dcd-603e84a8a21b",
+                    "variant_category_id": "43553e52-ee23-4c33-8771-313cd7fa2dca",
+                    "master_variant_id": "ddddadfa-914f-4886-a4de-90f5dca06383",
+                    "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+                    "name": "Nasi",
+                    "active": true,
+                    "price": 6000,
+                    "weight": 6,
+                    "in_stock": true
+                },
+                {
+                    "id": "ecc36a86-624f-48de-a85c-ee74a9cf41a9",
+                    "variant_category_id": "43553e52-ee23-4c33-8771-313cd7fa2dca",
+                    "master_variant_id": "a4a064bf-1cd8-44bc-9c8b-09364b42a59d",
+                    "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+                    "name": "Sosis 2bj",
+                    "active": true,
+                    "price": 5000,
+                    "weight": 7,
+                    "in_stock": true
+                },
+                {
+                    "id": "7b5bfa3f-8eb1-4803-933e-03f79ac95c0a",
+                    "variant_category_id": "43553e52-ee23-4c33-8771-313cd7fa2dca",
+                    "master_variant_id": "7f5b9f0d-7456-4a34-aab5-2397b14737b9",
+                    "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+                    "name": "Nuget Ayam 3bj",
+                    "active": true,
+                    "price": 5000,
+                    "weight": 8,
+                    "in_stock": true
+                },
+                {
+                    "id": "7818b4cf-958d-4aa6-b4d3-bcc4bf99f254",
+                    "variant_category_id": "43553e52-ee23-4c33-8771-313cd7fa2dca",
+                    "master_variant_id": "28f1b56e-9463-44fe-995c-eb2f9526192e",
+                    "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+                    "name": "Baso Sapi 3bj",
+                    "active": true,
+                    "price": 5000,
+                    "weight": 9,
+                    "in_stock": true
+                },
+                {
+                    "id": "d0ac2974-1026-46d0-8339-76b316b15d1e",
+                    "variant_category_id": "43553e52-ee23-4c33-8771-313cd7fa2dca",
+                    "master_variant_id": "c427c3dd-6acc-46b9-8bb8-301eecd8d852",
+                    "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+                    "name": "Kerupuk",
+                    "active": true,
+                    "price": 2000,
+                    "weight": 10,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "719b106e-94e9-4d9f-9da5-f34eafe180da",
+            "master_variant_category_id": "7009c3b0-6521-43b4-aa5e-3c374679ed35",
+            "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+            "name": "Perlengkapan",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "5be6a97f-9139-476f-861b-1147783600ff",
+                    "variant_category_id": "719b106e-94e9-4d9f-9da5-f34eafe180da",
+                    "master_variant_id": "6f394dd1-4ab3-4d83-9768-4f7420d63288",
+                    "restaurant_id": "096534f2-0865-42b6-afc6-525a304892e3",
+                    "name": "Set Alat Makan",
+                    "active": true,
+                    "price": 1000,
+                    "weight": 1,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

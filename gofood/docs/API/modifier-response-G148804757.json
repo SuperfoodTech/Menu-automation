@@ -1,0 +1,346 @@
+{
+    "variant_categories": [
+        {
+            "id": "985829a5-dcbb-4d1d-8b46-be3b1b2e9936",
+            "master_variant_category_id": "c45f39f0-d06a-45ff-aa0d-cf5d77614b2f",
+            "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+            "name": "Sayur Pisah",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "0108ef57-e057-49f2-8fa4-7e28186cb992",
+                    "variant_category_id": "985829a5-dcbb-4d1d-8b46-be3b1b2e9936",
+                    "master_variant_id": "c7a05339-67c6-42c9-909f-7dff7b6dccee",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Sayur Pisah",
+                    "active": true,
+                    "price": 2000,
+                    "weight": 1,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+            "master_variant_category_id": "13ea2aeb-4e40-4832-92b4-3ff6376544da",
+            "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+            "name": "Tomping Lauk Tambahan",
+            "internal_name": "Silah Kan Pilih Tomping Nya",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "ff876d7a-7057-491f-bb0b-913bb48b763e",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "3e4986e1-c1f3-40fe-8ada-4db88832c1e4",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Telor Dadar",
+                    "active": true,
+                    "price": 15000,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "89942678-f754-423e-bf9b-c6ea13a3673a",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "a791557b-c783-415b-89b8-c1bff3adf58d",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Pergedel Kentang",
+                    "active": true,
+                    "price": 13000,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "f3a4fd85-e232-4168-aac8-4a4f7a3bf77e",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "a4f95caa-55a3-42c3-a69c-c3036757a41c",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Telor Balado",
+                    "active": true,
+                    "price": 10000,
+                    "weight": 3,
+                    "in_stock": false
+                },
+                {
+                    "id": "9882ac84-2d0a-4ca7-89e4-cd41c203a825",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "22a08387-88ef-4b99-9e5c-3aff75e2f9cd",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Ayam Goreng",
+                    "active": true,
+                    "price": 23000,
+                    "weight": 4,
+                    "in_stock": true
+                },
+                {
+                    "id": "8ed6b25c-eef3-468e-927a-31ff09729271",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "2841e431-98fd-44e1-8326-323d7d96094f",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Ayam Gule",
+                    "active": true,
+                    "price": 23000,
+                    "weight": 5,
+                    "in_stock": true
+                },
+                {
+                    "id": "35b1b462-54e2-4e22-ac05-8af936c66fb6",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "f7b22fd8-ac6b-4d61-8c10-1f21b6ae9301",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Ayam Bakar",
+                    "active": true,
+                    "price": 24000,
+                    "weight": 6,
+                    "in_stock": false
+                },
+                {
+                    "id": "a477254d-29c5-4510-906b-ee4520052227",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "339c7c79-e5cf-4724-9411-2cb04c0992e4",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Ayam Balado",
+                    "active": true,
+                    "price": 23000,
+                    "weight": 7,
+                    "in_stock": true
+                },
+                {
+                    "id": "f4a94bd2-14c6-48d5-b481-0a39675fec6b",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "5ac7ddf3-38a9-4efc-9f04-48227fbca3ae",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Rendang Daging",
+                    "active": true,
+                    "price": 23000,
+                    "weight": 8,
+                    "in_stock": true
+                },
+                {
+                    "id": "5d88eaf8-e487-4ec0-9876-4e7e4b72d4c2",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "9de38cd3-5035-46ff-bed4-3694e2aa59a7",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Rendang Limpo",
+                    "active": true,
+                    "price": 23000,
+                    "weight": 9,
+                    "in_stock": false
+                },
+                {
+                    "id": "fe9c8c18-c7b4-40ec-91b2-d85dcf90751e",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "5ba918b2-0068-48ee-96eb-e1a6fa898a57",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Gulai Usus",
+                    "active": true,
+                    "price": 22000,
+                    "weight": 10,
+                    "in_stock": true
+                },
+                {
+                    "id": "4931c1ec-e99f-4490-b6a3-ea0d9cf91d58",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "a452cb98-5537-4933-97a1-f52715230cc6",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Gulai Babat",
+                    "active": true,
+                    "price": 22000,
+                    "weight": 11,
+                    "in_stock": true
+                },
+                {
+                    "id": "b3e3f8fd-1d03-406b-9d76-b9ec9fa6dde8",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "34bded33-66d5-4766-a231-1e657d26a771",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Renang Hati",
+                    "active": true,
+                    "price": 22000,
+                    "weight": 12,
+                    "in_stock": true
+                },
+                {
+                    "id": "3f8540c3-7818-4e6b-833b-5d61175290e6",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "076e33c9-eff6-4f8f-8a2d-247fef32b51e",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Paru Sapi Goreng",
+                    "active": true,
+                    "price": 23000,
+                    "weight": 13,
+                    "in_stock": false
+                },
+                {
+                    "id": "6f344b97-9054-4c53-a921-c3705d09d4a1",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "3764a38a-a2e3-4e84-a8a2-a1ac1b754fbf",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Ikan Goreng",
+                    "active": true,
+                    "price": 23000,
+                    "weight": 14,
+                    "in_stock": true
+                },
+                {
+                    "id": "bbcdeadf-4859-480b-87c0-1d9b7b8f0416",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "44ee4305-9d3b-4856-9504-1815a66f307f",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Ikan Lele",
+                    "active": true,
+                    "price": 20000,
+                    "weight": 15,
+                    "in_stock": true
+                },
+                {
+                    "id": "71157921-d399-4df5-b1d7-881761f485bf",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "a95e7fdf-e158-46cb-8b39-57e804067e87",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Ikan Gule",
+                    "active": true,
+                    "price": 23000,
+                    "weight": 16,
+                    "in_stock": true
+                },
+                {
+                    "id": "7a6e44f9-459e-4998-a5c4-3a9ed05ea29d",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "281c4332-bc68-4537-8a30-26de8f7d1b42",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Peyek Udang",
+                    "active": true,
+                    "price": 23000,
+                    "weight": 17,
+                    "in_stock": true
+                },
+                {
+                    "id": "6d5502d9-cf0f-470f-b9e8-904531a9c793",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "bda48667-6bdf-4677-8379-54d3b9a065b6",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Es Teh",
+                    "active": true,
+                    "price": 8500,
+                    "weight": 18,
+                    "in_stock": true
+                },
+                {
+                    "id": "bfc1ddd6-b00c-49cb-a2d1-a46ba981bc20",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "4be76cd7-6783-40ac-b4e3-cdc18e51438b",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Teh Hangat",
+                    "active": true,
+                    "price": 8000,
+                    "weight": 19,
+                    "in_stock": true
+                },
+                {
+                    "id": "d1af7186-602b-40b4-a10e-fc9bfe7f95fb",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "1d1c9a8f-330d-4f62-a971-29fef578525f",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Teh Panas",
+                    "active": true,
+                    "price": 8000,
+                    "weight": 20,
+                    "in_stock": true
+                },
+                {
+                    "id": "937c4189-b21f-4e53-bc7e-4e3f407a6ec4",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "25ba8077-b748-42a7-ba15-c464ce22f2af",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Es Jeruk",
+                    "active": true,
+                    "price": 8500,
+                    "weight": 21,
+                    "in_stock": true
+                },
+                {
+                    "id": "3653f0b6-535e-474c-89c1-6b6bac6f55d9",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "896f3f5a-d56f-4b5e-bd66-3f35f12652cd",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Jeruk Panas",
+                    "active": true,
+                    "price": 8000,
+                    "weight": 22,
+                    "in_stock": true
+                },
+                {
+                    "id": "2b0e4ab1-0816-46f4-9128-266b56bbd823",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "119c3c08-fdde-49fa-8bde-1aa0e51d4d34",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Jeruk Hangat",
+                    "active": true,
+                    "price": 8000,
+                    "weight": 23,
+                    "in_stock": true
+                },
+                {
+                    "id": "910e89ea-8794-4d06-b845-8be179a38d00",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "88e4213c-0bea-445b-a64e-7b9e642d1334",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Kopi Hitam",
+                    "active": true,
+                    "price": 10000,
+                    "weight": 24,
+                    "in_stock": true
+                },
+                {
+                    "id": "f4408e1f-ad9b-4bb3-95f8-0fdb0a517de2",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "f641df61-24a3-4e8e-bac3-ad5eaf7da5e9",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Krupuk Palembang",
+                    "active": true,
+                    "price": 7000,
+                    "weight": 25,
+                    "in_stock": true
+                },
+                {
+                    "id": "62ac69f4-82c2-42ff-a7a4-bc457857354d",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "23b11863-393d-4370-a65f-f36723d57270",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Krupuk Putih",
+                    "active": true,
+                    "price": 2200,
+                    "weight": 26,
+                    "in_stock": true
+                },
+                {
+                    "id": "8a1e0e52-9dee-49f9-84e2-e2173aebfd34",
+                    "variant_category_id": "22f9fc72-393d-4de0-bbea-7d9ab176355e",
+                    "master_variant_id": "acb12c5f-1606-44b7-8a37-8e1a4756303c",
+                    "restaurant_id": "34c29186-a7a4-408f-8c1b-c38ca915cf41",
+                    "name": "Kerupuk Rambak",
+                    "active": true,
+                    "price": 8000,
+                    "weight": 27,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

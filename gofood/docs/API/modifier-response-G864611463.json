@@ -1,0 +1,115 @@
+{
+    "variant_categories": [
+        {
+            "id": "72df7be6-ce36-48be-a77e-bf0df6c52c5e",
+            "master_variant_category_id": "0102aedf-60b3-4ac9-9912-893e5fbb634e",
+            "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+            "name": "Penyajian Pempek",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": true,
+                    "min_quantity": 1,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "c6ac4adc-ec0b-4f19-b595-6d7faea3b468",
+                    "variant_category_id": "72df7be6-ce36-48be-a77e-bf0df6c52c5e",
+                    "master_variant_id": "bc82053f-f27c-4ed3-a24a-6960ffb0e21f",
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "name": "Goreng",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "3e0fa7f3-0a79-41cc-9fd2-4560c9f16b8e",
+                    "variant_category_id": "72df7be6-ce36-48be-a77e-bf0df6c52c5e",
+                    "master_variant_id": "57395e56-757b-46f2-91ce-b92fa42fa8f8",
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "name": "Rebus",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "fc3b4a7a-568a-4cf4-83bc-870f40865cd2",
+                    "variant_category_id": "72df7be6-ce36-48be-a77e-bf0df6c52c5e",
+                    "master_variant_id": "e2938478-81f1-443b-9be6-0992f3eab64d",
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "name": "Mentah",
+                    "active": true,
+                    "price": 0,
+                    "weight": 3,
+                    "in_stock": true
+                },
+                {
+                    "id": "5263db41-9a55-4bda-a247-612f1d685ba1",
+                    "variant_category_id": "72df7be6-ce36-48be-a77e-bf0df6c52c5e",
+                    "master_variant_id": "ae95ba26-566e-4e40-bc98-6906ff8e744f",
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "name": "Frozen",
+                    "active": true,
+                    "price": 0,
+                    "weight": 4,
+                    "in_stock": true
+                }
+            ]
+        },
+        {
+            "id": "27db9054-0643-4ef3-abc6-fe7f76d5d4f9",
+            "master_variant_category_id": "4b892f97-c041-40a5-8628-eb80854a7b95",
+            "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+            "name": "Penyajian Pempek Isi 10",
+            "internal_name": "",
+            "rules": {
+                "selection": {
+                    "type": "SELECT_MANY",
+                    "required": false,
+                    "min_quantity": 0,
+                    "max_quantity": null
+                }
+            },
+            "variants": [
+                {
+                    "id": "1c929d98-113d-42d0-a58d-edc1125e1991",
+                    "variant_category_id": "27db9054-0643-4ef3-abc6-fe7f76d5d4f9",
+                    "master_variant_id": "47217f4f-841c-483a-99a6-a3b2a850a0d3",
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "name": "Goreng",
+                    "active": true,
+                    "price": 0,
+                    "weight": 1,
+                    "in_stock": true
+                },
+                {
+                    "id": "1b36e10f-4b9f-4669-aa00-bca6acc192af",
+                    "variant_category_id": "27db9054-0643-4ef3-abc6-fe7f76d5d4f9",
+                    "master_variant_id": "3fd13abe-b010-4215-b017-54deb8c9dc70",
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "name": "Rebus",
+                    "active": true,
+                    "price": 0,
+                    "weight": 2,
+                    "in_stock": true
+                },
+                {
+                    "id": "f6f666da-786c-4c6c-89ea-68c2a545a3f6",
+                    "variant_category_id": "27db9054-0643-4ef3-abc6-fe7f76d5d4f9",
+                    "master_variant_id": "bb3a87c8-e1c6-4f7e-948f-f4260f11c692",
+                    "restaurant_id": "9e268249-c99a-4cd2-bab4-ec2cf96e69c0",
+                    "name": "Mentah",
+                    "active": true,
+                    "price": 0,
+                    "weight": 3,
+                    "in_stock": true
+                }
+            ]
+        }
+    ]
+}

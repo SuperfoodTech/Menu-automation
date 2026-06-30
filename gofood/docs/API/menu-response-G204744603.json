@@ -1,0 +1,973 @@
+{
+    "menus": [
+        {
+            "id": "949a9f4b-dcd4-4911-a065-0761103cc17c",
+            "common_id": "c58904b0-dc38-4c6e-b589-5fab1bf68e89",
+            "name": "Terang Bulan Favorit",
+            "sku": "TERANG_BULAN_FAVORIT",
+            "active": true,
+            "weight": 1,
+            "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+            "master_menu_category_id": "",
+            "menu_items_count": 10,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Campuran topping manis dengan tambahan keju gurih lembut",
+                    "id": "8e24abdc-ebc8-4221-9f58-88e698648ec0",
+                    "image_id": "0c92fcf1-ef4d-4889-a57d-778391170b39",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6f78136a-a972-46e5-a4f8-818daba90750_menu-item-image_1777430698713.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6f78136a-a972-46e5-a4f8-818daba90750_menu-item-image_1777430698713.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "949a9f4b-dcd4-4911-a065-0761103cc17c",
+                    "name": "Terang Bulan Campur Keju",
+                    "price": "50025.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367933,
+                    "signature": false,
+                    "weight": 1,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "2db5d661-b734-4b6f-b184-c29a928e2bca"
+                    ],
+                    "common_id": "ea069b04-f009-4daa-9d3c-9137d5558461"
+                },
+                {
+                    "active": true,
+                    "description": "Perpaduan cokelat manis dan keju gurih yang creamy",
+                    "id": "d7de8bad-2966-4546-b0c2-7421d2503582",
+                    "image_id": "54010061-cb9e-4bc2-b872-1d973b23854c",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a407c917-3c9a-47bb-b80c-67bb71f7f13e_menu-item-image_1777431202788.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a407c917-3c9a-47bb-b80c-67bb71f7f13e_menu-item-image_1777431202788.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "949a9f4b-dcd4-4911-a065-0761103cc17c",
+                    "name": "Terang Bulan Cokelat Keju",
+                    "price": "48875.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367934,
+                    "signature": false,
+                    "weight": 2,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "2db5d661-b734-4b6f-b184-c29a928e2bca"
+                    ],
+                    "common_id": "c0595eba-6c30-46ed-83ec-0db4ba9056e9"
+                },
+                {
+                    "active": true,
+                    "description": "Keju gurih dan susu manis meresap di adonan lembut",
+                    "id": "9109cf4a-972a-4d55-b59e-870ba7eeb547",
+                    "image_id": "d39f8c59-85e5-4701-b1ca-1e54cda42377",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/057b7f0f-171c-4bd0-b896-b7bb550537e3_menu-item-image_1777431272808.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/057b7f0f-171c-4bd0-b896-b7bb550537e3_menu-item-image_1777431272808.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "949a9f4b-dcd4-4911-a065-0761103cc17c",
+                    "name": "Terang Bulan Keju Susu",
+                    "price": "46574.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367935,
+                    "signature": false,
+                    "weight": 3,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "2db5d661-b734-4b6f-b184-c29a928e2bca"
+                    ],
+                    "common_id": "0987c241-e272-4dce-8ff5-2ede66b39d21"
+                },
+                {
+                    "active": true,
+                    "description": "Martabak manis lembut dengan topping campuran yang seimbang",
+                    "id": "0e5a39fd-b488-412f-8ca7-c8cf66ed0152",
+                    "image_id": "f5621fc3-6a71-4164-8a38-a2ff7fbc0540",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/95380643-8081-4877-94a9-20c403ad6740_menu-item-image_1777431340516.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/95380643-8081-4877-94a9-20c403ad6740_menu-item-image_1777431340516.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "949a9f4b-dcd4-4911-a065-0761103cc17c",
+                    "name": "Terang Bulan Campur",
+                    "price": "39904.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367936,
+                    "signature": false,
+                    "weight": 4,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "381f679d-bc74-4e36-8bea-482e14f69c89"
+                    ],
+                    "common_id": "e7cf235d-b1b7-4dc3-956a-020d47fe49c2"
+                },
+                {
+                    "active": true,
+                    "description": "Cokelat manis melimpah di atas adonan lembut dan tebal",
+                    "id": "1535eed7-ea07-4c02-8c0a-ad5a13dd7a22",
+                    "image_id": "e9a671b6-92fb-4096-a209-556b478f7886",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1457bd17-2386-4be9-8f2c-ac707eed6253_menu-item-image_1777431407428.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1457bd17-2386-4be9-8f2c-ac707eed6253_menu-item-image_1777431407428.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "949a9f4b-dcd4-4911-a065-0761103cc17c",
+                    "name": "Terang Bulan Cokelat",
+                    "price": "38525.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367937,
+                    "signature": false,
+                    "weight": 5,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "381f679d-bc74-4e36-8bea-482e14f69c89"
+                    ],
+                    "common_id": "1d37d906-3263-4ebe-bd4d-5c1bb02f67bd"
+                },
+                {
+                    "active": true,
+                    "description": "Taburan kacang gurih manis dengan tekstur renyah nikmat",
+                    "id": "d4f068f3-2a7f-4c58-b308-914f789d6d8e",
+                    "image_id": "01941425-b114-4e54-9662-beda9b98ad57",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a63f0e81-bcb7-420e-944c-33ae90e43d56_menu-item-image_1777431456543.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a63f0e81-bcb7-420e-944c-33ae90e43d56_menu-item-image_1777431456543.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "949a9f4b-dcd4-4911-a065-0761103cc17c",
+                    "name": "Terang Bulan Kacang",
+                    "price": "34144.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367938,
+                    "signature": false,
+                    "weight": 6,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "381f679d-bc74-4e36-8bea-482e14f69c89"
+                    ],
+                    "common_id": "30ded4e6-a72a-48f3-bb10-6f74136cbc8e"
+                },
+                {
+                    "active": true,
+                    "description": "Wijen manis dengan aroma khas di atas adonan lembut",
+                    "id": "1912fb44-bd6c-40df-b32d-23b310956dac",
+                    "image_id": "efbbaf29-9bd9-438e-a3db-7b7ff3992c12",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d429538f-f80b-4467-b021-e05960a39610_menu-item-image_1777431497315.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d429538f-f80b-4467-b021-e05960a39610_menu-item-image_1777431497315.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "949a9f4b-dcd4-4911-a065-0761103cc17c",
+                    "name": "Terang Bulan Wijen",
+                    "price": "34144.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367939,
+                    "signature": false,
+                    "weight": 7,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "381f679d-bc74-4e36-8bea-482e14f69c89"
+                    ],
+                    "common_id": "f458523e-4866-491f-9ac8-74b9a46862d7"
+                },
+                {
+                    "active": true,
+                    "description": "Kismis manis legit menyatu dalam martabak lembut",
+                    "id": "b4fafb87-e81f-4e7c-ab96-ac21c9c582ac",
+                    "image_id": "f898e6eb-3c3c-4e7d-a14f-cb8e0bd10618",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2277c915-351f-499c-9e5b-50e219b8c86e_menu-item-image_1777431904160.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2277c915-351f-499c-9e5b-50e219b8c86e_menu-item-image_1777431904160.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "949a9f4b-dcd4-4911-a065-0761103cc17c",
+                    "name": "Terang Bulan Kismis",
+                    "price": "37248.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367942,
+                    "signature": false,
+                    "weight": 10,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "2db5d661-b734-4b6f-b184-c29a928e2bca"
+                    ],
+                    "common_id": "502be142-1a0d-4f5a-bd7c-8495607a1618"
+                },
+                {
+                    "active": true,
+                    "description": "Oreo renyah manis berpadu dengan adonan lembut yang nikmat",
+                    "id": "9ca26b07-db25-4f44-bd7b-73c82a4fc327",
+                    "image_id": "20cecbb9-becd-4b81-8ab0-96ff58cea300",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3c08d6ad-7e02-4dea-9607-029b9b6ae101_menu-item-image_1777432475702.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3c08d6ad-7e02-4dea-9607-029b9b6ae101_menu-item-image_1777432475702.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "949a9f4b-dcd4-4911-a065-0761103cc17c",
+                    "name": "Terang Bulan Oreo",
+                    "price": "37247.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 141059534,
+                    "signature": false,
+                    "weight": 11,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "381f679d-bc74-4e36-8bea-482e14f69c89"
+                    ],
+                    "common_id": "d64da6e3-fed1-47d4-a697-84d5fa7792c7"
+                },
+                {
+                    "active": true,
+                    "description": "Terang bulan original dengan adonan lembut dan rasa klasik sederhana",
+                    "id": "84376116-a61b-4397-87bb-b7454b675d12",
+                    "image_id": "33e4ff74-be2a-41b6-91ab-398eac1b34d2",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4679760b-076d-4e43-b272-1130646e436d_menu-item-image_1777432513999.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4679760b-076d-4e43-b272-1130646e436d_menu-item-image_1777432513999.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "949a9f4b-dcd4-4911-a065-0761103cc17c",
+                    "name": "Terang Bulan Polos",
+                    "price": "32592.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 141059562,
+                    "signature": false,
+                    "weight": 12,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "2db5d661-b734-4b6f-b184-c29a928e2bca"
+                    ],
+                    "common_id": "af4bb338-a2fa-41a9-95ee-4bccfb674333"
+                }
+            ]
+        },
+        {
+            "id": "86f8b8cf-fbfa-41b5-8059-0dbeb05f8210",
+            "common_id": "49351901-0694-4db6-a628-a8e34b919d48",
+            "name": "Menu Terang Bulan Kismis",
+            "sku": "MENU_TERANG_BULAN_KISMIS",
+            "active": true,
+            "weight": 2,
+            "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+            "master_menu_category_id": "",
+            "menu_items_count": 2,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Kismis, cokelat, dan keju berpadu dalam tekstur lembut",
+                    "id": "197279ab-4a31-44d3-b914-33362217d648",
+                    "image_id": "16b10f15-c40a-4f56-8b66-247138e417f3",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b1199aa3-5bdd-4a66-9ab2-601ae03f67ed_menu-item-image_1777432383730.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b1199aa3-5bdd-4a66-9ab2-601ae03f67ed_menu-item-image_1777432383730.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "86f8b8cf-fbfa-41b5-8059-0dbeb05f8210",
+                    "name": "Terang Bulan Kismis Cokelat Keju",
+                    "price": "46559.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367940,
+                    "signature": false,
+                    "weight": 8,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "2db5d661-b734-4b6f-b184-c29a928e2bca"
+                    ],
+                    "common_id": "c7aff4be-c11b-43be-b7f5-96dca874349c"
+                },
+                {
+                    "active": true,
+                    "description": "Kombinasi kismis cokelat kacang dengan rasa kaya",
+                    "id": "4effa1a8-9610-434a-9325-4d6f5248ded7",
+                    "image_id": "55221e52-a2f7-4262-9e71-b82ab8ca8927",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6fdd8ab7-d71c-445b-9308-ecdfa4bf9f3b_menu-item-image_1777431737806.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6fdd8ab7-d71c-445b-9308-ecdfa4bf9f3b_menu-item-image_1777431737806.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "86f8b8cf-fbfa-41b5-8059-0dbeb05f8210",
+                    "name": "Terang Bulan Kismis Cokelat Kacang",
+                    "price": "40352.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367941,
+                    "signature": false,
+                    "weight": 9,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "2db5d661-b734-4b6f-b184-c29a928e2bca"
+                    ],
+                    "common_id": "bcb448a6-192d-45b3-9cd9-b438e8dea26d"
+                }
+            ]
+        },
+        {
+            "id": "fa0adf3e-7c34-4d76-ae9a-95461ca4acfb",
+            "common_id": "7922a7fa-79f4-409c-b390-35efe5545a05",
+            "name": "Menu Terang Bulan Garing Tipis",
+            "sku": "MENU_TERANG_BULAN_GARING_TIPIS",
+            "active": true,
+            "weight": 3,
+            "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+            "master_menu_category_id": "",
+            "menu_items_count": 2,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Terang bulan tipis renyah dengan topping campur dan keju gurih",
+                    "id": "46114a39-4fd1-48aa-80a2-cc3473c4490b",
+                    "image_id": "dfc605c7-6f85-412d-a036-17bb138d3844",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ba626898-4e02-4282-a721-f84ed0a83a99_menu-item-image_1777435499162.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ba626898-4e02-4282-a721-f84ed0a83a99_menu-item-image_1777435499162.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "fa0adf3e-7c34-4d76-ae9a-95461ca4acfb",
+                    "name": "Terang Bulan Garing Tipis Campur Keju",
+                    "price": "31041.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 141064151,
+                    "signature": false,
+                    "weight": 1,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "8f967098-de69-4ccd-a96f-e52112b860c6"
+                    ],
+                    "common_id": "78f34de7-99fb-484e-8519-238e614de21e"
+                },
+                {
+                    "active": true,
+                    "description": "Terang bulan tipis renyah dengan topping manis yang beragam",
+                    "id": "3638a9ad-dcdd-4336-bb32-6b0a20d9656d",
+                    "image_id": "accb5264-0614-4d58-8353-875b5422e9a9",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7ef11b54-5408-4638-ac2a-6c228a8dfff5_menu-item-image_1777435553701.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7ef11b54-5408-4638-ac2a-6c228a8dfff5_menu-item-image_1777435553701.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "fa0adf3e-7c34-4d76-ae9a-95461ca4acfb",
+                    "name": "Terang Bulan Garing Tipis Campur",
+                    "price": "27934.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 141064221,
+                    "signature": false,
+                    "weight": 2,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "8f967098-de69-4ccd-a96f-e52112b860c6"
+                    ],
+                    "common_id": "20b49b6f-605b-409b-8824-cae249342fac"
+                }
+            ]
+        },
+        {
+            "id": "7c029d00-a623-456a-a407-48d5b1264aa8",
+            "common_id": "8671807e-9ab4-4b08-adf2-72f447cd4c62",
+            "name": "Martabak Biasa",
+            "sku": "MARTABAK_BIASA",
+            "active": true,
+            "weight": 4,
+            "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+            "master_menu_category_id": "",
+            "menu_items_count": 5,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Daging sapi gurih dengan tambahan keju parut nikmat",
+                    "id": "0731afca-83fc-4b02-b7e9-f58e3b398400",
+                    "image_id": "c5923974-8872-4c8b-a8c3-92e05871f2aa",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/afcfb0fa-24cd-45fc-8028-ac673526fc4d_menu-item-image_1777434501542.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/afcfb0fa-24cd-45fc-8028-ac673526fc4d_menu-item-image_1777434501542.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "7c029d00-a623-456a-a407-48d5b1264aa8",
+                    "name": "Martabak Biasa Daging Sapi Keju",
+                    "price": "41904.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367958,
+                    "signature": false,
+                    "weight": 16,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "12c7a632-2f59-4574-9160-c1f075c55b21"
+                },
+                {
+                    "active": true,
+                    "description": "Isian ayam gurih dipadu keju parut dalam balutan kulit renyah",
+                    "id": "207d18ca-c53e-4e4f-8f24-59096eb50aae",
+                    "image_id": "454f1bfd-0dbb-46cc-9c6e-1650656d7ad7",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e0a96076-2ce5-468a-9bc3-f7caf4090d3f_menu-item-image_1777434469380.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e0a96076-2ce5-468a-9bc3-f7caf4090d3f_menu-item-image_1777434469380.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "7c029d00-a623-456a-a407-48d5b1264aa8",
+                    "name": "Martabak Biasa Daging Ayam Keju",
+                    "price": "40350.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367959,
+                    "signature": false,
+                    "weight": 17,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "def43647-0ccd-443a-94c9-fb227976068e"
+                },
+                {
+                    "active": true,
+                    "description": "Perpaduan sapi dan ayam berbumbu dalam martabak gurih lezat",
+                    "id": "a92a5f43-d831-4b35-8a77-6315eddb88ce",
+                    "image_id": "98e76bf3-1489-436c-9591-7c3769dcbaaa",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0bfd3e87-8079-4eb2-8a3b-878f58a24db5_menu-item-image_1777434421222.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0bfd3e87-8079-4eb2-8a3b-878f58a24db5_menu-item-image_1777434421222.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "7c029d00-a623-456a-a407-48d5b1264aa8",
+                    "name": "Martabak Biasa Daging Sapi dan Ayam",
+                    "price": "40351.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367960,
+                    "signature": false,
+                    "weight": 18,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "2b3463b5-3c8a-4218-ba33-c117986fccda"
+                },
+                {
+                    "active": true,
+                    "description": "Martabak telur isi sapi berbumbu khas, gurih dan mengenyangkan",
+                    "id": "113dd1a6-4a27-4c46-a367-528f1d7e023f",
+                    "image_id": "0fe1c4fa-697b-47af-a177-0c2a5691833f",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d30cfa26-b1b1-4a7a-9689-7df6f9ebf3d4_menu-item-image_1777434373521.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d30cfa26-b1b1-4a7a-9689-7df6f9ebf3d4_menu-item-image_1777434373521.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "7c029d00-a623-456a-a407-48d5b1264aa8",
+                    "name": "Martabak Biasa Daging Sapi",
+                    "price": "37248.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367961,
+                    "signature": false,
+                    "weight": 19,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "74e0624c-fe21-4d0b-9a37-952fc053ce4a"
+                },
+                {
+                    "active": true,
+                    "description": "Martabak telur isi ayam berbumbu gurih dengan kulit renyah lembut",
+                    "id": "0bf58bc6-e8cd-4140-892d-a31ed7251158",
+                    "image_id": "e7db82f5-9ffd-4681-9647-a395e7cc77f1",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/920580ea-e5d4-4a18-af61-22c56645e3c5_menu-item-image_1777434327920.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/920580ea-e5d4-4a18-af61-22c56645e3c5_menu-item-image_1777434327920.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "7c029d00-a623-456a-a407-48d5b1264aa8",
+                    "name": "Martabak Biasa Daging Ayam",
+                    "price": "34144.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367962,
+                    "signature": false,
+                    "weight": 20,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "90176afc-ce95-4e6d-933a-464abd8fb77c"
+                }
+            ]
+        },
+        {
+            "id": "e8782fec-0485-4eb3-b68a-f144053d74b2",
+            "common_id": "e888cac1-d97c-402d-a554-3bd9b69ea9da",
+            "name": "Aneka Martabak Spesial",
+            "sku": "ANEKA_MARTABAK_SPESIAL",
+            "active": true,
+            "weight": 5,
+            "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+            "master_menu_category_id": "",
+            "menu_items_count": 5,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Sapi gurih dengan topping keju parut sempurna",
+                    "id": "b0612267-731e-4bc4-85af-118a36541fcb",
+                    "image_id": "58c52ede-6a7d-48df-9660-cb50795b7c91",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/421b5e46-2d19-4e3b-88c2-a52910adea2d_menu-item-image_1777434276061.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/421b5e46-2d19-4e3b-88c2-a52910adea2d_menu-item-image_1777434276061.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "e8782fec-0485-4eb3-b68a-f144053d74b2",
+                    "name": "Martabak Spesial Daging Sapi Keju",
+                    "price": "45006.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367953,
+                    "signature": false,
+                    "weight": 11,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "536a3bfb-97eb-4d68-a423-d8c7a2284d8f"
+                },
+                {
+                    "active": true,
+                    "description": "Ayam gurih dan keju berpadu dalam tekstur renyah lembut",
+                    "id": "0cec3d6b-c81b-4117-a258-456005ab8561",
+                    "image_id": "9c2b10aa-8620-451b-ad8b-7b0974ef4716",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ea821d51-dc25-4321-8099-afe7afccc6bc_menu-item-image_1777434233772.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ea821d51-dc25-4321-8099-afe7afccc6bc_menu-item-image_1777434233772.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "e8782fec-0485-4eb3-b68a-f144053d74b2",
+                    "name": "Martabak Spesial Daging Ayam Keju",
+                    "price": "43456.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367954,
+                    "signature": false,
+                    "weight": 12,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "39ae62dd-945e-48f7-8eea-259081921760"
+                },
+                {
+                    "active": true,
+                    "description": "Perpaduan gurih sapi dan ayam dalam adonan tebal",
+                    "id": "15399f91-62c5-43fc-8152-2f540a74d78a",
+                    "image_id": "3f4bdfcb-ce9c-4274-9df0-e9c2887480fd",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6fc2e2aa-4f80-418e-9da2-c844d0d3a92a_menu-item-image_1777434200588.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6fc2e2aa-4f80-418e-9da2-c844d0d3a92a_menu-item-image_1777434200588.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "e8782fec-0485-4eb3-b68a-f144053d74b2",
+                    "name": "Martabak Spesial Daging Sapi dan Ayam",
+                    "price": "43456.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367955,
+                    "signature": false,
+                    "weight": 13,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "6095ed41-7c7d-4890-bd26-9690f544483a"
+                },
+                {
+                    "active": true,
+                    "description": "Daging sapi berbumbu dengan rasa gurih yang lebih kuat",
+                    "id": "00cb2488-3490-467d-9054-f0cd7872bc21",
+                    "image_id": "7384cb92-3858-4bfe-b3a8-0d7c7a76e106",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7e4741ae-4280-424f-8fbc-9d2c5f7cdbc0_menu-item-image_1777433829527.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7e4741ae-4280-424f-8fbc-9d2c5f7cdbc0_menu-item-image_1777433829527.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "e8782fec-0485-4eb3-b68a-f144053d74b2",
+                    "name": "Martabak Spesial Daging Sapi",
+                    "price": "40352.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367956,
+                    "signature": false,
+                    "weight": 14,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "654cc2e7-b828-454a-aae0-3db6a96df100"
+                },
+                {
+                    "active": true,
+                    "description": "Isian ayam gurih dengan adonan lebih tebal dan lembut",
+                    "id": "64f56750-01ed-491b-843b-6095c59fd1c7",
+                    "image_id": "4db7b0d4-0570-43bc-a9b4-c37d7764ceaa",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4dbd033a-0532-4274-ab96-97ccc4d67dcf_menu-item-image_1777433754123.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4dbd033a-0532-4274-ab96-97ccc4d67dcf_menu-item-image_1777433754123.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "e8782fec-0485-4eb3-b68a-f144053d74b2",
+                    "name": "Martabak Spesial Daging Ayam",
+                    "price": "37248.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367957,
+                    "signature": false,
+                    "weight": 15,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "5e2f2333-15d9-44db-a1f7-c2f4492f0544"
+                }
+            ]
+        },
+        {
+            "id": "aa260c6e-b5e3-4893-9079-456259f920ee",
+            "common_id": "a010b26f-def0-4b52-a7b3-078f0f44d1a6",
+            "name": "Martabak Super",
+            "sku": "MARTABAK_SUPER",
+            "active": true,
+            "weight": 6,
+            "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+            "master_menu_category_id": "",
+            "menu_items_count": 4,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Sapi melimpah dengan keju ekstra dalam martabak super",
+                    "id": "60f6679b-56c7-4b50-81eb-07dc46418473",
+                    "image_id": "73f1fbb0-7ada-47fc-8528-11727eb60fce",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b7a1bcea-0b62-45e9-ae15-86d9279462c5_menu-item-image_1777433233047.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b7a1bcea-0b62-45e9-ae15-86d9279462c5_menu-item-image_1777433233047.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "aa260c6e-b5e3-4893-9079-456259f920ee",
+                    "name": "Martabak Super Daging Sapi Keju",
+                    "price": "51216.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367948,
+                    "signature": false,
+                    "weight": 6,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "3353ccb6-a5cc-42b8-a618-a236bd7eb60a"
+                },
+                {
+                    "active": true,
+                    "description": "Porsi lebih besar dengan isian ayam melimpah dan gurih",
+                    "id": "baaa2f8a-9cb6-45f1-b63a-c14160e81ad9",
+                    "image_id": "20348187-1c76-418c-9b41-404801ac24cb",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/75e106f9-3ebf-43be-bb35-129273c5b029_menu-item-image_1777433421017.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/75e106f9-3ebf-43be-bb35-129273c5b029_menu-item-image_1777433421017.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "aa260c6e-b5e3-4893-9079-456259f920ee",
+                    "name": "Martabak Super Daging Ayam",
+                    "price": "43456.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367950,
+                    "signature": false,
+                    "weight": 8,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "34d58c50-e51d-4aac-b0fc-3805a28ef9a9"
+                },
+                {
+                    "active": true,
+                    "description": "Martabak sapi dengan porsi besar dan rasa lebih mantap",
+                    "id": "17ba0a63-0f1a-4bc6-bd76-0f211f9fb356",
+                    "image_id": "caeb8e35-e253-4710-a999-639726260b74",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/aa0abefe-7a03-4cdf-8f5b-abc8e36e0416_menu-item-image_1777433555857.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/aa0abefe-7a03-4cdf-8f5b-abc8e36e0416_menu-item-image_1777433555857.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "aa260c6e-b5e3-4893-9079-456259f920ee",
+                    "name": "Martabak Super Daging Sapi",
+                    "price": "46560.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367951,
+                    "signature": false,
+                    "weight": 9,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "6db11499-9b58-4726-bd7e-c6d73f75f16a"
+                },
+                {
+                    "active": true,
+                    "description": "Kombinasi sapi ayam dengan porsi besar dan isian padat",
+                    "id": "5254fdc9-2f91-4ede-a316-d3842e2b2b9f",
+                    "image_id": "fa9bb5b3-47a5-41e3-be19-ec82ac4887b2",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c34ac6f2-0e45-4844-b531-ce3a99383595_menu-item-image_1777433518335.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c34ac6f2-0e45-4844-b531-ce3a99383595_menu-item-image_1777433518335.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "aa260c6e-b5e3-4893-9079-456259f920ee",
+                    "name": "Martabak Super Daging Sapi dan Ayam",
+                    "price": "48300.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367952,
+                    "signature": false,
+                    "weight": 10,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "e76f7636-9a93-46cd-bb85-b4e7b82be02d"
+                }
+            ]
+        },
+        {
+            "id": "18a5dd3a-5bab-4e81-a2d9-5e35e8eb65be",
+            "common_id": "c6e5cad5-be4c-4552-bd29-05daf8b0f819",
+            "name": "Martabak Istimewa",
+            "sku": "MARTABAK_ISTIMEWA",
+            "active": true,
+            "weight": 7,
+            "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+            "master_menu_category_id": "",
+            "menu_items_count": 6,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Sapi dengan keju parut, gurih dan creamy",
+                    "id": "1befe678-fbdd-4aaa-bae9-5e54163855b6",
+                    "image_id": "af16deb7-e661-4af0-86a8-06eac57985f2",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b9cb845e-6486-4dd7-a3aa-160bdc87fea5_menu-item-image_1777432835447.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b9cb845e-6486-4dd7-a3aa-160bdc87fea5_menu-item-image_1777432835447.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "18a5dd3a-5bab-4e81-a2d9-5e35e8eb65be",
+                    "name": "Martabak Istimewa Daging Sapi Keju",
+                    "price": "60528.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367943,
+                    "signature": false,
+                    "weight": 1,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "544e3d46-d850-4f90-af54-afe89afb63ac"
+                },
+                {
+                    "active": true,
+                    "description": "Ayam berbumbu dengan keju melimpah dalam adonan lembut",
+                    "id": "1639b41e-c060-4091-92bf-77c40449feaa",
+                    "image_id": "34c8736d-6740-42db-8955-5c7134308000",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e242469c-36c8-46e6-a7e0-4fd8ab2f229a_menu-item-image_1777432919199.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e242469c-36c8-46e6-a7e0-4fd8ab2f229a_menu-item-image_1777432919199.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "18a5dd3a-5bab-4e81-a2d9-5e35e8eb65be",
+                    "name": "Martabak Istimewa Daging Ayam Keju",
+                    "price": "57424.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367944,
+                    "signature": false,
+                    "weight": 2,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "af93f6a5-a69a-457f-af03-114a35d1e968"
+                },
+                {
+                    "active": true,
+                    "description": "Martabak ayam dengan isian lebih padat dan rasa lebih kaya",
+                    "id": "e8755cbb-2d2b-4c56-b4d9-b9e9d60d7d65",
+                    "image_id": "42741111-6070-4ca7-974e-f92af4b84d58",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4054b19d-57f3-4f77-8b2f-8b77e6878d7a_menu-item-image_1777433018790.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4054b19d-57f3-4f77-8b2f-8b77e6878d7a_menu-item-image_1777433018790.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "18a5dd3a-5bab-4e81-a2d9-5e35e8eb65be",
+                    "name": "Martabak Istimewa Daging Ayam",
+                    "price": "51216.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367945,
+                    "signature": false,
+                    "weight": 3,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "472a709c-a00f-457e-aa77-6fc6f2180cc7"
+                },
+                {
+                    "active": true,
+                    "description": "Sapi dengan tekstur renyah di luar",
+                    "id": "c936bf28-dab0-457a-a284-77439527f8fe",
+                    "image_id": "e5302167-e657-4337-9c71-12ded0056e68",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9bd57787-84e6-4f32-b6bb-11ca362c761b_menu-item-image_1777433056731.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9bd57787-84e6-4f32-b6bb-11ca362c761b_menu-item-image_1777433056731.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "18a5dd3a-5bab-4e81-a2d9-5e35e8eb65be",
+                    "name": "Martabak Istimewa Daging Sapi",
+                    "price": "54320.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367946,
+                    "signature": false,
+                    "weight": 4,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "85667699-5be2-4075-89a5-30570b21d6b9"
+                },
+                {
+                    "active": true,
+                    "description": "Kombinasi sapi ayam dengan rasa gurih lebih intens",
+                    "id": "f590f289-25dd-416b-beca-34710257267d",
+                    "image_id": "8aa0b3a0-cd2c-4d27-8e7f-815b32f1a5b7",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3dafea81-ca84-47bd-b254-02181f5a9671_menu-item-image_1777433189391.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3dafea81-ca84-47bd-b254-02181f5a9671_menu-item-image_1777433189391.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "18a5dd3a-5bab-4e81-a2d9-5e35e8eb65be",
+                    "name": "Martabak Istimewa Daging Sapi dan Ayam",
+                    "price": "55200.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367947,
+                    "signature": false,
+                    "weight": 5,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "6f637610-5014-46dd-877b-5175f2cd067c"
+                },
+                {
+                    "active": true,
+                    "description": "Ayam dan keju melimpah dalam martabak ukuran lebih puas",
+                    "id": "21a8a539-5649-42d7-a1e1-7986bd495950",
+                    "image_id": "d6f49b8a-55ea-4c7b-9dab-ad7fe2297bf5",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/50077720-4f98-42c8-b5a8-3131f21d13f2_menu-item-image_1777433355253.jpg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/50077720-4f98-42c8-b5a8-3131f21d13f2_menu-item-image_1777433355253.jpg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "18a5dd3a-5bab-4e81-a2d9-5e35e8eb65be",
+                    "name": "Martabak Super Daging Ayam Keju",
+                    "price": "49664.00",
+                    "promotion": null,
+                    "restaurant_id": "dc00f69d-a779-48fd-b078-9b9997b08c5b",
+                    "shopping_item_id": 121367949,
+                    "signature": false,
+                    "weight": 7,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "58c231e6-537e-44bc-800e-fb54ff4359ef"
+                }
+            ]
+        }
+    ]
+}

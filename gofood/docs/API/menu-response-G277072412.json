@@ -1,0 +1,430 @@
+{
+    "menus": [
+        {
+            "id": "fba075fb-aa9a-400a-8210-59b16120c516",
+            "common_id": "3cce193e-9fdc-4ea9-af7d-92c36425a953",
+            "name": "Ayam Kremes Single",
+            "sku": "AYAM_KREMES_SINGLE",
+            "active": true,
+            "weight": 8,
+            "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+            "master_menu_category_id": "",
+            "menu_items_count": 2,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Ayam Kremes + Bumbu Kuning + Kol Goreng",
+                    "id": "ff3a634b-eb2f-4db0-b228-a7517e87add9",
+                    "image_id": "b4d0d735-10f9-45cc-9993-b045157797ff",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3778c6a5-12b8-489a-aa9f-c2bf9278fbd2_Go-Biz_20260608_093407.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3778c6a5-12b8-489a-aa9f-c2bf9278fbd2_Go-Biz_20260608_093407.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "fba075fb-aa9a-400a-8210-59b16120c516",
+                    "name": "Ayam Kremes Ny. Tjuwan (Tanpa Sambal)",
+                    "price": "26000.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 118064290,
+                    "signature": false,
+                    "weight": 3,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "efbfe5ec-a13f-4e0d-b261-3e4bb38cd248"
+                    ],
+                    "common_id": "b70988a4-7e3a-4500-a7e9-c6b92c90a59d"
+                },
+                {
+                    "active": true,
+                    "description": "Ayam kremes + bumbu kuning + kol goreng + sambal (bisa pilih)",
+                    "id": "c6c06fb0-1281-4243-8e2d-cdf08e8d8f51",
+                    "image_id": "c9cdc927-26a2-49d0-92a2-a76500930663",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/08d9cd54-cc47-4503-bc9f-705c1880b0cf_Go-Biz_20260608_093424.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/08d9cd54-cc47-4503-bc9f-705c1880b0cf_Go-Biz_20260608_093424.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "fba075fb-aa9a-400a-8210-59b16120c516",
+                    "name": "Ayam Kremes Ny. Tjuwan",
+                    "price": "28000.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 118064452,
+                    "signature": false,
+                    "weight": 4,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "9937b151-22ed-4de3-b6eb-32315e46d0ae",
+                        "efbfe5ec-a13f-4e0d-b261-3e4bb38cd248"
+                    ],
+                    "common_id": "dc7e1533-bf99-4930-bcef-2f7e52b439e2"
+                }
+            ]
+        },
+        {
+            "id": "4c2b1e39-f058-44db-99e6-8adc6ff5ebcb",
+            "common_id": "fe7634dd-064a-4d55-862e-cb827c84060c",
+            "name": "Spesial Ayam Kremes",
+            "sku": "SPESIAL_AYAM_KREMES",
+            "active": true,
+            "weight": 9,
+            "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+            "master_menu_category_id": "",
+            "menu_items_count": 3,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Nasi + Ayam Goreng + Kremesan + Bumbu Kuning + Kol Goreng + Sambal Ijo Uleg",
+                    "id": "0fd6a8a5-6107-409a-92b9-7d36de582c99",
+                    "image_id": "88d377a9-8b68-43a2-ae9a-d5e9f5347246",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/dcb083b6-70ff-4edf-89cd-e3b2cf57f6ec_Go-Biz_20260608_093534.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/dcb083b6-70ff-4edf-89cd-e3b2cf57f6ec_Go-Biz_20260608_093534.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "4c2b1e39-f058-44db-99e6-8adc6ff5ebcb",
+                    "name": "Nasi Ayam Kremes Sambal Ijo",
+                    "price": "51500.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 114109270,
+                    "signature": false,
+                    "weight": 5,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "efbfe5ec-a13f-4e0d-b261-3e4bb38cd248"
+                    ],
+                    "common_id": "784afab6-6388-4b3f-9ae8-243ba3d36609"
+                },
+                {
+                    "active": true,
+                    "description": "Nasi + Ayam Goreng + Kremesan + Bumbu Kuning + Kol Goreng + Sambal Bawang",
+                    "id": "1dfe8256-39e9-4d9f-8274-e2955ca7e03b",
+                    "image_id": "54d2c8af-ee67-453e-aef1-85d4c7b73616",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e53f91c4-d541-4ba8-925b-0f9416d08093_Go-Biz_20260608_093657.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e53f91c4-d541-4ba8-925b-0f9416d08093_Go-Biz_20260608_093657.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "4c2b1e39-f058-44db-99e6-8adc6ff5ebcb",
+                    "name": "Nasi Ayam Kremes Sambal Bawang",
+                    "price": "51500.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 114109249,
+                    "signature": false,
+                    "weight": 6,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "efbfe5ec-a13f-4e0d-b261-3e4bb38cd248"
+                    ],
+                    "common_id": "7fb01926-78ea-4bbb-ad6c-ce60a4c2fab2"
+                },
+                {
+                    "active": true,
+                    "description": "Nasi + Ayam Goreng + Kremesan + Bumbu Kuning + Kol Goreng + Sambal Matah",
+                    "id": "58f89e39-0c6d-4c72-9ea0-f1f6d0481366",
+                    "image_id": "06c96094-d0b7-49bc-8d4f-c54fca276ca1",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/036cb7ce-ea80-4c8f-9c24-85daca7c7f0b_Go-Biz_20260608_093722.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/036cb7ce-ea80-4c8f-9c24-85daca7c7f0b_Go-Biz_20260608_093722.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "4c2b1e39-f058-44db-99e6-8adc6ff5ebcb",
+                    "name": "Nasi Ayam Kremes Sambal Matah",
+                    "price": "51500.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 114109287,
+                    "signature": false,
+                    "weight": 7,
+                    "brand_id": null,
+                    "variant_category_ids": [
+                        "efbfe5ec-a13f-4e0d-b261-3e4bb38cd248"
+                    ],
+                    "common_id": "582201fc-b13c-4e61-b6c2-ffca336cbc70"
+                }
+            ]
+        },
+        {
+            "id": "2892465b-cd24-4f79-9be5-aeb8d25a0494",
+            "common_id": "934de67a-ace4-482a-8e2b-6db052eab3d5",
+            "name": "Ekstra Lauk",
+            "sku": "EKSTRA_LAUK",
+            "active": true,
+            "weight": 10,
+            "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+            "master_menu_category_id": "",
+            "menu_items_count": 3,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Sate kulih ayam goreng yang gurih, cocok untuk pelengkap makananmu",
+                    "id": "c5a58ade-df0a-460b-a0b3-354c6e32855b",
+                    "image_id": "c680b266-2867-4dac-b805-558ebe585f3c",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7ce413e4-ef57-4e4d-a6d9-63d3f1cc585b_Go-Biz_20260608_093737.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7ce413e4-ef57-4e4d-a6d9-63d3f1cc585b_Go-Biz_20260608_093737.jpeg"
+                    },
+                    "in_stock": false,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "2892465b-cd24-4f79-9be5-aeb8d25a0494",
+                    "name": "Sate Kulit Goreng Dewa (1 pcs)",
+                    "price": "7000.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 114117312,
+                    "signature": false,
+                    "weight": 2,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "76cf6e80-c1d3-4cf5-85d2-37ac73c613ee"
+                },
+                {
+                    "active": true,
+                    "description": "Kremesan ekstra kriuk, penambah selera makan",
+                    "id": "24dbca13-031a-46f4-9c78-10c8d6e835b9",
+                    "image_id": "d7223a95-bcc4-4e17-8f4a-819daacc198f",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c7d8720b-4d32-4ffc-b3b7-879883c96cfe_Go-Biz_20260608_093750.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c7d8720b-4d32-4ffc-b3b7-879883c96cfe_Go-Biz_20260608_093750.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "2892465b-cd24-4f79-9be5-aeb8d25a0494",
+                    "name": "Kremesan Kriuk",
+                    "price": "5000.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 114109119,
+                    "signature": false,
+                    "weight": 8,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "8117b357-937b-4590-80a9-08b2ed704402"
+                },
+                {
+                    "active": true,
+                    "description": "Telur dadar goreng yang cocok jadi pelengkap menu pilihanmu",
+                    "id": "e3b95c1d-ace0-4005-9f59-b34f4af4df31",
+                    "image_id": "adcce433-ba27-4d7e-a505-c689f605e9e2",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b0aa7247-fb69-4920-b658-b5ca64762ee1_Go-Biz_20260608_093801.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b0aa7247-fb69-4920-b658-b5ca64762ee1_Go-Biz_20260608_093801.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "2892465b-cd24-4f79-9be5-aeb8d25a0494",
+                    "name": "Telur Dadar",
+                    "price": "8000.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 114109073,
+                    "signature": false,
+                    "weight": 9,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "deb49dd4-887e-4b7e-8d4a-7de6ddd923f0"
+                }
+            ]
+        },
+        {
+            "id": "f963eeb3-75a5-4eab-959f-2b06a185ca61",
+            "common_id": "3097aed5-6d43-4f39-888f-6fc3847da620",
+            "name": "Pelengkap Menu",
+            "sku": "PELENGKAP_MENU",
+            "active": true,
+            "weight": 11,
+            "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+            "master_menu_category_id": "",
+            "menu_items_count": 3,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Bumbu kuning khas ny.Tjuwan untuk menambah kenikmatan",
+                    "id": "1c2e3a25-c7a7-4ce9-9da1-aa12ce70ca6d",
+                    "image_id": "7b4dc41e-a2d3-43c7-9f54-c59778320936",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/37bea0c2-cf2e-478a-a464-6055e124791e_Go-Biz_20241102_161150.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/37bea0c2-cf2e-478a-a464-6055e124791e_Go-Biz_20241102_161150.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "f963eeb3-75a5-4eab-959f-2b06a185ca61",
+                    "name": "Bumbu Kuning Ny.Tjuwan",
+                    "price": "10000.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 114109400,
+                    "signature": false,
+                    "weight": 1,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "990ca4d5-bc9e-43bc-9c0e-366db4a381cb"
+                },
+                {
+                    "active": true,
+                    "description": "Nasi pulen hangat yang siap dinikmati dengan lauk apapun",
+                    "id": "3f331442-21de-4f25-8470-db9596e8257d",
+                    "image_id": "4f89e0b9-4daf-4f5b-adce-519486a50180",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/27ffd469-147d-4d00-b1c1-da9c4ee4b5d5_Go-Biz_20241102_155457.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/27ffd469-147d-4d00-b1c1-da9c4ee4b5d5_Go-Biz_20241102_155457.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "f963eeb3-75a5-4eab-959f-2b06a185ca61",
+                    "name": "Nasi Putih",
+                    "price": "8000.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 114107464,
+                    "signature": false,
+                    "weight": 13,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "ca8be7fa-bbd0-4772-a3f3-43e59d1cdb68"
+                },
+                {
+                    "active": true,
+                    "description": "Review kakak adalah nyawa usaha kecil kami, kalau kk bantu kasi bintang 5, ada hadiah 1 bumbu kuning, Maksimal Pesan Free 1 Pck Per 1 Pesanan",
+                    "id": "7ba945dc-abb0-486f-ae65-6eaa2120eace",
+                    "image_id": "68b8e16c-c17a-4024-98f8-0f4582bd5b4f",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/90f40b59-4b11-436d-a46d-0c6ebc4198ac_Go-Biz_20250203_141401.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/90f40b59-4b11-436d-a46d-0c6ebc4198ac_Go-Biz_20250203_141401.jpeg"
+                    },
+                    "in_stock": false,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "f963eeb3-75a5-4eab-959f-2b06a185ca61",
+                    "name": "Free Extra 1 Cup Bumbu (Maksimal Pesan 1 Per Pembelian)",
+                    "price": "1.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 118772465,
+                    "signature": true,
+                    "weight": 14,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "9d717dd4-c0a0-40cd-a1d1-a18aa34089c7"
+                }
+            ]
+        },
+        {
+            "id": "8acc0630-c286-4945-b2e0-9648c6edcae6",
+            "common_id": "aff63587-104c-4dfa-aa75-32c74e7de6ba",
+            "name": "Sambal Nikmat",
+            "sku": "SAMBAL_NIKMAT",
+            "active": true,
+            "weight": 12,
+            "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+            "master_menu_category_id": "",
+            "menu_items_count": 3,
+            "menu_items": [
+                {
+                    "active": true,
+                    "description": "Sambal ijo uleg yang bikin kamu merem melek",
+                    "id": "89cc16fb-0971-465e-9ad6-8a569acdbf0b",
+                    "image_id": "e30d4e3d-fa2e-4889-b68f-73bbb8c67a5e",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/36717614-01c8-4d6f-acf2-4f95d03fece1_Go-Biz_20260608_093818.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/36717614-01c8-4d6f-acf2-4f95d03fece1_Go-Biz_20260608_093818.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "8acc0630-c286-4945-b2e0-9648c6edcae6",
+                    "name": "Sambal Ijo",
+                    "price": "8000.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 114109103,
+                    "signature": false,
+                    "weight": 10,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "41f43c05-14bb-4888-ae9d-9d1dd9b5427b"
+                },
+                {
+                    "active": true,
+                    "description": "Sambal bawang pedas dan nikmat, cocok dengan menu apapun",
+                    "id": "0fc72e45-a333-4325-b25f-9ee72d682349",
+                    "image_id": "4b0b1069-edba-4a09-856b-371d16ced7da",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7a0683b0-42dd-4b88-8c8b-950d022a9181_Go-Biz_20260608_093828.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7a0683b0-42dd-4b88-8c8b-950d022a9181_Go-Biz_20260608_093828.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "8acc0630-c286-4945-b2e0-9648c6edcae6",
+                    "name": "Sambal Bawang",
+                    "price": "8000.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 114108623,
+                    "signature": false,
+                    "weight": 11,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "39e01712-e197-4400-b5a4-d96d25f2af85"
+                },
+                {
+                    "active": true,
+                    "description": "Sambal matah yang pedas dan segar",
+                    "id": "7136f0c2-0821-47ca-bf70-410cf3fe7001",
+                    "image_id": "4c9da9b6-093b-43fe-a1d3-a22e57c3bf49",
+                    "image": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e46abc37-df06-4d8d-8e4c-d10e62216975_Go-Biz_20260608_093840.jpeg",
+                    "image_cover": {
+                        "url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e46abc37-df06-4d8d-8e4c-d10e62216975_Go-Biz_20260608_093840.jpeg"
+                    },
+                    "in_stock": true,
+                    "stock": null,
+                    "stock_limit": null,
+                    "master_menu_item_id": "",
+                    "menu_id": "8acc0630-c286-4945-b2e0-9648c6edcae6",
+                    "name": "Sambal Matah",
+                    "price": "10000.00",
+                    "promotion": null,
+                    "restaurant_id": "a6a48bc6-099c-412c-bafb-b6ac973a3d4c",
+                    "shopping_item_id": 114107575,
+                    "signature": false,
+                    "weight": 12,
+                    "brand_id": null,
+                    "variant_category_ids": [],
+                    "common_id": "8661a9ff-20ce-4003-91b2-4a5d093f1ca5"
+                }
+            ]
+        }
+    ]
+}
